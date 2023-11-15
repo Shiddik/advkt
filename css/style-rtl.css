@@ -8093,56 +8093,6 @@ body.admin-bar .header-menu-area.sticky_menu {
   border-radius: 50px;
 }
 
-.price-card-switch {
-  text-align: center;
-}
-.price-card-switch .price-nav-tab {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-bottom: 60px;
-  border: 1px solid rgb(199, 199, 225);
-  padding: 6px;
-  border-radius: 50px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-.price-card-switch .price-nav-tab li {
-  list-style: none;
-  font-size: 16px;
-  font-weight: 500;
-  color: #ffffff;
-  padding: 16px 30px;
-  border-radius: 50px;
-  cursor: pointer;
-  position: relative;
-  overflow: hidden;
-  z-index: 2;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-}
-.price-card-switch .price-nav-tab li:before {
-  position: absolute;
-  width: 0;
-  height: 100%;
-  content: "";
-  right: 0;
-  top: 0;
-  background-color: #CDB091;
-  z-index: -1;
-}
-.price-card-switch .price-nav-tab li.active:before {
-  width: 100%;
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
-}
-
 .price-card {
   padding: 60px;
   background: #ffffff;

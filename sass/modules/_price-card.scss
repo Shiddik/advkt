@@ -1,49 +1,4 @@
-.price-card-switch {
-    text-align: center;
 
-    .price-nav-tab {
-        display: inline-flex;
-        align-items: center;
-        margin-bottom: 60px;
-        border: 1px solid rgb(199, 199, 225);
-        padding: 6px;
-        border-radius: 50px;
-        flex-wrap: wrap;
-        justify-content: center;
-
-        li {
-            list-style: none;
-            font-size: 16px;
-            font-weight: 500;
-            color: $white;
-            padding: 16px 30px;
-            border-radius: 50px;
-            cursor: pointer;
-            position: relative;
-            overflow: hidden;
-            z-index: 2;
-            flex-shrink: 0;
-
-            &:before {
-                position: absolute;
-                width: 0;
-                height: 100%;
-                content: "";
-                left: 0;
-                top: 0;
-                background-color: $blue-color;
-                z-index: -1;
-            }
-
-            &.active {
-                &:before {
-                    width: 100%;
-                    @include transition;
-                }
-            }
-        }
-    }
-}
 
 .price-card {
     padding: 60px;

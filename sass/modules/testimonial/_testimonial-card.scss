@@ -1,0 +1,125 @@
+.testimonial-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 30px;
+
+
+    &.style-1 {
+        .content-wrapper {
+            align-items: center;
+            text-align: center;
+        }
+        .meta-user {
+            width: unset;
+
+            .user-info {
+                gap: 30px;
+
+                .image {
+                    width: 84px;
+                    height: 84px;
+                }
+                .info {
+                    h2 {
+                        font-size: 30px;
+
+                        @include sm {
+                            font-size: 24px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    .content-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+
+        .quote-icon {
+            width: 84px;
+            height: 63px;
+
+            @include sm {
+                height: 30px;
+                width: 60px;
+            }
+        }
+    }
+    .content {
+        .text {
+            margin: 0;
+            font-size: 48px;
+            line-height: 72px;
+            font-weight: 400;
+            color: $black;
+            font-family: $roboto-font;
+            font-style: italic;
+
+            @include sm {
+                font-size: 24px;
+                line-height: 42px;
+            }
+            @include md {
+                font-size: 28px;
+                line-height: 46px;
+            }
+            @include lg {
+                font-size: 28px;
+                line-height: 46px;
+            }
+            @include xl {
+                font-size: 34px;
+                line-height: 54px;
+            }
+        }
+    }
+    .meta-user {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .user-info {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            .image {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-shrink: 0;
+                box-shadow: 0px 18px 24px 0px rgba(2, 24, 93, 0.12);
+                width: 72px;
+                height: 72px;
+                border-radius: 50px;
+                overflow: hidden;
+            }
+            .info {
+                display: flex;
+                flex-direction: column;
+                text-align: left;
+                gap: 10px;
+
+                h2 {
+                    margin: 0;
+                    font-size: 21px;
+                    line-height: 28px;
+                    font-weight: 500;
+                    color: $secondary-color;
+                }
+                p {
+                    margin: 0;
+                    font-size: 16px;
+                    line-height: 30px;
+                    font-weight: 400;
+                    color: #8f939b;
+                    font-family: $roboto-font;
+                }
+            }
+        }
+    }
+}

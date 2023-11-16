@@ -86,7 +86,7 @@ h4,
 h5,
 h6 {
   margin-top: 0;
-  font-family: "Jost", sans-serif;
+  font-family: "Hepta Slab", sans-serif;
   color: #26262c;
   font-style: normal;
   -webkit-transition: all 0.5s ease-out;
@@ -612,7 +612,7 @@ input.theme-btn {
   right: 0;
 }
 .circle-rotate-text span {
-  font-family: "Jost", sans-serif;
+  font-family: "Hepta Slab", sans-serif;
   font-size: 16px;
   font-weight: 500;
   text-transform: uppercase;
@@ -2568,7 +2568,7 @@ blockquote p a {
   text-decoration: underline;
 }
 blockquote footer {
-  font-family: "Jost", sans-serif;
+  font-family: "Hepta Slab", sans-serif;
   font-size: 16px;
   font-weight: 500;
   text-transform: capitalize;
@@ -2758,7 +2758,7 @@ nav.wp-calendar-nav a:hover {
   font-weight: 500;
   margin-bottom: 30px;
   color: #26262c;
-  font-family: "Jost", sans-serif;
+  font-family: "Hepta Slab", sans-serif;
 }
 .wp-block-search input,
 .search-form input {
@@ -4483,7 +4483,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   }
 }
 .slider-area .single-slider .slider-content-wrapper .slider-content .slider-title {
-  font-family: "Jost", sans-serif;
+  font-family: "Hepta Slab", sans-serif;
   font-weight: 500;
   font-size: 90px;
   color: #ffffff;
@@ -5627,7 +5627,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   }
 }
 .icon-card .content .title {
-  font-family: "Jost", sans-serif;
+  font-family: "Hepta Slab", sans-serif;
   font-weight: 500;
   font-size: 24px;
   line-height: 36px;
@@ -6056,7 +6056,7 @@ body.admin-bar .header-menu-area.sticky_menu {
           justify-content: center;
   font-size: 24px;
   color: #ffffff;
-  font-family: "Jost", sans-serif;
+  font-family: "Hepta Slab", sans-serif;
   position: absolute;
   top: 50%;
   right: 50%;
@@ -6213,7 +6213,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   }
 }
 .counter-card .counter-item .number {
-  font-family: "Jost", sans-serif;
+  font-family: "Hepta Slab", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 96px;
@@ -6254,7 +6254,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .counter-card .counter-item .title {
   margin: 0;
-  font-family: "Jost", sans-serif;
+  font-family: "Hepta Slab", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 30px;
@@ -7078,7 +7078,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .single-post-item .social-share .social-share-title {
   font-size: 16px;
   font-weight: 500;
-  font-family: "Jost", sans-serif;
+  font-family: "Hepta Slab", sans-serif;
   color: #26262c;
   margin-left: 5px;
   text-transform: uppercase;
@@ -7091,7 +7091,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-size: 16px;
   font-weight: 500;
   display: inline-block;
-  font-family: "Jost", sans-serif;
+  font-family: "Hepta Slab", sans-serif;
   color: #26262c;
   margin-bottom: 0;
   margin-left: 30px;
@@ -7876,7 +7876,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .author-info .author-post a {
   font-size: 16px;
   font-weight: 500;
-  font-family: "Jost", sans-serif;
+  font-family: "Hepta Slab", sans-serif;
   color: #26262c;
   border-bottom: 2px solid #CDB091;
   margin-top: 30px;
@@ -8007,7 +8007,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .blog-post-nav .post-navigation .text span {
   font-size: 16px;
-  font-family: "Jost", sans-serif;
+  font-family: "Hepta Slab", sans-serif;
   text-transform: capitalize;
   font-weight: 500;
   display: block;
@@ -8058,7 +8058,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   color: #26262c;
   font-size: 18px;
   font-weight: 500;
-  font-family: "Jost", sans-serif;
+  font-family: "Hepta Slab", sans-serif;
 }
 .skill-progressbar .progressbar-number {
   width: 100%;
@@ -8222,7 +8222,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-size: 30px;
   line-height: 30px;
   color: #1E2E3E;
-  font-family: "Jost", sans-serif;
+  font-family: "Hepta Slab", sans-serif;
   margin-bottom: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8251,7 +8251,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   z-index: 2;
 }
 .price-card .price .price-heading {
-  font-family: "Jost", sans-serif;
+  font-family: "Hepta Slab", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 48px;
@@ -8267,7 +8267,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin-bottom: 0;
 }
 .price-card .price .price-heading .currency {
-  font-family: "Jost", sans-serif;
+  font-family: "Hepta Slab", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -8495,7 +8495,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .section-title .short-title {
   font-size: 18px;
   font-weight: 500;
-  font-family: "Jost", sans-serif;
+  font-family: "Hepta Slab", sans-serif;
   color: #CDB091;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -8507,7 +8507,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-size: 60px;
   line-height: 72px;
   font-weight: 500;
-  font-family: "Jost", sans-serif;
+  font-family: "Hepta Slab", sans-serif;
   color: #1E2E3E;
   margin-bottom: 0;
 }
@@ -8628,7 +8628,7 @@ body.single-post .page-heading .page-title {
 
 .page-heading h3,
 .page-heading .page-title {
-  font-family: "Jost", sans-serif;
+  font-family: "Hepta Slab", sans-serif;
   font-size: 90px;
   text-align: center;
   color: #ffffff;
@@ -8976,7 +8976,7 @@ body.single-post .page-heading .page-title {
 .nav-tab li {
   position: relative;
   color: #1E2E3E;
-  font-family: "Jost", sans-serif;
+  font-family: "Hepta Slab", sans-serif;
   font-size: 21px;
   line-height: 20px;
   padding: 23px 40px;
@@ -10077,7 +10077,7 @@ body.single-post .page-heading .page-title {
   font-size: 21px;
   line-height: 30px;
   color: #26262c;
-  font-family: "Jost", sans-serif;
+  font-family: "Hepta Slab", sans-serif;
   font-weight: 500;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -10096,7 +10096,7 @@ body.single-post .page-heading .page-title {
   text-transform: capitalize;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
-  font-family: "Jost", sans-serif;
+  font-family: "Hepta Slab", sans-serif;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .widget_latest_post ul li .latest-post-desc .latest-post-title a {
@@ -10399,7 +10399,7 @@ body.single-post .page-heading .page-title {
   margin: 0;
   text-align: start;
   color: #ffffff;
-  font-family: "Jost", sans-serif;
+  font-family: "Hepta Slab", sans-serif;
   font-size: 18px;
   line-height: 30px;
   font-weight: 500;
@@ -10521,7 +10521,7 @@ body.single-post .page-heading .page-title {
   font-size: 21px;
   margin-bottom: 5px;
   font-weight: 500;
-  font-family: "Jost", sans-serif;
+  font-family: "Hepta Slab", sans-serif;
   color: #26262c;
 }
 .wp-block-comments .wp-block-comment-template li .wp-block-columns .wp-block-comment-edit-link a {
@@ -10611,7 +10611,7 @@ body.single-post .page-heading .page-title {
   font-size: 24px;
   margin-bottom: 5px;
   font-weight: 500;
-  font-family: "Jost", sans-serif;
+  font-family: "Hepta Slab", sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10688,7 +10688,7 @@ ul.children {
 .post-comments-title .sub-title {
   font-size: 18px;
   font-weight: 500;
-  font-family: "Jost", sans-serif;
+  font-family: "Hepta Slab", sans-serif;
   color: #CDB091;
   display: inline-block;
   width: 100%;
@@ -11029,7 +11029,7 @@ ul.children {
   line-height: 32px;
   font-weight: 500;
   color: #1E2E3E;
-  font-family: "Jost", sans-serif;
+  font-family: "Hepta Slab", sans-serif;
   margin: 0;
 }
 .team-member-card .content-wrapper .content .desc {
@@ -11037,7 +11037,7 @@ ul.children {
   line-height: 28px;
   font-weight: 400;
   color: #8f939b;
-  font-family: "Jost", sans-serif;
+  font-family: "Hepta Slab", sans-serif;
   margin: 0;
 }
 .team-member-card .content-wrapper .social-profile-link {
@@ -13892,7 +13892,7 @@ ul.children {
   text-transform: uppercase;
   color: #ffffff;
   font-weight: 500;
-  font-family: "Jost", sans-serif;
+  font-family: "Hepta Slab", sans-serif;
   margin-top: 40px;
   display: block;
 }
@@ -13952,7 +13952,7 @@ ul.children {
 }
 .portfolio-area.style-3 .portfolio-card .title-wrapper .title {
   color: #26262c;
-  font-family: "Jost", sans-serif;
+  font-family: "Hepta Slab", sans-serif;
   font-size: 21px;
   line-height: 28px;
 }
@@ -14125,7 +14125,7 @@ ul.children {
   text-transform: uppercase;
   color: #ffffff;
   font-weight: 500;
-  font-family: "Jost", sans-serif;
+  font-family: "Hepta Slab", sans-serif;
   margin-top: 40px;
   display: block;
 }
@@ -14185,7 +14185,7 @@ ul.children {
 }
 .portfolio-area.style-3 .portfolio-card .title-wrapper .title {
   color: #26262c;
-  font-family: "Jost", sans-serif;
+  font-family: "Hepta Slab", sans-serif;
   font-size: 21px;
   line-height: 28px;
 }
@@ -14640,7 +14640,7 @@ ul.children {
 }
 
 .footer-widget-title {
-  font-family: "Jost", sans-serif;
+  font-family: "Hepta Slab", sans-serif;
   font-size: 21px;
   line-height: 26px;
   color: #ffffff;

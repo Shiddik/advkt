@@ -4,6 +4,9 @@
 
   &.style-1 {
     margin-bottom: 17px;
+    background-color: $black-50;
+    border-top: 1px solid #CDB09126;
+    padding-top: 2px;
 
     .slider-wrapper {
       .slider-btn-wrapper {
@@ -118,223 +121,61 @@
     padding-top: 220px;
     border-bottom: 60px solid $white;
 
-    @include md {
-      padding-top: 180px;
-    }
-    @include sm {
-      padding-top: 150px;
-    }
-      .slider-overlay {
-        background: $black-50;
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        z-index: -1;
 
-      }
+    .slider-title-wrapper {
+      .slider-title {
+        font-family: $heading-font;
+        font-weight: 500;
+        font-size: 90px;
+        color: $white;
+        line-height: 100px;
+        margin-bottom: 0;
 
-      .slider-content-wrapper {
-        position: relative;
-        z-index: 99;
+        @media only screen and (min-width: 992px) and (max-width: 1400px){
+          font-size: 60px;
+          line-height: 64px;
+        }
 
-        @include xs {
-          padding-bottom: 40px !important;
+        @include lg {
+          font-size: 48px;
+          line-height: 56px;
+        }
+        @include md {
+          font-size: 42px;
+          line-height: 52px;
         }
         @include sm {
-          padding-bottom: 90px;
+          font-size: 38px;
+          line-height: 44px;
         }
-        .slider-content {
-          display: flex;
-          gap: 130px;
-          align-items: center;
-
-          @include xl {
-            gap: 120px;
-          }
-          @include rmaxwd(991) {
-            flex-direction: column;
-            text-align: center;
-            gap: 40px;
-          }
-          @include lg {
-            gap: 100px;
-          }
-          .slider-title {
-            font-family: $heading-font;
-            font-weight: 500;
-            font-size: 90px;
-            color: $white;
-            line-height: 100px;
-            margin-bottom: 0;
-
-            @media only screen and (min-width: 992px) and (max-width: 1400px){
-              font-size: 60px;
-              line-height: 64px;
-            }
-
-            @include lg {
-              font-size: 48px;
-              line-height: 56px;
-            }
-            @include md {
-              font-size: 42px;
-              line-height: 52px;
-            }
-            @include sm {
-              font-size: 38px;
-              line-height: 44px;
-            }
-          }
-          .slider-short-desc {
-            font-size: 24px;
-            color: $white;
-            line-height: 36px;
-            margin-bottom: 0;
-            @include lg {
-              font-size: 18px;
-              line-height: 32px;
-            }
-            @include md {
-              font-size: 18px;
-              line-height: 32px;
-            }
-            @include sm {
-              font-size: 18px;
-              line-height: 32px;
-            }
-          }
-
-        }
-
       }
+    }
+
+    // Slider Content
+    .slider-content {
+      .slider-short-desc {
+        font-size: 24px;
+        color: $white;
+        line-height: 36px;
+        margin-bottom: 0;
+        @include lg {
+          font-size: 18px;
+          line-height: 32px;
+        }
+        @include md {
+          font-size: 18px;
+          line-height: 32px;
+        }
+        @include sm {
+          font-size: 18px;
+          line-height: 32px;
+        }
+      }
+    }
 
     // Slider Image
     .slider-image-wrapper {
       position: relative;
-      // Trusted User List
-      .trusted-user {
-        display: inline-flex;
-        align-items: center;
-        padding: 20px;
-        background-color: $white;
-        border-radius: 8px;
-        gap: 20px;
-        position: absolute;
-        top: 0;
-        transform: translateY(-50%);
-        right: 60px;
-
-        @include sm {
-          padding: 10px 20px;
-        }
-        @include xs {
-          padding: 10px 20px;
-          position: relative;
-          left: 50%;
-          transform: translateX(-50%);
-          margin-bottom: 30px;
-        }
-        .user-list-wrapper {
-          display: flex;
-
-          .single-user {
-            width: 58px;
-            height: 58px;
-            border-radius: 50px;
-            position: relative;
-            border: 3px solid $white;
-            overflow: hidden;
-            margin-left: -15px;
-            @include transition;
-
-            &:first-child {
-              margin-left: 0;
-            }
-            img {
-              position: absolute;
-              top: 0;
-              left: 0;
-              object-fit: cover;
-              width: 100%;
-              height: 100%;
-            }
-          }
-        }
-        .content {
-          display: flex;
-          flex-direction: column;
-          gap: 4px;
-
-          span {
-            p {
-              color: $black;
-              font-weight: 500;
-              font-size: 14px;
-              line-height: 20px;
-              @include transition;
-              margin-bottom: 0;
-            }
-          }
-          .counter-title,
-          .counter {
-            font-size: 18px;
-            sup {
-              font-size: 12px
-            }
-          }
-          .title,
-          .counter-desc {
-            font-size: 14px;
-            span {
-              font-weight: 500;
-              font-size: 18px;
-            }
-          }
-
-        }
-      }
-      // Company Award
-      .company-award {
-        padding: 43px 67px 43px 34px;
-        background-color: $blue-color;
-        border-radius: 8px;
-        display: inline-flex;
-        flex-direction: column;
-        gap: 20px;
-        position: absolute;
-        left: 60px;
-        bottom: -60px;
-
-        @include md {
-          padding: 30px;
-        }
-        @include sm {
-          padding: 20px;
-          gap: 15px;
-          left: 20px;
-        }
-        .icon {
-          width: 42px;
-          height: 42px;
-
-          img {
-            width: inherit;
-          }
-        }
-
-        .title {
-          font-size: 21px;
-          font-weight: 500;
-          color: $white;
-
-          @include sm {
-            font-size: 14px;
-            line-height: 24px;
-          }
-        }
-      }
 
       // Image
       .slider-image {

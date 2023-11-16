@@ -7,6 +7,9 @@
     }
     .header-menu-area {
       padding: 0 50px;
+      background-color: $black-50;
+      border-bottom: 1px solid #CDB09126;
+
 
       @media only screen and (min-width: 1400px) and (max-width: 1459px) {
         padding: 0 10px;
@@ -143,8 +146,7 @@
   width: 100%;
   z-index: 999;
   transition: all 0.4s ease 0s;
-  position: fixed;
-  left: 0;
+
 
   .search-btn-with-btn {
     //.btn-wrapper {
@@ -331,16 +333,6 @@
         position: relative;
         > a {
           color: $primary-color;
-
-          &:after {
-            position: absolute;
-            content: "...";
-            height: 0;
-            bottom: 75px;
-            left: 50%;
-            transform: translateX(-50%);
-            font-size: 24px;
-          }
         }
       }
       &.dropdown {
@@ -406,22 +398,18 @@
         @include lg {
           padding: 55px 15px;
         }
-        &:before {
-          position: absolute;
-          content: "\f107";
-          font-family: $font-awesome;
-          //transform: rotate(45deg);
-          //border: solid $white;
-          //border-width: 0 2px 2px 0;
-          display: inline-block;
-          padding: 3px;
-          //margin-top: -5px;
-          font-size: 14px;
-          top: 50%;
-          right: 6px;
-          line-height: 0;
-          visibility: hidden;
-        }
+        //&:before {
+        //  position: absolute;
+        //  content: "\f107";
+        //  font-family: $font-awesome;
+        //  display: inline-block;
+        //  padding: 3px;
+        //  font-size: 14px;
+        //  top: 50%;
+        //  right: 6px;
+        //  line-height: 0;
+        //  visibility: hidden;
+        //}
         &:hover {
           color: $primary-color;
 

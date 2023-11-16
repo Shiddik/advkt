@@ -90,7 +90,7 @@
       position: relative;
       padding: 12px 46px;
       font-size: 18px;
-      font-family: $heading-font;
+      font-family: $body-font;
       color: $white;
       margin-bottom: -100px;
       display: inline-block;
@@ -399,7 +399,7 @@
         @include transition;
         position: relative;
         color: $white;
-        font-family: $heading-font;
+        font-family: $body-font;
         font-size: 18px;
         font-weight: 500;
 
@@ -586,7 +586,7 @@
       font-size: 14px;
     }
     .text {
-      font-family: $heading-font;
+      font-family: $body-font;
       font-size: 16px;
       font-weight: 500;
       color: $white;

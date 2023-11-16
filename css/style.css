@@ -3660,7 +3660,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .header-menu-area .logo {
   position: relative;
   z-index: 999;
-  height: 120px;
+  height: 123px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3737,7 +3737,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .main-menu ul li a {
   display: block;
-  padding: 55px 24px;
+  padding: 48px 15px;
   text-decoration: none;
   text-transform: capitalize;
   -webkit-transition: all 0.5s ease-out;
@@ -4400,12 +4400,26 @@ body.admin-bar .header-menu-area.sticky_menu {
   padding-top: 220px;
   border-bottom: 60px solid #ffffff;
 }
+.slider-area .single-slider .slider-title-wrapper .slider-sub-title {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  gap: 50px;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 7px;
+  margin-bottom: 0;
+  color: #ffffff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 .slider-area .single-slider .slider-title-wrapper .slider-title {
   font-family: "Hepta Slab", sans-serif;
-  font-weight: 500;
-  font-size: 90px;
+  font-weight: 600;
+  font-size: 80px;
   color: #ffffff;
-  line-height: 100px;
+  line-height: initial;
   margin-bottom: 0;
 }
 @media only screen and (min-width: 992px) and (max-width: 1400px) {
@@ -4431,6 +4445,15 @@ body.admin-bar .header-menu-area.sticky_menu {
     font-size: 38px;
     line-height: 44px;
   }
+}
+.slider-area .single-slider .slider-title-wrapper .slider-title .single-title-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
 }
 .slider-area .single-slider .slider-content .slider-short-desc {
   font-size: 24px;

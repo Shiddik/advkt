@@ -123,12 +123,22 @@
 
 
     .slider-title-wrapper {
+      .slider-sub-title {
+        display: inline-flex;
+        gap: 50px;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 7px;
+        margin-bottom: 0;
+        color: $white;
+        align-items: center;
+      }
       .slider-title {
         font-family: $heading-font;
-        font-weight: 500;
-        font-size: 90px;
+        font-weight: 600;
+        font-size: 80px;
         color: $white;
-        line-height: 100px;
+        line-height: initial;
         margin-bottom: 0;
 
         @media only screen and (min-width: 992px) and (max-width: 1400px){
@@ -147,6 +157,12 @@
         @include sm {
           font-size: 38px;
           line-height: 44px;
+        }
+
+        .single-title-item {
+          display: flex;
+          align-items: center;
+          gap: 20px;
         }
       }
     }

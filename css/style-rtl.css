@@ -11403,6 +11403,8 @@ ul.children {
       -ms-flex-direction: column;
           flex-direction: column;
   overflow: hidden;
+  padding: 28px 0;
+  background-color: #CDB091;
   gap: 66px;
 }
 @media (max-width: 767px) {
@@ -11420,7 +11422,7 @@ ul.children {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 44px;
+  gap: 50px;
 }
 .brand-marquee-area .brand-marquee-wrapper.first-brand-marquee {
   -webkit-animation: Scroll 32s linear infinite;
@@ -11441,53 +11443,23 @@ ul.children {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 44px;
-}
-.brand-marquee-area .single-brand-marquee:nth-child(even) .brand-marquee-title {
-  color: #dedeed;
-}
-.brand-marquee-area .single-brand-marquee:last-child .brand-marquee-star {
-  display: none;
+  gap: 50px;
 }
 .brand-marquee-area .single-brand-marquee .brand-marquee-title {
-  font-size: 120px;
+  font-family: "Hepta Slab", sans-serif;
+  font-size: 35px;
   color: #1E2E3E;
-  font-weight: 500;
-  text-transform: uppercase;
-  line-height: 87px;
+  font-weight: 800;
+  text-transform: capitalize;
+  line-height: initial;
   white-space: nowrap;
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .brand-marquee-area .single-brand-marquee .brand-marquee-title {
-    font-size: 62px;
-    line-height: 62px;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .brand-marquee-area .single-brand-marquee .brand-marquee-title {
-    font-size: 80px;
-    line-height: 80px;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .brand-marquee-area .single-brand-marquee .brand-marquee-title {
-    font-size: 95px;
-    line-height: 75px;
-  }
-}
-@media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .brand-marquee-area .single-brand-marquee .brand-marquee-title {
-    font-size: 100px;
-    line-height: 80px;
-  }
+  letter-spacing: 7px;
 }
 .brand-marquee-area .single-brand-marquee .brand-marquee-star {
-  font-size: 90px;
-  font-weight: 500;
-  color: #CDB091;
+  font-size: 13px;
+  font-weight: 800;
+  color: #1C1D20;
   white-space: nowrap;
-  margin-top: 20px;
-  line-height: 0;
 }
 
 .about-us-area.style-1 {

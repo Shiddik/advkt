@@ -1,71 +1,51 @@
-.price-card-switch {
-    text-align: center;
 
-    .price-nav-tab {
-        display: inline-flex;
-        align-items: center;
-        margin-bottom: 60px;
-        border: 1px solid rgb(199, 199, 225);
-        padding: 6px;
-        border-radius: 50px;
-        flex-wrap: wrap;
-        justify-content: center;
-
-        li {
-            list-style: none;
-            font-size: 16px;
-            font-weight: 500;
-            color: $white;
-            padding: 16px 30px;
-            border-radius: 50px;
-            cursor: pointer;
-            position: relative;
-            overflow: hidden;
-            z-index: 2;
-            flex-shrink: 0;
-
-            &:before {
-                position: absolute;
-                width: 0;
-                height: 100%;
-                content: "";
-                left: 0;
-                top: 0;
-                background-color: $blue-color;
-                z-index: -1;
-            }
-
-            &.active {
-                &:before {
-                    width: 100%;
-                    @include transition;
-                }
-            }
-        }
-    }
-}
-
+@import "shahel";
 .price-card {
-    padding: 60px;
-    background: $white;
+    padding: 68px 51px 82px 51px;
     z-index: 2;
     position: relative;
-    border-radius: 12px;
-    border: 1px solid rgb(199, 199, 225);
+    border-radius: 10px;
+    border: 1px solid $pricing-border-color;
 
-    @include xs {
-        padding: 40px 30px;
+    .price-bg-frame {
+        position: absolute;
+        top: 14px;
+        right: 15px;
+        flex-shrink: 0;
+        z-index: 1;
     }
-    @include lg {
-        padding: 40px 30px;
-    }
-    @include xl {
-        padding: 55px 40px;
-    }
-    @include rmaxwd(991) {
-        margin-bottom: 24px;
-        padding: 40px;
-    }
+
+        .trend-batch {
+            position: absolute;
+            top: 0;
+            right: 30px;
+            z-index: 2;
+
+            .trend-down {
+                width: 0;
+                height: 0;
+                border-left: 15px solid;
+                border-right: 15px solid;
+                border-bottom: 15px solid transparent;
+                border-top: 35px solid;
+            }
+        }
+    
+  
+
+    // @include xs {
+    //     padding: 40px 30px;
+    // }
+    // @include lg {
+    //     padding: 40px 30px;
+    // }
+    // @include xl {
+    //     padding: 55px 40px;
+    // }
+    // @include rmaxwd(991) {
+    //     margin-bottom: 24px;
+    //     padding: 40px;
+    // }
     &.active {
         .price-label {
             background-color: $primary-color;
@@ -74,61 +54,58 @@
         }
     }
     .price-label {
-        display: block;
-        border: 2px solid $primary-color;
-        border-radius: 8px;
+        display: inline-block;
         font-size: 18px;
-        font-weight: 500;
-        color: $black;
-        padding: 15px 10px;
-        margin-top: 36px;
+        font-weight: 400;
+        color: $white;
+        margin-top: 70px;
         text-align: center;
-        @include transition;
 
-        &:hover {
-            background-color: $primary-color;
-            color: $white;
-            @include transition;
+        i {
+            margin-left: 20px;
+            font-size: 20px;
         }
     }
 
     .card-title {
-        display: flex;
-        margin-bottom: 30px;
-        flex-direction: column;
-        gap: 30px;
-        border-bottom: 1px solid rgb(199, 199, 225);
-        padding-bottom: 35px;
+        // display: flex;
+        // margin-bottom: 30px;
+        // flex-direction: column;
+        // gap: 30px;
+        // border-bottom: 1px solid rgb(199, 199, 225);
+        // padding-bottom: 35px;
 
-        .sub-title {
-            font-family: $roboto-font;
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 36px;
-            margin: 0;
-            color: $text-color;
-        }
+        // .sub-title {
+        //     font-family: $roboto-font;
+        //     font-weight: 400;
+        //     font-size: 18px;
+        //     line-height: 36px;
+        //     margin: 0;
+        //     color: $text-color;
+        // }
         .title {
-            font-weight: 500;
-            font-size: 30px;
+            font-weight: 300;
+            font-size: 20px;
             line-height: 30px;
-            color: $black;
+            color: $white;
             font-family: $heading-font;
-            margin-bottom: 0;
+            margin-bottom: 23px;
             display: flex;
             align-items: center;
             gap: 12px;
+            text-transform: uppercase;
+            letter-spacing: 6px;
 
-            span {
-                font-size: 12px;
-                color: $white;
-                background-color: $primary-color;
-                font-family: $roboto-font;
-                border-radius: 3px;
-                padding: 0 7px;
-                display: inline-block;
-                line-height: 18px;
-            }
+            // span {
+            //     font-size: 12px;
+            //     color: $white;
+            //     background-color: $primary-color;
+            //     font-family: $roboto-font;
+            //     border-radius: 3px;
+            //     padding: 0 7px;
+            //     display: inline-block;
+            //     line-height: 18px;
+            // }
         }
     }
     .price {
@@ -152,11 +129,10 @@
 
         .price-heading {
             font-family: $heading-font;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 48px;
-            line-height: 42px;
-            color: $black;
+            font-weight: 600;
+            font-size: 60px;
+            line-height: initial;
+            color: $primary-color;
             display: flex;
             align-items: center;
             gap: 2px;
@@ -164,22 +140,21 @@
 
             .currency {
                 font-family: $heading-font;
-                font-style: normal;
-                font-weight: 500;
-                font-size: 24px;
-                line-height: 28px;
-                color: $black;
+                font-weight: 300;
+                font-size: 30px;
+                line-height: initial;
+                color: $primary-color;
                 text-align: start;
-                align-self: flex-start;
+                align-self: flex-end;
             }
         }
         .price-desc {
             font-family: $body-font;
-            font-weight: 500;
-            font-size: 18px;
-            line-height: 30px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: initial;
             text-transform: capitalize;
-            color: $black;
+            color: $white;
             margin-bottom: 0;
         }
     }
@@ -196,15 +171,15 @@
             margin: 0;
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            gap: 6px;
+            justify-content: flex-start;
+            gap: 25px;
             width: 100%;
             li {
                 list-style: none;
                 font-family: $body-font;
                 font-weight: 400;
                 font-size: 18px;
-                color: #5e6f92;
+                color: $white;
                 margin: 0;
                 display: flex;
                 flex-direction: row;
@@ -219,6 +194,11 @@
                 }
                 .fa-x {
                     color: #bbc7cf;
+                }
+
+                img {
+                    width: 18px;
+                    height: 18px;
                 }
             }
         }

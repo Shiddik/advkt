@@ -1,10 +1,8 @@
 .about-image-card {
   padding-right: 88px;
-  margin-top: -190px;
 
   @include rmaxwd(991) {
     padding-right: 0;
-    margin-top: 0;
   }
   @include lg {
     padding-right: unset;

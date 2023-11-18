@@ -201,7 +201,6 @@
             dots: true,
             speed: 800,
             rtl: false,
-            asNavFor: '.testimonial-user-wrapper',
             prevArrow:
                 "<button type='button' class='process-arrow-btn prev-btn'><i class='icon-arrow-left-2'></i></button>",
             nextArrow:
@@ -218,29 +217,6 @@
             ],
         });
 
-        // Testimonial User
-        const testimonial_user_slide = $('.testimonial-user-wrapper');
-        testimonial_user_slide.slick({
-            slidesToShow: 9,
-            slidesToScroll: 3,
-            autoplay: true,
-            loop: false,
-            infinite: false,
-            asNavFor: '#testimonial_one',
-            dots: false,
-            centerMode: false,
-            focusOnSelect: true,
-            arrows:false,
-            draggable: false,
-            rtl: false
-        });
-
-        testimonial_user_slide.each(function() {
-            const item = $(this).find('.single-user');
-            item.on('mouseenter', function() {
-                $(this).trigger('click');
-            });
-        });
         /*
        Testimonial Slider
        ============================*/

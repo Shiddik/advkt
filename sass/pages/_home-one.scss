@@ -1,3 +1,31 @@
+// Latest Post Area
+.latest-posts-area {
+  &.style-1 {
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+
+    .post-card {
+      .content {
+        .title {
+          color: $white;
+        }
+      }
+      .post-meta {
+        .single-post-meta {
+          .icon {
+            background-color: #3F3F3F;
+            &:before {
+              background-color: $black-100;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
 
 
 //

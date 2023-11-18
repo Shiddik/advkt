@@ -6722,7 +6722,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   border-radius: 12px;
   overflow: hidden;
   margin-bottom: 60px;
-  border: 1px solid #c7c7e1;
+  border: 1px solid rgba(44, 53, 62, 0.1490196078);
   /* Quote Format Post */
   /* Sticky Post */
 }
@@ -6918,7 +6918,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   border-radius: 6px;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
-  border: 1px solid #c7c7e1;
+  border: 1px solid rgba(44, 53, 62, 0.1490196078);
 }
 .single-post-item .blog-post-tag .post-tag-list a:hover {
   color: #ffffff;
@@ -7488,7 +7488,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .blog-details-wrapper .post-comments {
   margin-top: 70px;
-  border: 1px solid #c7c7e1;
+  border: 1px solid rgba(44, 53, 62, 0.1490196078);
   border-radius: 12px;
   padding: 47px;
   padding-bottom: 0;
@@ -8526,7 +8526,7 @@ body.single-post .page-heading .page-title {
   transition: all 0.5s ease-out;
   font-size: 18px;
   font-weight: 500;
-  border: 1px solid #c7c7e1;
+  border: 1px solid rgba(44, 53, 62, 0.1490196078);
   text-transform: capitalize;
 }
 @media (max-width: 767px) {
@@ -8638,7 +8638,7 @@ body.single-post .page-heading .page-title {
   transition: all 0.5s ease-out;
   font-size: 18px;
   font-weight: 500;
-  border: 1px solid #c7c7e1;
+  border: 1px solid rgba(44, 53, 62, 0.1490196078);
   text-transform: capitalize;
 }
 @media (max-width: 767px) {
@@ -9630,7 +9630,7 @@ body.single-post .page-heading .page-title {
           align-items: center;
   gap: 10px;
   padding-top: 30px;
-  border-top: 1px solid #c7c7e1;
+  border-top: 1px solid rgba(44, 53, 62, 0.1490196078);
   width: 100%;
   margin-top: 10px;
 }
@@ -10287,10 +10287,10 @@ body.single-post .page-heading .page-title {
 .latest-comments li.comment .comments-box {
   padding-top: 48px;
   padding-bottom: 13px;
-  border-top: 1px solid #c7c7e1;
+  border-top: 1px solid rgba(44, 53, 62, 0.1490196078);
 }
 .latest-comments li.comment .children li.comment .comments-box {
-  border-top: 1px solid #c7c7e1;
+  border-top: 1px solid rgba(44, 53, 62, 0.1490196078);
 }
 .latest-comments li.comment:first-child .comments-box {
   border-top: 0;
@@ -10448,9 +10448,7 @@ ul.children {
 
 .comment-respond {
   padding: 50px;
-  border-radius: 12px;
   position: relative;
-  border: 1px solid #c7c7e1;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .comment-respond {
@@ -10462,15 +10460,24 @@ ul.children {
 }
 .comment-respond .contacts-email,
 .comment-respond .contacts-name,
-.comment-respond .single-input-field {
-  margin-bottom: 12px;
+.comment-respond .single-input-field,
+.comment-respond .contacts-message {
+  margin-bottom: 33px;
+  position: relative;
 }
-.comment-respond label {
-  display: block;
-  font-size: 16px;
-  font-weight: 500;
-  color: #778196;
-  margin-bottom: 12px;
+.comment-respond .contacts-email label,
+.comment-respond .contacts-name label,
+.comment-respond .single-input-field label,
+.comment-respond .contacts-message label {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background: #ffffff;
+  font-size: 18px;
+  color: #1E2E3E;
+  padding: 0 10px;
 }
 .comment-respond .checkbox-field-wrapper {
   display: -webkit-box;
@@ -10511,13 +10518,12 @@ ul.children {
 }
 .comment-respond input,
 .comment-respond select {
-  padding: 0 20px;
-  height: 60px;
+  padding: 0 27px;
+  height: 70px;
   width: 100%;
   color: #778196;
   opacity: 1;
-  border: 1px solid #c7c7e1 !important;
-  border-radius: 6px;
+  border: 1px solid rgba(44, 53, 62, 0.1490196078) !important;
   font-size: 18px;
   font-weight: 400;
   background-color: #ffffff;
@@ -10541,16 +10547,15 @@ ul.children {
 }
 .comment-respond textarea {
   resize: vertical;
-  padding: 20px;
+  padding: 27px;
   width: 100%;
   color: #778196;
-  border: 1px solid #c7c7e1 !important;
-  border-radius: 6px;
+  border: 1px solid rgba(44, 53, 62, 0.1490196078) !important;
   font-size: 18px;
   font-weight: 400;
   background-color: #ffffff;
   font-family: "Jost", sans-serif !important;
-  height: 190px;
+  height: 140px;
   margin-bottom: 12px;
 }
 .comment-respond input:focus,

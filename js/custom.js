@@ -398,8 +398,8 @@
         });
 
         // Team Area slider
-        $(".team-area-slider").slick({
-            slidesToShow: 6,
+        $(".team-area-slider-wrapper").slick({
+            slidesToShow: 4,
             infinite: true,
             autoplay: true,
             draggable: true,

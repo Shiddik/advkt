@@ -287,7 +287,50 @@
     }
   }
 }
+// Footer Top Area
+.footer-top-area {
+  border-bottom: 1px solid #FFFFFF26;
+}
+.footer-top-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
+  .title-wrapper {
+    .title {
+      margin-bottom: 0;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 30px;
+      color: $white;
+    }
+  }
+  .logo-wrapper {
+    height: 136px;
+    background-color: $white;
+    display: flex;
+    align-items: center;
+    padding: 0 52px;
+  }
+  .cta-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    .title,
+    a {
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 30px;
+      color: $white;
+      font-family: $heading-font;
+    }
+    a {
+      color: $primary-color;
+      font-weight: 300;
+    }
+  }
+}
 // Footer Bottom Section
 .footer-bottom-area {
   padding: 24px 0;

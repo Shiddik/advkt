@@ -22,9 +22,13 @@
       margin-top: 50px;
     }
     .post-comments-title {
+      margin-bottom: 86px;
+
       h2 {
-        font-size: 48px;
+        font-size: 60px;
+        font-weight: 600;
         line-height: initial;
+        margin-bottom: 20px;
 
         @include sm {
           font-size: 28px;

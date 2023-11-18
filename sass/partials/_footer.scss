@@ -80,7 +80,7 @@
   // Footer About Info
   &.widget_boomdevs_contact_info_widget {
     @include rmaxwd(767) {
-      margin-bottom: 18px;
+      margin-bottom: 16px;
     }
   }
 
@@ -153,7 +153,7 @@
       a {
         color: $white-100;
         text-transform: capitalize;
-        font-size: 18px;
+        font-size: 16px;
         @include transition;
         position: relative;
         font-family: $roboto-font;
@@ -210,7 +210,7 @@
         }
         .contact-text {
           color: $white-100;
-          font-size: 18px;
+          font-size: 16px;
           line-height: 30px;
           overflow: hidden;
           font-family: $roboto-font;
@@ -227,7 +227,7 @@
           p,
           a {
             color: $white-100;
-            font-size: 18px;
+            font-size: 16px;
             line-height: 30px;
             display: inline-block;
             width: 100%;
@@ -348,12 +348,12 @@
       color: $white-100;
       margin-bottom: 0;
       font-family: $roboto-font;
-      font-size: 18px;
+      font-size: 16px;
       a {
         color: $white-100;
         font-weight: 400;
         font-family: $roboto-font;
-        font-size: 18px;
+        font-size: 16px;
 
         &:hover {
           color: $primary-color;

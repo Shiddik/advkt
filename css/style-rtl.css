@@ -7073,7 +7073,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   transition: all 0.5s ease-out;
 }
 
-.post-card-wrapper {
+.post-card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -7081,13 +7081,9 @@ body.admin-bar .header-menu-area.sticky_menu {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 36px;
-}
-
-.post-card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  border: 1px solid #3F3F3F;
+  padding: 41px 27px;
+  border-radius: 10px;
 }
 .post-card:hover .image img {
   -webkit-transform: scale(1.1);
@@ -7112,7 +7108,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   transition: all 0.5s ease-out;
 }
 .post-card .image {
-  border-radius: 8px;
+  border-radius: 10px;
   overflow: hidden;
   position: relative;
 }
@@ -7316,49 +7312,6 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .post-card .post-meta .single-post-meta a:hover {
   color: #CDB091;
-}
-.post-card.style-1 {
-  gap: 35px;
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .post-card.style-1 {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .post-card.style-1 {
-    gap: 20px;
-  }
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .post-card.style-1 .post-meta {
-    margin-top: 10px;
-  }
-}
-.post-card.style-1 .image {
-  width: 255px;
-  height: 182px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .post-card.style-1 .image {
-    width: 100%;
-    height: 300px;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .post-card.style-1 .image {
-    width: 200px;
-  }
-}
-@media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .post-card.style-1 .image {
-    width: 200px;
-  }
 }
 
 .post-card.style-2 {
@@ -14377,7 +14330,7 @@ ul.children {
 }
 @media (max-width: 767px) {
   .footer-widget.widget_boomdevs_contact_info_widget {
-    margin-bottom: 18px;
+    margin-bottom: 16px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1399px) {
@@ -14447,7 +14400,7 @@ ul.children {
 .footer-widget.widget_nav_menu li a {
   color: #bbbfc7;
   text-transform: capitalize;
-  font-size: 18px;
+  font-size: 16px;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
   position: relative;
@@ -14517,7 +14470,7 @@ ul.children {
 }
 .footer-widget .footer-widget-contact .footer-contact ul li .contact-text {
   color: #bbbfc7;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 30px;
   overflow: hidden;
   font-family: "Roboto", sans-serif;
@@ -14531,7 +14484,7 @@ ul.children {
 .footer-widget .footer-widget-contact .footer-contact ul li .contact-text p,
 .footer-widget .footer-widget-contact .footer-contact ul li .contact-text a {
   color: #bbbfc7;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 30px;
   display: inline-block;
   width: 100%;
@@ -14653,13 +14606,13 @@ ul.children {
   color: #bbbfc7;
   margin-bottom: 0;
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
 }
 .footer-bottom-area .copyright-text p a {
   color: #bbbfc7;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
 }
 .footer-bottom-area .copyright-text p a:hover {
   color: #CDB091;

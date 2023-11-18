@@ -5011,6 +5011,10 @@ body.admin-bar .header-menu-area.sticky_menu {
   padding-top: 24px;
   border-top: 1px solid rgba(255, 255, 255, 0.15);
 }
+.info-card .content-wrapper .thumbnail-wrapper .thumbnail-inner {
+  border-radius: 10px;
+  overflow: hidden;
+}
 .info-card .title-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;

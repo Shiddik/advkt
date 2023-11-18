@@ -4,7 +4,7 @@
   flex-direction: column;
   overflow: hidden;
   padding: 28px 0;
-  background-color: $primary-color;
+
   gap: 66px;
   @include rmaxwd(767) {
     gap: 20px;

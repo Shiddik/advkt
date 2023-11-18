@@ -148,29 +148,32 @@ input:focus {
 .background-black {
   background-color: $black-50;
 }
+.background-black-light {
+  background-color: $black-100;
+}
 
 
-.bg-light-black {
-  background-color: rgb(49, 55, 63);
-}
-.background-blue {
-  background-color: $blue-color;
-}
-.bg-dark-blue {
-  background-color: rgb(14, 49, 81);
-}
-.background-light-blue {
-  background-color: $primary-color;
-}
-.background-skye {
-  background-color: $primary-color;
-}
-.background-gray {
-  background-color: rgb(241, 241, 249);
-}
-.background-light-gray {
-  background-color: rgb(241, 241, 249);
-}
+//.bg-light-black {
+//  background-color: rgb(49, 55, 63);
+//}
+//.background-blue {
+//  background-color: $blue-color;
+//}
+//.bg-dark-blue {
+//  background-color: rgb(14, 49, 81);
+//}
+//.background-light-blue {
+//  background-color: $primary-color;
+//}
+//.background-skye {
+//  background-color: $primary-color;
+//}
+//.background-gray {
+//  background-color: rgb(241, 241, 249);
+//}
+//.background-light-gray {
+//  background-color: rgb(241, 241, 249);
+//}
 
 .page-bg {
   background-color: $black;

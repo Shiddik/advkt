@@ -12223,9 +12223,8 @@ ul.children {
 }
 .brand-slider-area.style-1 {
   overflow: hidden;
-  padding-top: 70px;
-  padding-bottom: 15px;
-  margin-bottom: -35px;
+  padding: 50px 0;
+  background-color: #1E2E3E;
 }
 .brand-slider-area .slick-list {
   margin: 0 -20px;

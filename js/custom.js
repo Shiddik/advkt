@@ -377,7 +377,7 @@
        Client Logo Slider
        ============================*/
         $(".client-logo-slider-wrapper").slick({
-            slidesToShow: 5,
+            slidesToShow: 6,
             infinite: true,
             autoplay: true,
             draggable: true,

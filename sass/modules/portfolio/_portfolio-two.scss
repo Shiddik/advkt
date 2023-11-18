@@ -102,7 +102,7 @@
         right: 20%;
         transform: translate(-50%, -50%) scale(0.3);
         @include transition;
-
+  
         a {
           display: inline-flex;
           width: 60px;
@@ -116,7 +116,7 @@
 
           i {
             @include transition;
-            transform: rotate(-45deg);
+            
           }
           &:hover {
             @include transition;

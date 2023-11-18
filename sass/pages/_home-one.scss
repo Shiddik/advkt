@@ -722,9 +722,9 @@
   overflow: hidden;
   &.style-1 {
     overflow: hidden;
-    padding-top: 70px;
-    padding-bottom: 15px;
-    margin-bottom: -35px;
+    padding: 50px 0;
+    background-color: $black;
+
   }
   .slick-list {
     margin: 0 -20px;

@@ -11255,6 +11255,50 @@ ul.children {
   transition: all 0.5s ease-out;
 }
 
+.portfolio-card-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+}
+.portfolio-card-wrapper .portfolio-card.style-2 {
+  gap: 50px;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 26px 0;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.portfolio-card-wrapper .portfolio-card.style-2:hover span {
+  color: #CDB091;
+}
+.portfolio-card-wrapper .portfolio-card.style-2 .brand-logo {
+  width: 207px;
+  height: auto;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+.portfolio-card-wrapper .portfolio-card.style-2 .content {
+  margin-right: 250px;
+}
+.portfolio-card-wrapper .portfolio-card.style-2 .content .short-desc {
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 29px;
+  color: #666;
+}
+.portfolio-card-wrapper .portfolio-card.style-2 .number-text {
+  font-size: 45px;
+  font-weight: 600;
+  font-family: "Hepta Slab", sans-serif;
+  color: #666;
+}
+
 .portfolio-slider-wrapper {
   position: relative;
 }

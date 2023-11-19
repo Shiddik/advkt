@@ -133,3 +133,51 @@
     }
   }
 }
+
+.portfolio-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  .portfolio-card {
+  
+    &.style-2 {
+        gap: 50px;
+        border-top: 1px solid rgba(0, 0, 0, 0.15);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+        padding: 26px 0;
+        @include transition;
+
+        &:hover {
+          span {
+            color: $primary-color;
+          }
+        }
+
+      .brand-logo {
+        width: 207px;
+        height: auto;
+        flex-shrink: 0;
+      }
+
+      .content {
+        margin-right: 250px;
+
+        .short-desc {
+          font-family: $body-font;
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 29px;
+          color: #666;
+        }
+      }
+
+      .number-text {
+        font-size: 45px;
+        font-weight: 600;
+        font-family: $heading-font;
+        color: #666;
+      }
+    }
+  }
+}

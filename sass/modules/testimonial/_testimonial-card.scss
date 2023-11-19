@@ -20,12 +20,12 @@
             width: unset;
 
             .user-info {
-                gap: 30px;
-
-                .image {
-                    width: 84px;
-                    height: 84px;
-                }
+                //gap: 30px;
+                //
+                //.image {
+                //    width: 84px;
+                //    height: 84px;
+                //}
                 .info {
                     .name {
                        color: $white;
@@ -39,7 +39,7 @@
     .content-wrapper {
         display: flex;
         flex-direction: column;
-        gap: 60px;
+        gap: 30px;
 
         .quote-icon {
             width: 84px;
@@ -94,8 +94,8 @@
                 justify-content: center;
                 flex-shrink: 0;
                 box-shadow: 0px 18px 24px 0px rgba(2, 24, 93, 0.12);
-                width: 72px;
-                height: 72px;
+                width: 80px;
+                height: 80px;
                 border-radius: 50px;
                 overflow: hidden;
             }

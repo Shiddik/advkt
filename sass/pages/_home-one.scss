@@ -4,7 +4,9 @@
     padding-top: 120px;
     padding-bottom: 120px;
 
-
+    .section-title {
+      margin-bottom: 190px;
+    }
     .post-card {
       .content {
         .title {
@@ -15,6 +17,8 @@
         .single-post-meta {
           .icon {
             background-color: #3F3F3F;
+            color: $white;
+
             &:before {
               background-color: $black-100;
             }

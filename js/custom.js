@@ -193,7 +193,7 @@
         $("#testimonial_one").slick({
             slidesToShow: 1,
             infinite: true,
-            autoplay: true,
+            autoplay: false,
             draggable: true,
             arrows: false,
             slidesToScroll: 1,

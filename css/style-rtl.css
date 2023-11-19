@@ -6490,9 +6490,6 @@ body.admin-bar .header-menu-area.sticky_menu {
   background-color: #CDB091;
 }
 
-.accordion-wrapper.style-one .accordion-list-item .accordion-head .accordion-title {
-  font-size: 24px;
-}
 .accordion-wrapper .accordion-list-item .accordion-head {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6500,15 +6497,14 @@ body.admin-bar .header-menu-area.sticky_menu {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 30px;
-  cursor: pointer;
-  padding: 12px 0;
+  gap: 25px;
+  border-top: 1px solid rgba(34, 34, 34, 0.15);
+  padding: 15px 0;
   position: relative;
 }
 .accordion-wrapper .accordion-list-item .accordion-head:before {
-  background-color: #CDB091;
-  color: #ffffff;
-  font-size: 12px;
+  color: #1E2E3E;
+  font-size: 30px;
   border-radius: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6519,8 +6515,8 @@ body.admin-bar .header-menu-area.sticky_menu {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 24px;
-  height: 24px;
+  width: 30px;
+  height: 30px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
   content: "\f068";
@@ -6528,10 +6524,9 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-weight: 500;
 }
 .accordion-wrapper .accordion-list-item .accordion-head.collapsed:before {
-  background-color: #CDB091;
   border-radius: 50px;
-  color: #ffffff;
-  font-size: 12px;
+  color: #1E2E3E;
+  font-size: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6541,8 +6536,8 @@ body.admin-bar .header-menu-area.sticky_menu {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 24px;
-  height: 24px;
+  width: 30px;
+  height: 30px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
   position: relative;
@@ -6551,17 +6546,26 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-weight: 500;
 }
 .accordion-wrapper .accordion-list-item .accordion-head .accordion-title {
-  font-size: 21px;
-  line-height: 32px;
+  font-size: 20px;
+  line-height: 30px;
   color: #1E2E3E;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 0;
 }
+.accordion-wrapper .accordion-list-item:last-child {
+  border-bottom: 1px solid rgba(34, 34, 34, 0.15);
+}
 .accordion-wrapper .accordion-list-item .accordion-item-body {
-  padding-right: 50px;
-  padding-bottom: 3px;
+  padding-bottom: 15px;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
+}
+.accordion-wrapper .accordion-list-item .accordion-item-body p {
+  font-size: 16px;
+  color: #1E2E3E;
+  font-weight: 400;
+  line-height: 29px;
+  margin: 0;
 }
 
 .accordion-wrapper.style-two .accordion-list-item .accordion-head {
@@ -11234,7 +11238,10 @@ ul.children {
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
-.portfolio-card-wrapper .portfolio-card.style-2:hover span {
+.portfolio-card-wrapper .portfolio-card.style-2:hover .short-desc {
+  color: #CDB091;
+}
+.portfolio-card-wrapper .portfolio-card.style-2:hover .number-text {
   color: #CDB091;
 }
 .portfolio-card-wrapper .portfolio-card.style-2 .brand-logo {
@@ -11251,7 +11258,6 @@ ul.children {
   font-size: 16px;
   font-weight: 600;
   line-height: 29px;
-  color: #666;
 }
 .portfolio-card-wrapper .portfolio-card.style-2 .number-text {
   font-size: 45px;

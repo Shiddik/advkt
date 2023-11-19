@@ -149,7 +149,10 @@
         @include transition;
 
         &:hover {
-          span {
+          .short-desc {
+            color: $primary-color;
+          }
+          .number-text {
             color: $primary-color;
           }
         }
@@ -168,7 +171,6 @@
           font-size: 16px;
           font-weight: 600;
           line-height: 29px;
-          color: #666;
         }
       }
 

@@ -7885,7 +7885,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 
 .team-member-wrapper {
-  padding: 40px 0;
+  padding: 40px 0 0 0;
 }
 .team-member-wrapper .single-team-member {
   display: -webkit-box;
@@ -13707,7 +13707,7 @@ ul.children {
 }
 
 .team-member-wrapper {
-  padding: 40px 0;
+  padding: 40px 0 0 0;
 }
 .team-member-wrapper .single-team-member {
   display: -webkit-box;

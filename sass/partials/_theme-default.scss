@@ -271,36 +271,17 @@ input.theme-btn {
 
 .simple-btn {
   color: $black;
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 400;
   position: relative;
-  padding: 2px 0;
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-
-  &:before {
-    position: absolute;
-    content: "";
-    bottom: 0;
-    left: 0;
-    background-color: $primary-color;
-    height: 2px;
-    width: calc(100% - 20px);
-  }
-  i {
-    transform: rotate(-45deg);
-    @include transition
-  }
+  gap: 24px;
+  font-family: $body-font;
 
   &:hover {
     color: $primary-color;
     @include transition;
-
-    i {
-      transform: rotate(0);
-      @include transition;
-    }
   }
 }
 .wp-block-loginout {

@@ -348,41 +348,20 @@ input.theme-btn:focus {
 
 .simple-btn {
   color: #1E2E3E;
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 400;
   position: relative;
-  padding: 2px 0;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 8px;
-}
-.simple-btn:before {
-  position: absolute;
-  content: "";
-  bottom: 0;
-  right: 0;
-  background-color: #CDB091;
-  height: 2px;
-  width: calc(100% - 20px);
-}
-.simple-btn i {
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  gap: 24px;
+  font-family: "Jost", sans-serif;
 }
 .simple-btn:hover {
   color: #CDB091;
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
-}
-.simple-btn:hover i {
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
@@ -8231,9 +8210,9 @@ body.admin-bar .header-menu-area.sticky_menu {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-bottom: 74px;
   gap: 20px;
 }

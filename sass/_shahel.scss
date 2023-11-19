@@ -32,7 +32,44 @@ $pricing-border-color: #3C3E43;
         }
 
         .team-member-thumb {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             flex-shrink: 0;
+
+            .image {
+                flex-shrink: 0;
+            }
+            .user-meta {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 50px 76px 44px 76px;
+                gap: 18px;
+
+                .title {
+                    font-size: 35px;
+                    font-weight: 600;
+                    line-height: initial;
+                    color: $black;
+                }
+                .desc {
+                    font-size: 20px;
+                    font-weight: 600;
+                    
+                }
+                .member-social-site {
+                    display: flex;
+                    align-items: center;
+                    gap: 30px;
+                    flex-shrink: 0;
+    
+                    i {
+                        font-size: 20px;
+                        color: $black;
+                    }
+                }
+            }
         }
         .team-member-content {
             display: flex;
@@ -56,6 +93,22 @@ $pricing-border-color: #3C3E43;
                     text-transform: capitalize;
                 }
             }
+
+
+            .team-tab {
+                nav {
+                    ul {
+                        list-style: none;
+                        display: flex;
+                        align-items: flex-start;
+                        
+                        .item-list {
+                            
+                        }
+                    }
+                }
+            }
+
             .member-court {
                 padding: 27px 0 27px 44px;
                 border-left: 3px solid $primary-color;

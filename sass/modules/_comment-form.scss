@@ -115,6 +115,14 @@
     background-color: transparent;
     font-family: $body-font !important;
   }
+  input[type="submit"] {
+    height: 70px;
+    background-color: $primary-color;
+    border-color: $primary-color;
+    color: $white;
+    font-size: 18px;
+    font-weight: 500;
+  }
   *::-webkit-input-placeholder {
     color: $black-300;
   }
@@ -180,14 +188,26 @@
       }
     }
     .comment-respond-wrapper {
-      background-color: $black-100;
-      margin-right: 0;
+      margin-left: 240px;
       padding: 53px 0 33px 70px;
-      border-radius: 20px;
       display: flex;
       flex-direction: column;
       gap: 30px;
+      position: relative;
+      z-index: 2;
 
+      &:before {
+        position: absolute;
+        content: "";
+        width: 9999px;
+        height: 100%;
+        left: 0;
+        background-color: $black-100;
+        top: 0;
+        margin-right: 10px;
+        border-radius: 20px;
+        z-index: -1;
+      }
       .form-title {
         color: $white;
         font-size: 45px;

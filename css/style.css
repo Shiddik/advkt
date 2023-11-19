@@ -10592,6 +10592,14 @@ ul.children {
   background-color: transparent;
   font-family: "Jost", sans-serif !important;
 }
+.comment-respond input[type=submit] {
+  height: 70px;
+  background-color: #CDB091;
+  border-color: #CDB091;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+}
 .comment-respond *::-webkit-input-placeholder {
   color: #778196;
 }
@@ -10650,10 +10658,8 @@ ul.children {
   color: #ffffff;
 }
 .comment-respond.style-2 .comment-respond-wrapper {
-  background-color: #1F2732;
-  margin-right: 0;
+  margin-left: 240px;
   padding: 53px 0 33px 70px;
-  border-radius: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10662,6 +10668,20 @@ ul.children {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 30px;
+  position: relative;
+  z-index: 2;
+}
+.comment-respond.style-2 .comment-respond-wrapper:before {
+  position: absolute;
+  content: "";
+  width: 9999px;
+  height: 100%;
+  left: 0;
+  background-color: #1F2732;
+  top: 0;
+  margin-right: 10px;
+  border-radius: 20px;
+  z-index: -1;
 }
 .comment-respond.style-2 .comment-respond-wrapper .form-title {
   color: #ffffff;
@@ -11441,6 +11461,10 @@ ul.children {
   -o-object-fit: cover;
      object-fit: cover;
   aspect-ratio: 1/1;
+}
+
+.request-form-area {
+  margin-top: -90px;
 }
 
 .feature-area.style-2 {

@@ -112,7 +112,7 @@
     border: 1px solid $gray-300 !important;
     font-size: 18px;
     font-weight: 400;
-    background-color: $white;
+    background-color: transparent;
     font-family: $body-font !important;
   }
   *::-webkit-input-placeholder {
@@ -143,10 +143,9 @@
     width: 100%;
     color: $black-300;
     border: 1px solid $gray-300 !important;
-    //box-shadow: 0px 10px 30px 0px rgba(4, 43, 77, 0.04);
     font-size: 18px;
     font-weight: 400;
-    background-color: $white;
+    background-color: transparent;
     font-family: $body-font !important;
     height: 140px;
     margin-bottom: 12px;
@@ -163,108 +162,157 @@
 
 
 .comment-respond {
-  &.style-two {
-    margin: 0;
-    background-color: transparent;
-    padding: 82px 88px 82px 6px;
 
-    @include md {
-      padding: 50px;
+  &.style-2 {
+    margin: 0;
+    padding: 0;
+
+    .contacts-email,
+    .contacts-name,
+    .single-input-field,
+    .contacts-message {
+      margin-bottom: 0;
+
+      label {
+          background-color: $black-100;
+          color: $white;
+
+      }
     }
-    @include sm {
-      padding: 30px;
-    }
-    .post-comments-title {
-      h2 {
+    .comment-respond-wrapper {
+      background-color: $black-100;
+      margin-right: 0;
+      padding: 53px 0 33px 70px;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+      .form-title {
         color: $white;
+        font-size: 45px;
+        font-weight: 600;
+        line-height: initial;
       }
     }
-    label {
-      color: $white-100;
-    }
+    .form-field-wrapper {
+      display: flex;
 
-    .nice-select:after {
-      border-color: transparent transparent #c7cdda transparent;
-    }
-    input[type="radio"]::before,
-    input[type="checkbox"]::before{
-      background-color: transparent;
-    }
-
-    .single-input-field {
-      p {
-        margin-bottom: 0;
-      }
-      input,
-      select,
-      textarea {
-        background-color: transparent;
-        color: $white-100;
-        border-color: #739bbf !important;
-        box-shadow: none;
-      }
-      .nice-select {
-        color: $white-100;
-        border-color: #739bbf !important;
-      }
-      input:focus,
-      textarea:focus,
-      .form-select:focus,
-      .nice-select:focus {
-        border-color: $primary-color !important;
-      }
-      *::-webkit-input-placeholder {
-        color: $white-100;
-      }
-      *:-moz-placeholder {
-        color: $white-100;
-        opacity: 1;
-      }
-      *::-moz-placeholder {
-        color: $white-100;
-        opacity: 1;
-      }
-      *:-ms-input-placeholder {
-        color: $white-100;
-      }
-      *::-ms-input-placeholder {
-        color: $white-100;
-      }
-      *::placeholder {
-        color: $white-100;
+      align-items: center;
+      gap: 20px;
+      .single-input-field {
+        width: 256px;
+        flex-shrink: 0;
       }
     }
-    .checkbox-field-wrapper {
-      .single-checkbox-field,
-      .wpcf7-list-item {
-        .form-check-input {
-          background-color: transparent;
-          border-color: #739bbf !important;
-        }
-        input[type="checkbox"],
-        input[type="radio"] {
-          border-color: #739bbf !important;
-        }
-        input[type="checkbox"]:checked,
-        input[type="radio"]:checked {
-          border-color: $primary-color !important;
-        }
-      }
-    }
-  }
-  &.style-three {
-    margin: 0;
     input,
-    select,
-    textarea {
-      border: 1px solid rgb(223, 226, 233) !important;
-      box-shadow: none;
+    select {
+      border-color: #2C353E !important;
     }
-    input:focus,
-    textarea:focus,
-    .form-select:focus,
-    .nice-select:focus {
-      border-color: $primary-color !important;
-    }
+
   }
+  //&.style-two {
+  //  margin: 0;
+  //  background-color: transparent;
+  //  padding: 82px 88px 82px 6px;
+  //
+  //  @include md {
+  //    padding: 50px;
+  //  }
+  //  @include sm {
+  //    padding: 30px;
+  //  }
+  //  .post-comments-title {
+  //    h2 {
+  //      color: $white;
+  //    }
+  //  }
+  //  label {
+  //    color: $white-100;
+  //  }
+  //
+  //  .nice-select:after {
+  //    border-color: transparent transparent #c7cdda transparent;
+  //  }
+  //  input[type="radio"]::before,
+  //  input[type="checkbox"]::before{
+  //    background-color: transparent;
+  //  }
+  //
+  //  .single-input-field {
+  //    p {
+  //      margin-bottom: 0;
+  //    }
+  //    input,
+  //    select,
+  //    textarea {
+  //      background-color: transparent;
+  //      color: $white-100;
+  //      border-color: #739bbf !important;
+  //      box-shadow: none;
+  //    }
+  //    .nice-select {
+  //      color: $white-100;
+  //      border-color: #739bbf !important;
+  //    }
+  //    input:focus,
+  //    textarea:focus,
+  //    .form-select:focus,
+  //    .nice-select:focus {
+  //      border-color: $primary-color !important;
+  //    }
+  //    *::-webkit-input-placeholder {
+  //      color: $white-100;
+  //    }
+  //    *:-moz-placeholder {
+  //      color: $white-100;
+  //      opacity: 1;
+  //    }
+  //    *::-moz-placeholder {
+  //      color: $white-100;
+  //      opacity: 1;
+  //    }
+  //    *:-ms-input-placeholder {
+  //      color: $white-100;
+  //    }
+  //    *::-ms-input-placeholder {
+  //      color: $white-100;
+  //    }
+  //    *::placeholder {
+  //      color: $white-100;
+  //    }
+  //  }
+  //  .checkbox-field-wrapper {
+  //    .single-checkbox-field,
+  //    .wpcf7-list-item {
+  //      .form-check-input {
+  //        background-color: transparent;
+  //        border-color: #739bbf !important;
+  //      }
+  //      input[type="checkbox"],
+  //      input[type="radio"] {
+  //        border-color: #739bbf !important;
+  //      }
+  //      input[type="checkbox"]:checked,
+  //      input[type="radio"]:checked {
+  //        border-color: $primary-color !important;
+  //      }
+  //    }
+  //  }
+  //}
+  //&.style-three {
+  //  margin: 0;
+  //  input,
+  //  select,
+  //  textarea {
+  //    border: 1px solid rgb(223, 226, 233) !important;
+  //    box-shadow: none;
+  //  }
+  //  input:focus,
+  //  textarea:focus,
+  //  .form-select:focus,
+  //  .nice-select:focus {
+  //    border-color: $primary-color !important;
+  //  }
+  //}
 }

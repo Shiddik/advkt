@@ -11529,6 +11529,14 @@ ul.children {
   margin-top: -90px;
 }
 
+.about-us-area.style-1 {
+  padding-top: 140px;
+  padding-bottom: 150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 .feature-area.style-2 {
   background-color: rgb(53, 54, 61);
   padding: 116px 0;

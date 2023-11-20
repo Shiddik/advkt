@@ -64,6 +64,18 @@
 .request-form-area {
   margin-top: -90px;
 }
+
+// About Us Area
+.about-us-area {
+  &.style-1 {
+    padding-top: 140px;
+    padding-bottom: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+}
+
 //
 //// About Us Area
 //.about-us-area {

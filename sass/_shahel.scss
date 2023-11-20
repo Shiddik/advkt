@@ -197,13 +197,32 @@ $pricing-border-color: #3C3E43;
 
 
 //Carrier Page Style
+.carrier-page {
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
 .carrier-page-area {
-    padding: 100px 0 ;
     position: relative;
-    display: block;
-
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 
     .carrier-info {
+        position: relative;
+        z-index: 2;
+        padding-right: 100px;
+
+        &:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 100%;
+            width: 9999px;
+            z-index: -1;
+            background-color: $white;
+        }
+
         span {
             font-size: 18px;
             line-height: initial;

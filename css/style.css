@@ -8017,10 +8017,31 @@ body.admin-bar .header-menu-area.sticky_menu {
   color: #1E2E3E;
 }
 
+.carrier-page {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
 .carrier-page-area {
-  padding: 100px 0;
   position: relative;
-  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.carrier-page-area .carrier-info {
+  position: relative;
+  z-index: 2;
+  padding-right: 100px;
+}
+.carrier-page-area .carrier-info:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 9999px;
+  z-index: -1;
+  background-color: #ffffff;
 }
 .carrier-page-area .carrier-info span {
   font-size: 18px;
@@ -13951,10 +13972,31 @@ ul.children {
   color: #1E2E3E;
 }
 
+.carrier-page {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
 .carrier-page-area {
-  padding: 100px 0;
   position: relative;
-  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.carrier-page-area .carrier-info {
+  position: relative;
+  z-index: 2;
+  padding-right: 100px;
+}
+.carrier-page-area .carrier-info:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 9999px;
+  z-index: -1;
+  background-color: #ffffff;
 }
 .carrier-page-area .carrier-info span {
   font-size: 18px;

@@ -5484,37 +5484,25 @@ body.admin-bar .header-menu-area.sticky_menu {
   gap: 10px;
 }
 
-.about-image-card {
-  padding-left: 88px;
-}
-@media (max-width: 991px) {
-  .about-image-card {
-    padding-left: 0;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .about-image-card {
-    padding-left: unset;
-    margin-top: unset;
-  }
-}
-@media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .about-image-card {
-    padding-left: 30px;
-    margin-top: unset;
-  }
-}
 .about-image-card .main-img-wrapper .main-img-inner {
   position: relative;
   display: inline-block;
-}
-.about-image-card .main-img-wrapper .main-img-inner > img {
-  border-radius: 12px;
 }
 @media (max-width: 767px) {
   .about-image-card .main-img-wrapper .main-img-inner > img {
     width: 100%;
   }
+}
+.about-image-card .main-img-wrapper .main-img-inner .image-two {
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+  margin-top: -90px;
+  position: relative;
+}
+.about-image-card .main-img-wrapper .main-img-inner .image-shape {
+  position: absolute;
+  left: 30px;
+  bottom: 40px;
 }
 .about-image-card .main-img-wrapper .company-label {
   position: absolute;

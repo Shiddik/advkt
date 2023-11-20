@@ -1,29 +1,26 @@
 .about-image-card {
-  padding-right: 88px;
-
-  @include rmaxwd(991) {
-    padding-right: 0;
-  }
-  @include lg {
-    padding-right: unset;
-    margin-top: unset;
-  }
-  @include xl {
-    padding-right: 30px;
-    margin-top: unset;
-  }
   .main-img-wrapper {
-
     .main-img-inner {
       position: relative;
       display: inline-block;
 
       > img {
-        border-radius: 12px;
 
         @include rmaxwd(767) {
           width: 100%;
         }
+      }
+
+      .image-two {
+        transform: translateX(-50%);
+        margin-top: -90px;
+        position: relative;
+      }
+
+      .image-shape {
+        position: absolute;
+        right: 30px;
+        bottom: 40px;
       }
     }
     .company-label {

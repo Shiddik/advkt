@@ -5338,7 +5338,8 @@ body.admin-bar .header-menu-area.sticky_menu {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 20px;
+  gap: 15px;
+  margin-top: 25px;
 }
 
 .icon-card {
@@ -5397,7 +5398,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 30px;
+  gap: 10px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -5405,7 +5406,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .icon-card .content {
-    gap: 15px;
+    gap: 10px;
   }
 }
 .icon-card .content .title {
@@ -5857,25 +5858,6 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 
 .counter-card {
-  z-index: 1;
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-@media only screen and (min-width: 0px) and (max-width: 576px) {
-  .counter-card {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    gap: 50px;
-  }
-}
-.counter-card .counter-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5893,7 +5875,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   position: relative;
   text-align: center;
 }
-.counter-card .counter-item .counter-title {
+.counter-card .counter-title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5905,7 +5887,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   text-align: right;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .counter-card .counter-item .counter-title {
+  .counter-card .counter-title {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -5913,7 +5895,7 @@ body.admin-bar .header-menu-area.sticky_menu {
     gap: 15px;
   }
 }
-.counter-card .counter-item .number {
+.counter-card .number {
   font-family: "Hepta Slab", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -5933,27 +5915,27 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin: 0;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .counter-card .counter-item .number {
+  .counter-card .number {
     font-size: 48px;
     line-height: 56px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .counter-card .counter-item .number {
+  .counter-card .number {
     font-size: 48px;
     line-height: 56px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .counter-card .counter-item .number {
+  .counter-card .number {
     font-size: 74px;
   }
 }
-.counter-card .counter-item .number sup {
+.counter-card .number sup {
   font-size: 36px;
   margin-top: -17px;
 }
-.counter-card .counter-item .title {
+.counter-card .title {
   margin: 0;
   font-family: "Hepta Slab", sans-serif;
   font-style: normal;
@@ -5963,30 +5945,30 @@ body.admin-bar .header-menu-area.sticky_menu {
   color: #ffffff;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .counter-card .counter-item .title {
+  .counter-card .title {
     font-size: 20px;
     line-height: 30px;
     text-align: center;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .counter-card .counter-item .title {
+  .counter-card .title {
     font-size: 20px;
     line-height: 30px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .counter-card .counter-item .title {
+  .counter-card .title {
     font-size: 24px;
     line-height: 38px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .counter-card .counter-item .title br {
+  .counter-card .title br {
     display: none;
   }
 }
-.counter-card .counter-item .text {
+.counter-card .text {
   margin: 0;
   color: #bbbfc7;
 }
@@ -11479,6 +11461,26 @@ ul.children {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+.cta-area {
+  padding-top: 180px;
+  padding-bottom: 180px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  z-index: 2;
+}
+.cta-area .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  background-color: #1F2732;
+  opacity: 0.9;
 }
 
 .feature-area.style-2 {

@@ -5858,49 +5858,23 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 
 .counter-card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 20px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  position: relative;
-  text-align: center;
-}
-.counter-card .counter-title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 100%;
-  gap: 30px;
+  gap: 25px;
+  background-color: #CDB091;
+  padding: 50px 40px;
   text-align: right;
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .counter-card .counter-title {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    gap: 15px;
-  }
 }
 .counter-card .number {
   font-family: "Hepta Slab", sans-serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 96px;
-  line-height: 72px;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: initial;
   text-align: center;
   color: #ffffff;
   display: -webkit-box;
@@ -5913,36 +5887,28 @@ body.admin-bar .header-menu-area.sticky_menu {
       -ms-flex-pack: center;
           justify-content: center;
   margin: 0;
+  background-color: #1F2732;
+  border-radius: 5px;
+  padding: 25px 20px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .counter-card .number {
     font-size: 48px;
-    line-height: 56px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .counter-card .number {
     font-size: 48px;
-    line-height: 56px;
   }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .counter-card .number {
-    font-size: 74px;
-  }
-}
-.counter-card .number sup {
-  font-size: 36px;
-  margin-top: -17px;
 }
 .counter-card .title {
   margin: 0;
   font-family: "Hepta Slab", sans-serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 30px;
-  line-height: 42px;
-  color: #ffffff;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: initial;
+  color: #1F2732;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .counter-card .title {
@@ -5967,10 +5933,6 @@ body.admin-bar .header-menu-area.sticky_menu {
   .counter-card .title br {
     display: none;
   }
-}
-.counter-card .text {
-  margin: 0;
-  color: #bbbfc7;
 }
 
 .process-step {
@@ -11543,6 +11505,15 @@ ul.children {
   z-index: -1;
   background-color: #1F2732;
   opacity: 0.9;
+}
+.cta-area .counter-area {
+  text-align: left;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+.cta-area .counter-area .counter-card {
+  margin-left: -240px;
 }
 
 .feature-area.style-2 {

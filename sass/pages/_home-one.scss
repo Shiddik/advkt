@@ -97,6 +97,17 @@
     background-color: $black-100;
     opacity: 0.90;
   }
+
+  .counter-area {
+    text-align: right;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+
+    .counter-card {
+      margin-right: -240px;
+    }
+  }
 }
 
 //

@@ -1,63 +1,42 @@
 .counter-card {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
+  display: inline-flex;
   align-items: center;
-  flex-direction: column;
-  position: relative;
-  text-align: center;
-
-  .counter-title {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    gap: 30px;
-    text-align: left;
-
-    @include sm {
-      flex-direction: column;
-      gap: 15px;
-    }
-  }
-
+  gap: 25px;
+  background-color: $primary-color;
+  padding: 50px 40px;
+  text-align: left;
 
   .number {
     font-family: $heading-font;
     font-style: normal;
-    font-weight: 500;
-    font-size: 96px;
-    line-height: 72px;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: initial;
     text-align: center;
     color: $white;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0;
-
+    background-color: $black-100;
+    border-radius: 5px;
+    padding: 25px 20px;
     @include sm {
       font-size: 48px;
-      line-height: 56px;
     }
     @include md {
       font-size: 48px;
-      line-height: 56px;
-    }
-    @include lg {
-      font-size: 74px;
-    }
-    sup {
-      font-size: 36px;
-      margin-top: -17px;
     }
   }
+
   .title {
     margin: 0;
     font-family: $heading-font;
     font-style: normal;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 42px;
-    color: $white;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: initial;
+    color: $black-100;
 
     @include sm {
       font-size: 20px;
@@ -72,14 +51,11 @@
       font-size: 24px;
       line-height: 38px;
     }
+
     br {
       @include sm {
         display: none;
       }
     }
-  }
-  .text {
-    margin: 0;
-    color: $white-100;
   }
 }

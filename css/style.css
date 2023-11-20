@@ -8074,12 +8074,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .carrier-page-area {
   padding: 100px 0;
   position: relative;
-}
-.carrier-page-area .carrier-info::after .info-bg {
-  position: absolute;
-  margin-left: 66px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  display: block;
 }
 .carrier-page-area .carrier-info span {
   font-size: 18px;
@@ -13985,12 +13980,7 @@ ul.children {
 .carrier-page-area {
   padding: 100px 0;
   position: relative;
-}
-.carrier-page-area .carrier-info::after .info-bg {
-  position: absolute;
-  margin-left: 66px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  display: block;
 }
 .carrier-page-area .carrier-info span {
   font-size: 18px;

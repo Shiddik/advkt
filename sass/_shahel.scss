@@ -199,7 +199,9 @@ $pricing-border-color: #3C3E43;
 //Carrier Page Style
 .carrier-page-area {
     padding: 100px 0 ;
-    position: relative;}
+    position: relative;
+    display: block;
+
 
     .carrier-info {
         span {

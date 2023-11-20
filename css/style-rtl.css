@@ -7914,6 +7914,9 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin-top: 20px;
   text-transform: capitalize;
 }
+.team-member-wrapper .single-team-member .team-member-content .team-tab {
+  margin-top: 9.5px;
+}
 .team-member-wrapper .single-team-member .team-member-content .team-tab ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8012,6 +8015,44 @@ body.admin-bar .header-menu-area.sticky_menu {
 .team-member-wrapper .single-team-member .team-member-content .member-social-site i {
   font-size: 20px;
   color: #1E2E3E;
+}
+
+.carrier-page-area {
+  padding: 100px 0;
+  position: relative;
+  display: block;
+}
+.carrier-page-area .carrier-info span {
+  font-size: 18px;
+  line-height: initial;
+  color: #808080;
+  text-transform: capitalize;
+}
+.carrier-page-area .carrier-info .title {
+  font-size: 45px;
+  font-weight: 400;
+  line-height: initial;
+  color: #1E2E3E;
+  text-transform: capitalize;
+}
+.carrier-page-area .carrier-info .desc {
+  margin-top: 20px;
+  color: #1E2E3E;
+  font-size: 18px;
+  line-height: initial;
+}
+.carrier-page-area .carrier-info .submit-btn {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: initial;
+  padding: 10px 25px;
+  background-color: #CDB091;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
 }
 
 .price-card {
@@ -13807,6 +13848,9 @@ ul.children {
   margin-top: 20px;
   text-transform: capitalize;
 }
+.team-member-wrapper .single-team-member .team-member-content .team-tab {
+  margin-top: 9.5px;
+}
 .team-member-wrapper .single-team-member .team-member-content .team-tab ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -13905,4 +13949,42 @@ ul.children {
 .team-member-wrapper .single-team-member .team-member-content .member-social-site i {
   font-size: 20px;
   color: #1E2E3E;
+}
+
+.carrier-page-area {
+  padding: 100px 0;
+  position: relative;
+  display: block;
+}
+.carrier-page-area .carrier-info span {
+  font-size: 18px;
+  line-height: initial;
+  color: #808080;
+  text-transform: capitalize;
+}
+.carrier-page-area .carrier-info .title {
+  font-size: 45px;
+  font-weight: 400;
+  line-height: initial;
+  color: #1E2E3E;
+  text-transform: capitalize;
+}
+.carrier-page-area .carrier-info .desc {
+  margin-top: 20px;
+  color: #1E2E3E;
+  font-size: 18px;
+  line-height: initial;
+}
+.carrier-page-area .carrier-info .submit-btn {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: initial;
+  padding: 10px 25px;
+  background-color: #CDB091;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
 }

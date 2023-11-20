@@ -96,7 +96,7 @@ $pricing-border-color: #3C3E43;
 
 
             .team-tab {
-
+                margin-top: 9.5px;
                 ul {
                     display: flex;
                     margin: 0;
@@ -192,5 +192,48 @@ $pricing-border-color: #3C3E43;
                 }
             }
         }
+    }
+}
+
+
+//Carrier Page Style
+.carrier-page-area {
+    padding: 100px 0 ;
+    position: relative;
+    display: block;
+
+
+    .carrier-info {
+        span {
+            font-size: 18px;
+            line-height: initial;
+            color: #808080;
+            text-transform: capitalize;
+        }
+        .title {
+            font-size: 45px;
+            font-weight: 400;
+            line-height: initial;
+            color: $black;
+            text-transform: capitalize;
+        }
+        .desc {
+            margin-top: 20px;
+            color: $black;
+            font-size: 18px;
+            line-height: initial;
+        }
+        .submit-btn {
+            color: $white;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: initial;
+            padding: 10px 25px;
+            background-color: $primary-color;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            display: inline-flex;
+        }
+
     }
 }

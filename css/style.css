@@ -5331,29 +5331,25 @@ body.admin-bar .header-menu-area.sticky_menu {
   color: rgb(187, 197, 214);
 }
 
+.icon-card-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
 .icon-card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: #ffffff;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  gap: 40px;
-  margin-bottom: 36px;
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .icon-card {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    gap: 30px;
-  }
+  gap: 20px;
+  margin-bottom: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .icon-card:hover .icon img {
   -webkit-transform: rotateY(360deg);
@@ -5362,16 +5358,38 @@ body.admin-bar .header-menu-area.sticky_menu {
   transition: all 0.5s ease-out;
 }
 .icon-card .icon {
-  width: 78px;
-  height: 78px;
+  width: 100px;
+  height: 100px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border: 1px solid #CDB091;
+  border-radius: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #CDB091;
+  font-size: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+.icon-card .icon span {
+  font-family: "Hepta Slab", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #ffffff;
 }
 .icon-card .icon img {
-  width: 100%;
+  width: auto;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
@@ -5392,96 +5410,22 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .icon-card .content .title {
   font-family: "Hepta Slab", sans-serif;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 36px;
-  color: #26262c;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
   margin-bottom: 0;
 }
 .icon-card .content .desc {
   font-family: "Jost", sans-serif;
   font-size: 18px;
-  line-height: 30px;
+  line-height: initial;
   font-weight: 400;
-  color: #666666;
+  color: #ffffff;
   margin-bottom: 0;
 }
 .icon-card .content .desc a {
-  color: #666666;
-}
-
-.icon-card.style-three {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background: transparent;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  gap: 32px;
-  margin-bottom: 50px;
-}
-.icon-card.style-three .icon {
-  width: 72px;
-  height: 72px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-}
-.icon-card.style-three .icon img {
-  width: 100%;
-}
-.icon-card.style-three .content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 30px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .icon-card.style-three {
-    gap: 15px;
-  }
-  .icon-card.style-three .content {
-    gap: 10px;
-  }
-}
-
-.icon-card.style-four {
-  padding: 0;
-  gap: 25px;
-  margin-bottom: 0;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .icon-card.style-four {
-    text-align: center;
-  }
-}
-.icon-card.style-four .icon {
-  width: 90px;
-  height: 90px;
-  background: #CDB091;
-  border-radius: 50px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   color: #ffffff;
-  font-size: 24px;
-}
-.icon-card.style-four .content {
-  gap: 10px;
 }
 
 .about-image-card .main-img-wrapper .main-img-inner {

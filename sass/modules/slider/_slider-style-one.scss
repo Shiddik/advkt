@@ -190,7 +190,8 @@
     // Slider Image
     .slider-image-wrapper {
       position: relative;
-
+      margin-left: -240px;
+      margin-right: -240px;
       // Image
       .slider-image {
         margin-top: 125px;

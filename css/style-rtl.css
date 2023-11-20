@@ -4438,6 +4438,8 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .slider-area .single-slider .slider-image-wrapper {
   position: relative;
+  margin-right: -240px;
+  margin-left: -240px;
 }
 .slider-area .single-slider .slider-image-wrapper .slider-image {
   margin-top: 125px;

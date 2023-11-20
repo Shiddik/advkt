@@ -8040,6 +8040,55 @@ body.admin-bar .header-menu-area.sticky_menu {
   display: inline-flex;
 }
 
+.contact-page {
+  padding: 100px 0;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: top left;
+}
+.contact-page .contact-info-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.contact-page .contact-info-card .title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+.contact-page .contact-info-card ul {
+  list-style: none;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 15px;
+  margin-bottom: 0;
+}
+.contact-page .contact-info-card ul li {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 29px;
+  color: #1E2E3E;
+}
+.contact-page .contact-info-card ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 29px;
+  color: #1E2E3E;
+}
+
 .price-card {
   padding: 68px 51px 82px 51px;
   z-index: 2;
@@ -14002,4 +14051,53 @@ ul.children {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+}
+
+.contact-page {
+  padding: 100px 0;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: top left;
+}
+.contact-page .contact-info-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.contact-page .contact-info-card .title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+.contact-page .contact-info-card ul {
+  list-style: none;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 15px;
+  margin-bottom: 0;
+}
+.contact-page .contact-info-card ul li {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 29px;
+  color: #1E2E3E;
+}
+.contact-page .contact-info-card ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 29px;
+  color: #1E2E3E;
 }

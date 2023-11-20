@@ -256,3 +256,47 @@ $pricing-border-color: #3C3E43;
 
     }
 }
+
+//contact us page style
+.contact-page {
+    padding: 100px 0;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top left;
+
+    .contact-info-card {
+        display: flex;
+        flex-direction: column;
+
+        .title {
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 30px;
+            margin-bottom: 10px;
+            text-transform: capitalize;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-bottom: 0;
+
+            li {
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 29px;
+                color: $black;
+
+                a {
+                    text-decoration: none;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 29px;
+                    color: $black;
+                }
+            }
+        }
+    }
+}

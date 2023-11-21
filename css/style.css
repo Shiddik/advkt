@@ -4473,13 +4473,38 @@ body.admin-bar .header-menu-area.sticky_menu {
   line-height: initial;
   margin-bottom: 0;
 }
+.slider-area .single-slider .slider-content .divider-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  margin-top: 22px;
+  margin-bottom: 40px;
+}
 .slider-area .single-slider .slider-content .divider-wrapper .divider {
   height: 2px;
+  background-color: #ffffff;
+  border-radius: 50px 0 0 50px;
+}
+.slider-area .single-slider .slider-content .divider-wrapper .divider.one {
+  width: 86px;
+}
+.slider-area .single-slider .slider-content .divider-wrapper .divider.two {
+  width: 22px;
+}
+.slider-area .single-slider .slider-content .divider-wrapper .divider.three {
+  width: 14px;
+}
+.slider-area .single-slider .slider-content .divider-wrapper .divider.four {
+  width: 9px;
 }
 .slider-area .single-slider .slider-image-wrapper {
   position: relative;
-  margin-left: -240px;
-  margin-right: -240px;
+  margin-left: -190px;
+  margin-right: -225px;
 }
 .slider-area .single-slider .slider-image-wrapper .slider-image {
   margin-top: 125px;
@@ -4504,6 +4529,8 @@ body.admin-bar .header-menu-area.sticky_menu {
 .company-award .title {
   color: #ffffff;
   font-size: 14px;
+  line-height: initial;
+  margin-bottom: 20px;
 }
 .company-award .award-wrapper {
   display: -webkit-box;
@@ -10802,7 +10829,7 @@ ul.children {
   color: #ffffff;
 }
 .comment-respond.style-2 .comment-respond-wrapper {
-  margin-left: 240px;
+  margin-left: 335px;
   padding: 53px 0 33px 70px;
   display: -webkit-box;
   display: -ms-flexbox;

@@ -117,7 +117,7 @@
   .single-slider {
     position: relative;
     z-index: 2;
-    padding-top: 220px;
+    padding-top: 50px;
 
 
     .slider-title-wrapper {
@@ -165,24 +165,31 @@
       }
     }
 
+    // Slider Feature Image
+    .slider-feature-image {
+      margin-left: -220px;
+    }
+
     // Slider Content
     .slider-content {
+      margin-right: -120px;
+      transform: translateX(90px);
+      margin-top: 90px;
+
       .slider-short-desc {
-        font-size: 24px;
+        font-size: 18px;
         color: $white;
-        line-height: 36px;
+        font-weight: 400;
+        line-height: initial;
         margin-bottom: 0;
-        @include lg {
-          font-size: 18px;
-          line-height: 32px;
-        }
-        @include md {
-          font-size: 18px;
-          line-height: 32px;
-        }
-        @include sm {
-          font-size: 18px;
-          line-height: 32px;
+      }
+
+      .divider-wrapper {
+        dis
+        .divider {
+          height: 2px;
+          background-color: $whtie;
+          border-radius: 50px 0 0 50px;
         }
       }
     }
@@ -206,4 +213,22 @@
       }
     }
   }
+}
+
+// Slider Award
+.company-award {
+  display: flex;
+  flex-direction: column;
+
+  .title {
+    color: $white;
+    font-size: 14px;
+  }
+
+  .award-wrapper {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+  }
+
 }

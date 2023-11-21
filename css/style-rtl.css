@@ -3669,10 +3669,10 @@ body.admin-bar .header-menu-area.sticky_menu {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  min-width: 220px;
+  min-width: 285px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  margin-right: -200px;
+  margin-right: -192px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header-menu-area .logo {
@@ -3840,7 +3840,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   display: -ms-flexbox;
   display: flex;
   gap: 45px;
-  margin-left: -100px;
+  margin-left: -174px;
   margin-right: auto;
 }
 @media (max-width: 1199px) {

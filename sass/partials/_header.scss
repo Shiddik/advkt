@@ -305,9 +305,9 @@
     height: 123px;
     display: flex;
     align-items: center;
-    min-width: 220px;
+    min-width: 285px;
     flex-shrink: 0;
-    margin-left: -200px;
+    margin-left: -192px;
 
     @include md {
       height: 100px;
@@ -538,7 +538,7 @@
 .search-btn-with-cta-btn {
   display: flex;
   gap: 45px;
-  margin-right: -100px;
+  margin-right: -174px;
   margin-left: auto;
 
   @include rmaxwd(1199) {

@@ -11675,6 +11675,24 @@ ul.children {
   margin-right: -240px;
 }
 
+.feature-area.style-1 {
+  padding-top: 153px;
+  padding-bottom: 140px;
+  position: relative;
+}
+.feature-area.style-1 .feature-image-bg-one {
+  position: absolute;
+  top: -150px;
+  left: 0;
+  opacity: 0.05;
+}
+.feature-area.style-1 .feature-image-bg-two {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  opacity: 0.04;
+}
+
 .feature-area.style-2 {
   background-color: rgb(53, 54, 61);
   padding: 116px 0;

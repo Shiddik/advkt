@@ -4961,20 +4961,37 @@ body.admin-bar .header-menu-area.sticky_menu {
     margin-bottom: 24px;
   }
 }
-.info-card:hover .image-wrapper .overlay {
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
-  opacity: 0.72;
-}
-.info-card:hover .image-wrapper img {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+.info-card:hover .thumbnail-wrapper .thumbnail-inner {
+  height: 167px;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
-.info-card:hover .icon img {
-  -webkit-transform: rotateY(-360deg);
-          transform: rotateY(-360deg);
+.info-card:hover .thumbnail-wrapper .thumbnail-inner img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.info-card:hover .title-wrapper {
+  gap: 20px;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.info-card:hover .title-wrapper .icon {
+  height: 0;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.info-card:hover .title-wrapper .icon img {
+  -webkit-transform: rotateY(-360deg) scale(0);
+          transform: rotateY(-360deg) scale(0);
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.info-card:hover .btn-wrapper a {
+  margin-top: 35px;
+  margin-bottom: 5px;
+  font-size: 14px;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
@@ -4989,46 +5006,6 @@ body.admin-bar .header-menu-area.sticky_menu {
   gap: 30px;
   height: 100%;
 }
-.info-card .divider:before {
-  content: "";
-  position: absolute;
-  background-color: rgb(94, 111, 146);
-  opacity: 0.2;
-  left: 0;
-  height: 80%;
-  width: 1px;
-  top: 45px;
-}
-.info-card .image-wrapper {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  overflow: hidden;
-  top: 0;
-  right: 0;
-  -webkit-transition: all 0.6s ease;
-  transition: all 0.6s ease;
-}
-.info-card .image-wrapper img {
-  width: 100%;
-  height: 100%;
-  -webkit-transform: scale(1);
-          transform: scale(1);
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
-}
-.info-card .image-wrapper .overlay {
-  width: 100%;
-  height: 100%;
-  background: #CDB091;
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
-  position: absolute;
-  top: 0;
-  right: 0;
-  opacity: 0.6;
-}
 .info-card .icon {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5040,6 +5017,8 @@ body.admin-bar .header-menu-area.sticky_menu {
           justify-content: start;
   width: 64px;
   height: 65px;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
 }
 .info-card .icon img {
   -webkit-transition: all 0.5s ease-out;
@@ -5056,19 +5035,37 @@ body.admin-bar .header-menu-area.sticky_menu {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.info-card .content-wrapper .thumbnail-wrapper {
+.info-card .thumbnail-wrapper {
   padding-top: 24px;
   border-top: 1px solid rgba(255, 255, 255, 0.15);
 }
-.info-card .content-wrapper .thumbnail-wrapper .thumbnail-inner {
+.info-card .thumbnail-wrapper .thumbnail-inner {
   border-radius: 10px;
   overflow: hidden;
+  height: 120px;
+  position: relative;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.info-card .thumbnail-wrapper .thumbnail-inner img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  aspect-ratio: 1/1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
 }
 .info-card .title-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 32px;
+  gap: 25px;
   padding-bottom: 20px;
   border-bottom: none;
   -webkit-transition: all 0.6s ease;
@@ -5127,85 +5124,25 @@ body.admin-bar .header-menu-area.sticky_menu {
   color: #ffffff;
   font-family: "Jost", sans-serif;
 }
-.info-card .content .read-more {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
-}
-.info-card .content .read-more a {
+.info-card .btn-wrapper a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 18px;
-  font-size: 16px;
-  line-height: 36px;
-  font-weight: 500;
-  text-transform: capitalize;
-  margin-bottom: 0;
-  color: #26262c;
-}
-.info-card .content .read-more a .icon {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  gap: 3.5px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #CDB091;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  width: 32px;
-  height: 32px;
-  border-radius: 50px;
-  color: #CDB091;
-  z-index: 2;
-}
-.info-card .content .read-more a .icon:before {
-  position: absolute;
-  z-index: -1;
-  content: "";
-  width: 100%;
-  height: 100%;
-  top: 0;
-  right: 0;
-  border: 2px solid transparent;
-  border-radius: 50px;
-  background-image: linear-gradient(white, white), linear-gradient(-65deg, #e30008 0%, #faae00 100%);
-  background-origin: border-box;
-  background-clip: content-box, border-box;
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 0;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
-.info-card .content .read-more a .icon i {
-  color: #CDB091;
-  font-size: 16px;
-}
-.info-card .content .read-more a:hover {
-  margin-right: 5px;
-  color: #CDB091;
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
-}
-.info-card .content .read-more a:hover .icon:before {
-  -webkit-transform: scale(0);
-          transform: scale(0);
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
-}
-.info-card .content .read-more a:hover .icon i {
-  color: #ffffff;
+.info-card .btn-wrapper a i {
+  line-height: 0;
 }
 
 .info-card.style-two {

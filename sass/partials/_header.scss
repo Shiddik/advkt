@@ -2,7 +2,7 @@
   &.style-1 {
     .search-btn-with-btn {
       .theme-btn {
-        padding: 11px 40px;
+        padding: 11px 24px;
       }
     }
     .header-menu-area {
@@ -158,12 +158,41 @@
     //  }
     //}
     .search-btn-wrapper {
+      display: flex;
+      height: 100%;
+
       .search-btn {
         color: $white;
+        display: flex;
+        height: 100%;
+        align-items: center;
 
        &:hover {
          color: $primary-color;
        }
+
+        .search-bar {
+          width: 42px;
+          height: 10px;
+          display: flex;
+          align-items: flex-end;
+          flex-shrink: 0;
+          justify-content: space-between;
+          flex-direction: column;
+
+          &:before {
+            width: 85% !important;
+          }
+          &:before,
+          &:after {
+            background-color: $white;
+            height: 2px;
+            width: 100%;
+            border-radius: 50px;
+            content: "";
+            left: 0;
+          }
+        }
       }
     }
   }
@@ -278,7 +307,7 @@
     align-items: center;
     min-width: 220px;
     flex-shrink: 0;
-    margin-right: 20px;
+    margin-left: -200px;
 
     @include md {
       height: 100px;
@@ -508,7 +537,9 @@
 // Search With CTA Button
 .search-btn-with-cta-btn {
   display: flex;
-  gap: 24px;
+  gap: 45px;
+  margin-right: -100px;
+  margin-left: auto;
 
   @include rmaxwd(1199) {
     display: none;
@@ -521,7 +552,7 @@
 .search-btn-with-btn {
   display: flex;
   align-items: center;
-  gap: 24px;
+  gap: 45px;
 
   .search-btn {
     font-size: 24px;
@@ -575,8 +606,8 @@
     }
     .text {
       font-family: $body-font;
-      font-size: 16px;
-      font-weight: 500;
+      font-size: 18px;
+      font-weight: 600;
       color: $white;
       line-height: 22px;
 

@@ -6622,10 +6622,13 @@ body.admin-bar .header-menu-area.sticky_menu {
   padding: 0 30px;
 }
 
-.client-logo-wrapper {
-  padding: 10px 0;
+.brand-slider-area.style-1 {
+  padding: 45px 0;
 }
-.client-logo-wrapper .client-logo {
+.brand-slider-area.style-1 .slick-track {
+  padding: 50px 0;
+}
+.brand-slider-area.style-1 .client-logo-wrapper .client-logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6640,18 +6643,18 @@ body.admin-bar .header-menu-area.sticky_menu {
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
-.client-logo-wrapper .client-logo img {
+.brand-slider-area.style-1 .client-logo-wrapper .client-logo img {
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
   opacity: 0.45;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
-.client-logo-wrapper .client-logo:hover {
+.brand-slider-area.style-1 .client-logo-wrapper .client-logo:hover {
   -webkit-transform: scale(1.03);
           transform: scale(1.03);
 }
-.client-logo-wrapper .client-logo:hover img {
+.brand-slider-area.style-1 .client-logo-wrapper .client-logo:hover img {
   -webkit-filter: none;
           filter: none;
   opacity: 1;
@@ -8179,6 +8182,13 @@ body.admin-bar .header-menu-area.sticky_menu {
   color: #1E2E3E;
 }
 
+.practice-area {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 229px 0;
+}
+
 .price-card {
   padding: 68px 51px 82px 51px;
   z-index: 2;
@@ -8574,6 +8584,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  background-color: #FAF8F7 !important;
 }
 @media (max-width: 767px) {
   .page-breadcrumb-area {
@@ -14255,4 +14266,11 @@ ul.children {
   font-weight: 600;
   line-height: 29px;
   color: #1E2E3E;
+}
+
+.practice-area {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 229px 0;
 }

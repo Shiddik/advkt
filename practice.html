@@ -23,10 +23,10 @@
     <link rel="apple-touch-icon" sizes="152x152" href="images/logo/apple-touch-icon-152x152.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="images/logo/apple-touch-icon-180x180.png" />
 
-   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@400;500;600;700&family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet">
- 
+
 
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/fontawesome.min.css" />
@@ -45,23 +45,26 @@
 
 <body>
     <!-- Preloader Start !-->
-   <div id="preloader">
-       <div id="preloader-status" style="background-image: url('images/icon/preeloader.gif')"></div>
-   </div>
+    <div id="preloader">
+        <div id="preloader-status" style="background-image: url('images/icon/preeloader.gif')"></div>
+    </div>
     <!-- Preloader End !-->
     <!-- Header Start !-->
     <header class="header-area style-1">
         <!-- Header Nav Menu Start -->
         <div class="header-menu-area sticky-header">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="cal-12">
-                        <div class="d-flex align-items-center">
+                        <div class="d-flex align-items-center justify-content-between">
                             <div class="logo">
                                 <a href="index.html" class="standard-logo">
                                     <img src="images/logo/logo.png" alt="logo" />
                                 </a>
                                 <a href="index.html" class="sticky-logo">
+                                    <img src="images/logo/sticky-logo.png" alt="logo" />
+                                </a>
+                                <a href="index.html" class="retina-logo">
                                     <img src="images/logo/logo.png" alt="logo" />
                                 </a>
                             </div>
@@ -99,25 +102,31 @@
                                 </nav>
                             </div>
                             <div class="search-btn-with-cta-btn">
-                                <!-- Call To Button Start !-->
-                                <a href="tel:+123-456-7890" class="ct-header-btn">
-                                    <div class="content-wrapper">
-                                        <span class="text">(012) 3456 789</span>
-                                    </div>
-                                </a>
-                                <!-- Call To Button Start !-->
                                 <!-- Header Button Start !-->
                                 <div class="search-btn-with-btn">
+                                    <div class="search-btn-wrapper">
+                                        <a href="#" class="search-btn">
+                                            <i class="fa-light fa-magnifying-glass"></i>
+                                        </a>
+                                    </div>
                                     <div class="btn-wrapper">
                                         <a href="#" class="theme-btn">Free Consultation</a>
                                     </div>
-                                    <div class="search-btn-wrapper">
-                                        <a href="#" class="search-btn">
-                                           <span class="search-bar"></span>
-                                        </a>
-                                    </div>
                                 </div>
                                 <!-- Header Button Start !-->
+                                <!-- Call To Button Start !-->
+                                <a href="tel:+123-456-7890" class="ct-header-btn">
+                                    <div class="icon-wrapper">
+                                        <div class="icon">
+                                            <img src="images/icon/phone-support.png" alt="phone" />
+                                        </div>
+                                    </div>
+                                    <div class="content-wrapper">
+                                        <span class="title">Call Us</span>
+                                        <span class="text">+123 456 7890</span>
+                                    </div>
+                                </a>
+                                <!-- Call To Button Start !-->
                             </div>
                             <!-- Mobile Menu Toggle Button Start !-->
                             <div class="mobile-menu-bar d-lg-none text-end">
@@ -169,49 +178,216 @@
         </div>
     </div>
     <!-- Menu Sidebar Section Start -->
-    <div class="body-overlay"></div>
-   
-    <!-- Brand Marquee Area Start !-->
-    <div class="brand-marquee-area style-1 background-gold">
-        <div class="brand-marquee-wrapper first-brand-marquee">
-            <div class="single-brand-marquee">
-                <span class="brand-marquee-title">Efficiency</span>
-                <span class="brand-marquee-star">*</span>
-            </div>
-            <div class="single-brand-marquee">
-                <span class="brand-marquee-title">Expertise</span>
-                <span class="brand-marquee-star">*</span>
-            </div>
-            <div class="single-brand-marquee">
-                <span class="brand-marquee-title">Standards</span>
-                <span class="brand-marquee-star">*</span>
-            </div>
-            <div class="single-brand-marquee">
-                <span class="brand-marquee-title">Efficiency</span>
-                <span class="brand-marquee-star">*</span>
-            </div>
-            <div class="single-brand-marquee">
-                <span class="brand-marquee-title">Expertise</span>
-                <span class="brand-marquee-star">*</span>
-            </div>
-            <div class="single-brand-marquee">
-                <span class="brand-marquee-title">Standards</span>
-                <span class="brand-marquee-star">*</span>
-            </div>
-            <div class="single-brand-marquee">
-                <span class="brand-marquee-title">Efficiency</span>
-                <span class="brand-marquee-star">*</span>
-            </div>
-            <div class="single-brand-marquee">
-                <span class="brand-marquee-title">Expertise</span>
-                <span class="brand-marquee-star">*</span>
+    
+    <div class="practice-area" style="background: url(images/section-bg/practice-bg.jpg);">
+        <div class="practice-heading">
+            <h1 class="title">Practice Areas</h1>
+        </div>
+    </div>
+
+    <!-- Feature Area Start-->
+    <div class="feature-area style-1">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-md-6 col-lg-3">
+                    <!-- single info-card start -->
+                    <div class="info-card ">
+                        <div class="info-card-inner">
+                            <div class="content-wrapper">
+                                <div class="title-wrapper">
+                                    <div class="icon">
+                                        <img src="images/icon/feature-one/feature-1.png" alt="icon" />
+                                    </div>
+                                    <h2 class="title">Business Taxation</h2>
+                                </div>
+                                <div class="content">
+                                    <p class="desc">Be aware of new developments, as laws and rules often change based on the situation. </p>
+                                </div>
+                                <div class="thumbnail-wrapper">
+                                    <div class="thumbnail-inner">
+                                        <img src="images/feature-img/img-1.jpg" alt="image" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- single info-card End-->
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <!-- single info-card start -->
+                    <div class="info-card ">
+                        <div class="info-card-inner">
+                            <div class="content-wrapper">
+                                <div class="title-wrapper">
+                                    <div class="icon">
+                                        <img src="images/icon/feature-one/feature-2.png" alt="icon" />
+                                    </div>
+                                    <h2 class="title">Car Accidents</h2>
+                                </div>
+                                <div class="content">
+                                    <p class="desc">Be aware of new developments, as laws and rules often change based on the situation. </p>
+                                </div>
+                                <div class="thumbnail-wrapper">
+                                    <div class="thumbnail-inner">
+                                        <img src="images/feature-img/img-2.jpg" alt="image" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- single info-card End-->
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <!-- single info-card start -->
+                    <div class="info-card ">
+                        <div class="info-card-inner">
+                            <div class="content-wrapper">
+                                <div class="title-wrapper">
+                                    <div class="icon">
+                                        <img src="images/icon/feature-one/feature-2.png" alt="icon" />
+                                    </div>
+                                    <h2 class="title">Intellectual</h2>
+                                </div>
+                                <div class="content">
+                                    <p class="desc">Be aware of new developments, as laws and rules often change based on the situation. </p>
+                                </div>
+                                <div class="thumbnail-wrapper">
+                                    <div class="thumbnail-inner">
+                                        <img src="images/feature-img/img-3.jpg" alt="image" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- single info-card End-->
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <!-- single info-card start -->
+                    <div class="info-card ">
+                        <div class="info-card-inner">
+                            <div class="content-wrapper">
+                                <div class="title-wrapper">
+                                    <div class="icon">
+                                        <img src="images/icon/feature-one/feature-3.png" alt="icon" />
+                                    </div>
+                                    <h2 class="title">Dispute Resolution</h2>
+                                </div>
+                                <div class="content">
+                                    <p class="desc">Be aware of new developments, as laws and rules often change based on the situation.</p>
+                                </div>
+                                <div class="thumbnail-wrapper">
+                                    <div class="thumbnail-inner">
+                                        <img src="images/feature-img/img-4.jpg" alt="image" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- single info-card End-->
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <!-- single info-card start -->
+                    <div class="info-card ">
+                        <div class="info-card-inner">
+                            <div class="content-wrapper">
+                                <div class="title-wrapper">
+                                    <div class="icon">
+                                        <img src="images/icon/feature-one/feature-1.png" alt="icon" />
+                                    </div>
+                                    <h2 class="title">Business Taxation</h2>
+                                </div>
+                                <div class="content">
+                                    <p class="desc">Be aware of new developments, as laws and rules often change based on the situation. </p>
+                                </div>
+                                <div class="thumbnail-wrapper">
+                                    <div class="thumbnail-inner">
+                                        <img src="images/feature-img/img-5.jpg" alt="image" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- single info-card End-->
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <!-- single info-card start -->
+                    <div class="info-card ">
+                        <div class="info-card-inner">
+                            <div class="content-wrapper">
+                                <div class="title-wrapper">
+                                    <div class="icon">
+                                        <img src="images/icon/feature-one/feature-2.png" alt="icon" />
+                                    </div>
+                                    <h2 class="title">Car Accidents</h2>
+                                </div>
+                                <div class="content">
+                                    <p class="desc">Be aware of new developments, as laws and rules often change based on the situation. </p>
+                                </div>
+                                <div class="thumbnail-wrapper">
+                                    <div class="thumbnail-inner">
+                                        <img src="images/feature-img/img-6.jpg" alt="image" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- single info-card End-->
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <!-- single info-card start -->
+                    <div class="info-card ">
+                        <div class="info-card-inner">
+                            <div class="content-wrapper">
+                                <div class="title-wrapper">
+                                    <div class="icon">
+                                        <img src="images/icon/feature-one/feature-2.png" alt="icon" />
+                                    </div>
+                                    <h2 class="title">Intellectual</h2>
+                                </div>
+                                <div class="content">
+                                    <p class="desc">Be aware of new developments, as laws and rules often change based on the situation. </p>
+                                </div>
+                                <div class="thumbnail-wrapper">
+                                    <div class="thumbnail-inner">
+                                        <img src="images/feature-img/img-7.jpg" alt="image" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- single info-card End-->
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <!-- single info-card start -->
+                    <div class="info-card ">
+                        <div class="info-card-inner">
+                            <div class="content-wrapper">
+                                <div class="title-wrapper">
+                                    <div class="icon">
+                                        <img src="images/icon/feature-one/feature-3.png" alt="icon" />
+                                    </div>
+                                    <h2 class="title">Dispute Resolution</h2>
+                                </div>
+                                <div class="content">
+                                    <p class="desc">Be aware of new developments, as laws and rules often change based on the situation.</p>
+                                </div>
+                                <div class="thumbnail-wrapper">
+                                    <div class="thumbnail-inner">
+                                        <img src="images/feature-img/img-8.jpg" alt="image" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- single info-card End-->
+                </div>
             </div>
         </div>
     </div>
-    <!-- Brand Marquee Area End !-->
+    <!-- Feature Area End !-->
 
-    <!-- Brand Slider Area Start -->
-    <div class="brand-slider-area style-1 background-black">
+     <!-- Brand Slider Area Start -->
+     <div class="brand-slider-area style-1 background-black">
         <div class="container-fluid">
             <div class="client-logo-slider-wrapper">
                 <div class="slick-item">
@@ -288,130 +464,11 @@
         </div>
     </div>
     <!-- Brand Slider Area End -->
+    
+    
 
-    <!-- Latest Posts Area Start -->
-    <div class="latest-posts-area style-1 background-black-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="section-title">
-                        <div class="sec-content">
-                            <h2 class="title text-white">Our Latest News</h2>
-                            <div class="sec-desc text-white">
-                                <p>Law firms are typically structured with partners, associates, and support staff. <br/> Partners are senior attorneys. </p>
-                            </div>
-                        </div>
-                        <div class="sec-desc">
-                            <a href="#" class="theme-btn">All blog posts<i class="fa-light fa-arrow-right-long"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <!-- Single Latest Post Start -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="post-card style-1">
-                        <div class="image">
-                            <img src="images/latest-posts/lp1.jpg" alt="post-1">
-                            <a href="#" class="btn-link">
-                                <i class="fa-regular fa-arrow-right"></i>
-                            </a>
-                        </div>
-                        <div class="content">
-                            <div class="post-meta">
-                                <span class="single-post-meta">
-                                    <span class="icon">
-                                        <i class="fa-regular fa-calendar-days"></i>
-                                    </span>
-                                    <span>26 July 2023</span>
-                                </span>
-                                <span class="single-post-meta">
-                                    <a href="#">
-                                        <span class="icon">
-                                          <i class="fa-regular fa-user"></i>
-                                        </span>
-                                        <span>Admin</span>
-                                    </a>
-                                </span>
-                            </div>
-                            <h3 class="title">
-                                <a href="blog-details.html">4 Cybersecurity Takeaways from China’s Largest Data Breach</a>
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Latest Post End -->
-                <!-- Single Latest Post Start -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="post-card style-1">
-                        <div class="image">
-                            <img src="images/latest-posts/lp2.jpg" alt="post-1">
-                            <a href="#" class="btn-link">
-                                <i class="fa-regular fa-arrow-right"></i>
-                            </a>
-                        </div>
-                        <div class="content">
-                            <div class="post-meta">
-                                <span class="single-post-meta">
-                                    <span class="icon">
-                                        <i class="fa-regular fa-calendar-days"></i>
-                                    </span>
-                                    <span>26 July 2023</span>
-                                </span>
-                                <span class="single-post-meta">
-                                    <a href="#">
-                                        <span class="icon">
-                                          <i class="fa-regular fa-user"></i>
-                                        </span>
-                                        <span>Admin</span>
-                                    </a>
-                                </span>
-                            </div>
-                            <h3 class="title">
-                                <a href="blog-details.html">4 Cybersecurity Takeaways from China’s Largest Data Breach</a>
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Latest Post End -->
-                <!-- Single Latest Post Start -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="post-card style-1">
-                        <div class="image">
-                            <img src="images/latest-posts/lp3.jpg" alt="post-1">
-                            <a href="#" class="btn-link">
-                                <i class="fa-regular fa-arrow-right"></i>
-                            </a>
-                        </div>
-                        <div class="content">
-                            <div class="post-meta">
-                                <span class="single-post-meta">
-                                    <span class="icon">
-                                        <i class="fa-regular fa-calendar-days"></i>
-                                    </span>
-                                    <span>26 July 2023</span>
-                                </span>
-                                <span class="single-post-meta">
-                                    <a href="#">
-                                        <span class="icon">
-                                          <i class="fa-regular fa-user"></i>
-                                        </span>
-                                        <span>Admin</span>
-                                    </a>
-                                </span>
-                            </div>
-                            <h3 class="title">
-                                <a href="blog-details.html">4 Cybersecurity Takeaways from China’s Largest Data Breach</a>
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Latest Post End -->
-            </div>
-        </div>
-    </div>
-    <!-- Latest Posts Area End -->
 
+   
     <!--- Start Footer !-->
     <footer class="footer style-1">
         <div class="footer-top-area">
@@ -419,9 +476,9 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="footer-top-wrapper">
-                          <div class="title-wrapper">
-                              <h3 class="title">Hire one of our professional legal.</h3>
-                          </div>
+                        <div class="title-wrapper">
+                            <h3 class="title">Hire one of our professional legal.</h3>
+                        </div>
                             <a href="index.html" class="logo-wrapper">
                                 <img src="images/logo/footer-logo.png" alt="logo">
                             </a>

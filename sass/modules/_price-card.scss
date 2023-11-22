@@ -6,28 +6,36 @@
     position: relative;
     border-radius: 10px;
     border: 1px solid $pricing-border-color;
+    top: 0;
+    @include transition;
 
-    .price-bg-frame {
-        position: absolute;
-        top: 14px;
-        right: 15px;
-        flex-shrink: 0;
-        z-index: 1;
-    }
-
-        .trend-batch {
+        &:hover {
+        top: -14px;
+        @include transition;
+        background-color: #1C2126;
+        border-color: #3C3E43;
+        }
+        .price-bg-frame {
             position: absolute;
-            top: 0;
+            top: 14px;
+            right: 15px;
+            flex-shrink: 0;
+            z-index: 1;
+        }
+
+        .trend-badge {
+            position: absolute;
+            top: -1px;
             right: 30px;
             z-index: 2;
 
             .trend-down {
                 width: 0;
                 height: 0;
-                border-left: 15px solid;
-                border-right: 15px solid;
+                border-left: 15px solid $primary-color;
+                border-right: 15px solid $primary-color;
                 border-bottom: 15px solid transparent;
-                border-top: 35px solid;
+                border-top: 35px solid $primary-color;
             }
         }
     
@@ -46,14 +54,14 @@
     //     margin-bottom: 24px;
     //     padding: 40px;
     // }
-    &.active {
-        .price-label {
-            background-color: $primary-color;
-            color: $white;
-            border-color: $primary-color;
-        }
-    }
-    .price-label {
+    //&.active {
+    //    .price-btn {
+    //        background-color: $primary-color;
+    //        color: $white;
+    //        border-color: $primary-color;
+    //    }
+    //}
+    .price-btn {
         display: inline-block;
         font-size: 18px;
         font-weight: 400;
@@ -63,7 +71,11 @@
 
         i {
             margin-left: 20px;
-            font-size: 20px;
+        }
+
+        &:hover {
+            color: $primary-color;
+
         }
     }
 
@@ -146,6 +158,8 @@
                 color: $primary-color;
                 text-align: start;
                 align-self: flex-end;
+                position: relative;
+                top:-12px;
             }
         }
         .price-desc {
@@ -160,19 +174,17 @@
     }
     .list-wrapper {
         display: flex;
-        // align-items: center;
-        justify-content: center;
     }
     .list {
         margin-top: 0;
-        padding-top: 30px;
+        padding-top: 20px;
         ul {
             padding-left: 0;
             margin: 0;
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
-            gap: 25px;
+            gap: 20px;
             width: 100%;
             li {
                 list-style: none;

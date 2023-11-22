@@ -11,8 +11,7 @@
 
       &:before {
         color: $black;
-        font-size: 30px;
-        border-radius: 50px;
+        font-size: 20px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -25,9 +24,8 @@
       }
       &.collapsed {
         &:before {
-          border-radius: 50px;
           color: $black;
-          font-size: 30px;
+          font-size: 20px;
           display: flex;
           align-items: center;
           justify-content: center;

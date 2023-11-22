@@ -3,9 +3,16 @@
   align-items: center;
   gap: 25px;
   background-color: $primary-color;
-  padding: 50px 40px;
+  padding: 50px 47px;
   text-align: left;
+  position: relative;
 
+  .counter-shape {
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0.2;
+  }
   .number {
     font-family: $heading-font;
     font-style: normal;
@@ -20,7 +27,7 @@
     margin: 0;
     background-color: $black-100;
     border-radius: 5px;
-    padding: 25px 20px;
+    padding: 25px 29px;
     @include sm {
       font-size: 48px;
     }

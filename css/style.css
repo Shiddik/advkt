@@ -5895,8 +5895,15 @@ body.admin-bar .header-menu-area.sticky_menu {
           align-items: center;
   gap: 25px;
   background-color: #CDB091;
-  padding: 50px 40px;
+  padding: 50px 47px;
   text-align: left;
+  position: relative;
+}
+.counter-card .counter-shape {
+  position: absolute;
+  right: 0;
+  top: 0;
+  opacity: 0.2;
 }
 .counter-card .number {
   font-family: "Hepta Slab", sans-serif;
@@ -5918,7 +5925,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin: 0;
   background-color: #1F2732;
   border-radius: 5px;
-  padding: 25px 20px;
+  padding: 25px 29px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .counter-card .number {

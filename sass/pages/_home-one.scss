@@ -2,7 +2,7 @@
 .latest-posts-area {
   &.style-1 {
     padding-top: 120px;
-    padding-bottom: 120px;
+    padding-bottom: 130px;
 
     .section-title {
       margin-bottom: 190px;
@@ -110,6 +110,27 @@
   }
 }
 
+// Feature Area
+.feature-area {
+  &.style-1 {
+    padding-top: 153px;
+    padding-bottom: 140px;
+    position: relative;
+
+    .feature-image-bg-one {
+      position: absolute;
+      top: -150px;
+      left: 0;
+      opacity: 0.05;
+    }
+    .feature-image-bg-two {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      opacity: 0.04;
+    }
+  }
+}
 //
 //// About Us Area
 //.about-us-area {

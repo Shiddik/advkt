@@ -43,7 +43,12 @@
 // Portfolio Area
 .portfolio-area {
   &.style-2 {
-    padding: 120px 0;
+    padding: 140px 0;
+
+    .section-title {
+      gap: 25px;
+      margin-bottom: 60px;
+    }
 
     @include sm {
       padding: 80px 0;

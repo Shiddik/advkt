@@ -185,11 +185,29 @@
       }
 
       .divider-wrapper {
-        dis
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 22px;
+        margin-bottom: 40px;
+
         .divider {
           height: 2px;
           background-color: $white;
           border-radius: 50px 0 0 50px;
+
+          &.one {
+            width: 86px;
+          }
+          &.two {
+            width: 22px;
+          }
+          &.three {
+            width: 14px;
+          }
+          &.four {
+            width: 9px;
+          }
         }
       }
     }
@@ -197,8 +215,9 @@
     // Slider Image
     .slider-image-wrapper {
       position: relative;
-      margin-left: -240px;
-      margin-right: -240px;
+      margin-left: -190px;
+      margin-right: -225px;
+
       // Image
       .slider-image {
         margin-top: 125px;
@@ -223,6 +242,8 @@
   .title {
     color: $white;
     font-size: 14px;
+    line-height: initial;
+    margin-bottom: 20px;
   }
 
   .award-wrapper {

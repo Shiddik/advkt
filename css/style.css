@@ -4473,15 +4473,38 @@ body.admin-bar .header-menu-area.sticky_menu {
   line-height: initial;
   margin-bottom: 0;
 }
-.slider-area .single-slider .slider-content .divider-wrapper dis .divider {
+.slider-area .single-slider .slider-content .divider-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  margin-top: 22px;
+  margin-bottom: 40px;
+}
+.slider-area .single-slider .slider-content .divider-wrapper .divider {
   height: 2px;
   background-color: #ffffff;
   border-radius: 50px 0 0 50px;
 }
+.slider-area .single-slider .slider-content .divider-wrapper .divider.one {
+  width: 86px;
+}
+.slider-area .single-slider .slider-content .divider-wrapper .divider.two {
+  width: 22px;
+}
+.slider-area .single-slider .slider-content .divider-wrapper .divider.three {
+  width: 14px;
+}
+.slider-area .single-slider .slider-content .divider-wrapper .divider.four {
+  width: 9px;
+}
 .slider-area .single-slider .slider-image-wrapper {
   position: relative;
-  margin-left: -240px;
-  margin-right: -240px;
+  margin-left: -190px;
+  margin-right: -225px;
 }
 .slider-area .single-slider .slider-image-wrapper .slider-image {
   margin-top: 125px;
@@ -4506,6 +4529,8 @@ body.admin-bar .header-menu-area.sticky_menu {
 .company-award .title {
   color: #ffffff;
   font-size: 14px;
+  line-height: initial;
+  margin-bottom: 20px;
 }
 .company-award .award-wrapper {
   display: -webkit-box;
@@ -8454,15 +8479,13 @@ body.admin-bar .header-menu-area.sticky_menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 10px;
+  gap: 20px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
   z-index: 2;
   position: relative;
-  margin-bottom: -16px;
-  margin-top: -8px;
 }
 @media (max-width: 550px) {
   .section-title .sec-content {
@@ -8492,8 +8515,8 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .section-title .title {
   font-size: 60px;
-  line-height: 72px;
-  font-weight: 500;
+  line-height: initial;
+  font-weight: 600;
   font-family: "Hepta Slab", sans-serif;
   color: #1E2E3E;
   margin-bottom: 0;
@@ -8530,19 +8553,28 @@ body.admin-bar .header-menu-area.sticky_menu {
   color: #CDB091;
 }
 .section-title .sec-desc {
-  font-size: 18px;
-  font-weight: 400;
-  font-family: "Jost", sans-serif;
-  color: #666666;
-  margin-bottom: 0;
   -ms-flex-negative: 0;
       flex-shrink: 0;
 }
+.section-title .sec-desc p {
+  margin-bottom: 0;
+}
 .section-title .sec-desc .theme-btn {
   background-color: transparent;
+  padding: 10px;
+  gap: 24px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: initial;
   color: #1E2E3E;
+  border: 1px solid #3F3F3F;
+  border-radius: 5px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
+}
+.section-title .sec-desc .theme-btn i {
+  color: #1E2E3E;
+  font-size: 20px;
 }
 .section-title .sec-desc .theme-btn:hover {
   background-color: #CDB091;
@@ -10815,7 +10847,7 @@ ul.children {
   color: #ffffff;
 }
 .comment-respond.style-2 .comment-respond-wrapper {
-  margin-left: 240px;
+  margin-left: 335px;
   padding: 53px 0 33px 70px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11578,7 +11610,7 @@ ul.children {
 
 .latest-posts-area.style-1 {
   padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 130px;
 }
 .latest-posts-area.style-1 .section-title {
   margin-bottom: 190px;
@@ -11661,6 +11693,24 @@ ul.children {
   margin-right: -240px;
 }
 
+.feature-area.style-1 {
+  padding-top: 153px;
+  padding-bottom: 140px;
+  position: relative;
+}
+.feature-area.style-1 .feature-image-bg-one {
+  position: absolute;
+  top: -150px;
+  left: 0;
+  opacity: 0.05;
+}
+.feature-area.style-1 .feature-image-bg-two {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  opacity: 0.04;
+}
+
 .feature-area.style-2 {
   background-color: rgb(53, 54, 61);
   padding: 116px 0;
@@ -11705,7 +11755,11 @@ ul.children {
 }
 
 .portfolio-area.style-2 {
-  padding: 120px 0;
+  padding: 140px 0;
+}
+.portfolio-area.style-2 .section-title {
+  gap: 25px;
+  margin-bottom: 60px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .portfolio-area.style-2 {

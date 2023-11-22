@@ -27,7 +27,10 @@
     margin: 0;
     background-color: $black-100;
     border-radius: 5px;
-    padding: 25px 29px;
+    width: 173px;
+    padding: 25px 5px;
+    flex-shrink: 0;
+
     @include sm {
       font-size: 48px;
     }

@@ -8372,15 +8372,13 @@ body.admin-bar .header-menu-area.sticky_menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 10px;
+  gap: 20px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
   z-index: 2;
   position: relative;
-  margin-bottom: -16px;
-  margin-top: -8px;
 }
 @media (max-width: 550px) {
   .section-title .sec-content {
@@ -8410,8 +8408,8 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .section-title .title {
   font-size: 60px;
-  line-height: 72px;
-  font-weight: 500;
+  line-height: initial;
+  font-weight: 600;
   font-family: "Hepta Slab", sans-serif;
   color: #1E2E3E;
   margin-bottom: 0;
@@ -8448,19 +8446,28 @@ body.admin-bar .header-menu-area.sticky_menu {
   color: #CDB091;
 }
 .section-title .sec-desc {
-  font-size: 18px;
-  font-weight: 400;
-  font-family: "Jost", sans-serif;
-  color: #666666;
-  margin-bottom: 0;
   -ms-flex-negative: 0;
       flex-shrink: 0;
 }
+.section-title .sec-desc p {
+  margin-bottom: 0;
+}
 .section-title .sec-desc .theme-btn {
   background-color: transparent;
+  padding: 10px;
+  gap: 24px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: initial;
   color: #1E2E3E;
+  border: 1px solid #3F3F3F;
+  border-radius: 5px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
+}
+.section-title .sec-desc .theme-btn i {
+  color: #1E2E3E;
+  font-size: 20px;
 }
 .section-title .sec-desc .theme-btn:hover {
   background-color: #CDB091;

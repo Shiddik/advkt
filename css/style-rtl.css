@@ -10993,7 +10993,7 @@ ul.children {
       -ms-flex-align: center;
           align-items: center;
   padding: 59px 0;
-  border-bottom: 1px solid rgb(199, 199, 225);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
   cursor: default;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -11012,7 +11012,7 @@ ul.children {
   }
 }
 .portfolio-card:first-child {
-  border-top: 1px solid rgb(199, 199, 225);
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
 }
 .portfolio-card:hover .counter-number {
   -webkit-transition: all 0.5s ease-out;
@@ -11024,10 +11024,11 @@ ul.children {
 .portfolio-card:hover .content .image {
   visibility: visible;
   opacity: 1;
-  -webkit-transform: translateY(-50%) skewY(0) scaleZ(1) rotate(10deg);
-          transform: translateY(-50%) skewY(0) scaleZ(1) rotate(10deg);
+  -webkit-transform: translateY(0%) skewY(0) scaleZ(1) rotate(0);
+          transform: translateY(0%) skewY(0) scaleZ(1) rotate(0);
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
+  z-index: 2;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .portfolio-card:hover .content .image {
@@ -11035,11 +11036,10 @@ ul.children {
             transform: unset;
   }
 }
-.portfolio-card:hover .btn-wrapper .style-btn {
-  color: #ffffff;
-}
-.portfolio-card:hover .btn-wrapper .style-btn:before {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='104px' height='104px'%3E%3Cpath fill-rule='evenodd' stroke-width='1px' stroke='rgb(33, 174, 224)' fill-opacity='1' opacity='1' fill='rgb(33, 174, 224)' d='M97.490,48.652 C96.317,49.452 95.644,50.724 95.644,52.144 C95.644,53.564 96.317,54.837 97.490,55.636 C99.488,56.999 100.437,59.318 99.966,61.689 C99.496,64.61 97.734,65.842 95.367,66.338 C93.967,66.632 92.860,67.550 92.317,68.859 C91.774,70.169 91.907,71.601 92.682,72.788 L92.694,72.805 C94.15,74.830 94.1,77.335 92.658,79.344 C91.313,81.353 89.3,82.322 86.628,81.872 C85.226,81.608 83.850,82.31 82.846,83.35 C81.843,84.40 81.418,85.415 81.682,86.810 C82.133,89.192 81.164,91.503 79.155,92.847 C77.146,94.190 74.641,94.205 72.616,92.883 L72.597,92.870 C71.413,92.96 69.980,91.963 68.670,92.506 C67.360,93.48 66.442,94.156 66.152,95.543 C65.653,97.924 63.872,99.685 61.500,100.156 C61.98,100.235 60.698,100.274 60.303,100.274 C58.370,100.274 56.579,99.338 55.447,97.679 C54.648,96.506 53.375,95.833 51.955,95.833 C50.535,95.833 49.262,96.506 48.462,97.679 C47.100,99.677 44.781,100.626 42.410,100.156 C40.38,99.685 38.257,97.924 37.761,95.556 C37.468,94.156 36.549,93.48 35.240,92.507 C33.930,91.963 32.498,92.96 31.310,92.872 L31.292,92.883 C29.270,94.205 26.764,94.190 24.755,92.847 C22.746,91.503 21.777,89.192 22.226,86.817 C22.492,85.415 22.68,84.40 21.64,83.35 C20.60,82.31 18.684,81.608 17.289,81.870 C14.907,82.322 12.597,81.353 11.252,79.344 C9.908,77.335 9.894,74.830 11.216,72.805 L11.226,72.790 C12.3,71.601 12.136,70.169 11.593,68.859 C11.50,67.550 9.943,66.632 8.555,66.340 C6.176,65.843 4.414,64.61 3.943,61.689 C3.473,59.318 4.422,56.999 6.420,55.637 C7.593,54.837 8.266,53.564 8.266,52.144 C8.266,50.724 7.593,49.452 6.420,48.652 C4.422,47.290 3.473,44.970 3.944,42.599 C4.414,40.227 6.176,38.446 8.543,37.950 C9.943,37.657 11.50,36.739 11.593,35.429 C12.136,34.119 12.2,32.687 11.227,31.500 L11.217,31.483 C9.894,29.459 9.908,26.953 11.252,24.944 C12.597,22.935 14.907,21.967 17.282,22.415 C18.684,22.681 20.60,22.257 21.63,21.253 C22.67,20.250 22.492,18.874 22.228,17.478 C21.777,15.96 22.746,12.785 24.755,11.441 C26.764,10.97 29.270,10.84 31.293,11.405 L31.310,11.416 C32.498,12.192 33.930,12.325 35.239,11.782 C36.549,11.240 37.467,10.132 37.758,8.745 C38.257,6.365 40.38,4.603 42.410,4.133 C44.781,3.662 47.100,4.611 48.462,6.609 C49.262,7.783 50.535,8.455 51.955,8.455 C53.375,8.455 54.648,7.783 55.447,6.609 C56.809,4.611 59.128,3.662 61.500,4.134 C63.872,4.603 65.653,6.365 66.149,8.732 C66.442,10.132 67.360,11.240 68.670,11.782 C69.980,12.326 71.412,12.192 72.599,11.416 L72.615,11.407 C74.640,10.83 77.146,10.97 79.155,11.441 C81.164,12.785 82.133,15.96 81.683,17.471 C81.418,18.874 81.842,20.249 82.846,21.253 C83.850,22.257 85.226,22.681 86.621,22.418 C89.4,21.966 91.313,22.935 92.657,24.944 C94.1,26.953 94.15,29.458 92.693,31.482 L92.682,31.499 C91.907,32.687 91.774,34.119 92.317,35.429 C92.860,36.739 93.967,37.657 95.354,37.948 C97.734,38.446 99.496,40.227 99.966,42.599 C100.437,44.970 99.488,47.290 97.490,48.652 Z'/%3E%3C/svg%3E");
+.portfolio-card:hover .btn-wrapper .circle-btn {
+  background-color: #CDB091;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
 }
 .portfolio-card .counter-number {
   font-size: 72px;
@@ -11066,7 +11066,12 @@ ul.children {
 .portfolio-card .title {
   font-size: 35px;
   font-weight: 600;
+  line-height: initial;
   color: #ffffff;
+  width: 526px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin-bottom: 0;
 }
 .portfolio-card .content {
   -webkit-box-flex: 1;
@@ -11080,7 +11085,6 @@ ul.children {
   font-weight: 400;
   color: #ffffff;
   display: block;
-  text-transform: capitalize;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .portfolio-card .content .short-title {
@@ -11127,12 +11131,13 @@ ul.children {
 }
 .portfolio-card .content .image {
   position: absolute;
-  border-radius: 12px;
   overflow: hidden;
   top: 50%;
   -webkit-transform-origin: top center;
           transform-origin: top center;
-  left: 100px;
+  -webkit-transform: scale(0.75);
+          transform: scale(0.75);
+  left: -60px;
   visibility: hidden;
   opacity: 0;
   -webkit-transition: all 0.3s ease-out;
@@ -11165,14 +11170,6 @@ ul.children {
     left: 0;
   }
 }
-.portfolio-card .btn-wrapper {
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  width: 60px;
-  height: 60px;
-  background-color: #CDB091;
-  border-radius: 50px;
-}
 .portfolio-card .btn-wrapper .circle-btn {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11183,13 +11180,16 @@ ul.children {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 60px;
-  height: 60px;
-}
-.portfolio-card .btn-wrapper .circle-btn i {
   -ms-flex-negative: 0;
       flex-shrink: 0;
+  width: 64px;
+  height: 64px;
+  background-color: #1C1D20;
+  border-radius: 50px;
+  font-size: 29px;
   color: #ffffff;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
 }
 
 .portfolio-style-two {

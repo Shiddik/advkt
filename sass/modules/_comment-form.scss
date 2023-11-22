@@ -226,8 +226,10 @@
       }
     }
     input,
-    select {
+    select,
+    textarea {
       border-color: #2C353E !important;
+      margin-bottom: 0;
     }
 
   }

@@ -10793,8 +10793,10 @@ ul.children {
       flex-shrink: 0;
 }
 .comment-respond.style-2 input,
-.comment-respond.style-2 select {
+.comment-respond.style-2 select,
+.comment-respond.style-2 textarea {
   border-color: #2C353E !important;
+  margin-bottom: 0;
 }
 
 @media (max-width: 991px) {
@@ -11631,6 +11633,40 @@ ul.children {
 
 .portfolio-area.style-1 {
   padding: 120px 0;
+}
+
+.contact-area {
+  padding-bottom: 140px;
+  position: relative;
+}
+.contact-area .contact-image-bg {
+  position: absolute;
+  top: -75px;
+  left: 0;
+  opacity: 0.1;
+}
+.contact-area .map-location {
+  height: 100%;
+}
+.contact-area .map-location iframe {
+  width: 100%;
+  height: 100%;
+}
+.contact-area .section-title {
+  margin-bottom: 30px;
+}
+.contact-area .comment-respond.style-2 .contacts-email,
+.contact-area .comment-respond.style-2 .contacts-name,
+.contact-area .comment-respond.style-2 .single-input-field,
+.contact-area .comment-respond.style-2 .contacts-message {
+  margin-bottom: 20px;
+}
+.contact-area .comment-respond.style-2 .contacts-email label,
+.contact-area .comment-respond.style-2 .contacts-name label,
+.contact-area .comment-respond.style-2 .single-input-field label,
+.contact-area .comment-respond.style-2 .contacts-message label {
+  background-color: #1C1D20;
+  color: #ffffff;
 }
 
 .testimonial-slider-area.style-3 {

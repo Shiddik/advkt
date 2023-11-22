@@ -6207,6 +6207,7 @@ body.admin-bar .header-menu-area.sticky_menu {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 30px;
+  position: relative;
 }
 .testimonial-card.style-1 .content .text {
   color: #ffffff;
@@ -6295,7 +6296,7 @@ body.admin-bar .header-menu-area.sticky_menu {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: right;
-  gap: 10px;
+  gap: 4px;
 }
 .testimonial-card .meta-user .user-info .info .name {
   margin: 0;
@@ -6309,7 +6310,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-size: 18px;
   line-height: 30px;
   font-weight: 400;
-  color: #8f939b;
+  color: #ffffff;
   font-family: "Jost", sans-serif;
 }
 
@@ -6320,30 +6321,29 @@ body.admin-bar .header-menu-area.sticky_menu {
   z-index: 3;
   padding-right: 0;
   margin-bottom: 0;
+  margin-top: 26px;
   position: relative;
   text-align: center;
   line-height: 0;
-  display: none !important;
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .testimonial-slider-wrapper .slick-dots {
-    display: block !important;
-  }
+  gap: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 .testimonial-slider-wrapper .slick-dots li {
   display: inline-block;
   line-height: 0;
-  margin: 0 5px;
+  margin: 0;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
 .testimonial-slider-wrapper .slick-dots li button {
   font-size: 0;
   padding: 0;
-  width: 18px;
-  height: 12px;
-  background-color: rgb(186, 185, 209);
-  border-radius: 6px;
+  width: 10px;
+  height: 10px;
+  background-color: #ffffff;
+  border-radius: 50px;
   position: relative;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
@@ -6355,8 +6355,6 @@ body.admin-bar .header-menu-area.sticky_menu {
 .testimonial-slider-wrapper .slick-dots li.slick-active button {
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
-  width: 54px;
-  border-radius: 50px;
   background-color: #CDB091;
 }
 
@@ -11533,12 +11531,26 @@ ul.children {
   padding-top: 110px;
   padding-bottom: 120px;
 }
+.testimonial-slider-area.style-1 .testimonial-slider {
+  position: relative;
+}
+.testimonial-slider-area.style-1 .testimonial-slider .quote-icon {
+  position: absolute;
+  left: 0;
+  top: -19px;
+  opacity: 0.2;
+  -webkit-transform: translateX(-353px);
+          transform: translateX(-353px);
+}
+.testimonial-slider-area.style-1 .section-title {
+  margin-bottom: 40px;
+}
 .testimonial-slider-area.style-1 .testimonial-image {
   position: absolute;
   top: 0;
   right: 0;
   height: 100%;
-  width: 40%;
+  width: 32%;
 }
 .testimonial-slider-area.style-1 .testimonial-image img {
   position: absolute;

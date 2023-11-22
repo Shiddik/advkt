@@ -40,12 +40,26 @@
     padding-top: 110px;
     padding-bottom: 120px;
 
+    .testimonial-slider {
+      position: relative;
+
+      .quote-icon {
+        position: absolute;
+        right: 0;
+        top: -19px;
+        opacity: 0.2;
+        transform: translateX(353px);
+      }
+    }
+    .section-title {
+      margin-bottom: 40px;
+    }
     .testimonial-image {
       position: absolute;
       top: 0;
       left: 0;
       height: 100%;
-      width: 40%;
+      width: 32%;
 
       img {
         position: absolute;

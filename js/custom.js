@@ -202,9 +202,9 @@
             speed: 800,
             rtl: false,
             prevArrow:
-                "<button type='button' class='process-arrow-btn prev-btn'><i class='icon-arrow-left-2'></i></button>",
+                "<button type='button' class='testimonial-arrow-btn prev-btn'><i class='icon-arrow-left-2'></i></button>",
             nextArrow:
-                "<button type='button' class='process-arrow-btn next-btn active'><i class='icon-arrow-right-2'></i></button>",
+                "<button type='button' class='testimonial-arrow-btn next-btn active'><i class='icon-arrow-right-2'></i></button>",
             responsive: [
                 {
                     breakpoint: 1023,

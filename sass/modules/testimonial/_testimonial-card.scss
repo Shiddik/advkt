@@ -4,6 +4,7 @@
     justify-content: space-between;
     flex-direction: column;
     gap: 30px;
+    position: relative;
 
 
     &.style-1 {
@@ -84,10 +85,12 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+
         .user-info {
             display: flex;
             align-items: center;
             gap: 20px;
+
             .image {
                 display: flex;
                 align-items: center;
@@ -103,7 +106,7 @@
                 display: flex;
                 flex-direction: column;
                 text-align: left;
-                gap: 10px;
+                gap: 4px;
 
                 .name {
                     margin: 0;
@@ -117,7 +120,7 @@
                     font-size: 18px;
                     line-height: 30px;
                     font-weight: 400;
-                    color: #8f939b;
+                    color: $white;
                     font-family: $body-font;
                 }
             }

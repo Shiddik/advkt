@@ -6514,12 +6514,15 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 
 .brand-slider-area.style-1 {
-  padding: 45px 0;
+  padding: 90px 0;
 }
 .brand-slider-area.style-1 .slick-track {
   padding: 50px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
-.brand-slider-area.style-1 .client-logo-wrapper .client-logo {
+
+.client-logo-wrapper .client-logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6534,18 +6537,18 @@ body.admin-bar .header-menu-area.sticky_menu {
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
-.brand-slider-area.style-1 .client-logo-wrapper .client-logo img {
+.client-logo-wrapper .client-logo img {
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
   opacity: 0.45;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
-.brand-slider-area.style-1 .client-logo-wrapper .client-logo:hover {
+.client-logo-wrapper .client-logo:hover {
   -webkit-transform: scale(1.03);
           transform: scale(1.03);
 }
-.brand-slider-area.style-1 .client-logo-wrapper .client-logo:hover img {
+.client-logo-wrapper .client-logo:hover img {
   -webkit-filter: none;
           filter: none;
   opacity: 1;

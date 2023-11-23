@@ -58,6 +58,15 @@
           padding: 8px 0;
           gap: 0;
 
+          span {
+            &:last-child {
+              .contact-info-item {
+                .icon {
+                  background-color: $black;
+                }
+              }
+            }
+          }
           .contact-info-item {
              .icon {
                width: 40px;
@@ -82,7 +91,7 @@
         gap: 28px;
 
         a {
-          color: $blue-color;
+          color: #666666;
         }
       }
       // Header Menu

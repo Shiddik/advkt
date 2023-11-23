@@ -8159,6 +8159,31 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin-top: 50px;
 }
 
+.project-area {
+  padding: 120px 0;
+  background-color: #FAF8F7;
+}
+.project-area .section-title {
+  margin-bottom: 104px;
+}
+.project-area .section-title .title {
+  font-size: 60px;
+  line-height: initial;
+  font-weight: 600;
+  color: #1E2E3E;
+}
+.project-area .project-case {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .price-card {
   padding: 68px 51px 82px 51px;
   z-index: 2;
@@ -13545,4 +13570,29 @@ ul.children {
 }
 .service-list .service-btn {
   margin-top: 50px;
+}
+
+.project-area {
+  padding: 120px 0;
+  background-color: #FAF8F7;
+}
+.project-area .section-title {
+  margin-bottom: 104px;
+}
+.project-area .section-title .title {
+  font-size: 60px;
+  line-height: initial;
+  font-weight: 600;
+  color: #1E2E3E;
+}
+.project-area .project-case {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }

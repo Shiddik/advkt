@@ -7759,6 +7759,10 @@ body.admin-bar .header-menu-area.sticky_menu {
   z-index: 1;
 }
 
+.team-page-area {
+  padding: 140px 0;
+}
+
 .team-member-wrapper {
   padding: 40px 0 0 0;
 }
@@ -8584,8 +8588,8 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 
 .page-breadcrumb-area {
-  padding-top: 240px;
-  padding-bottom: 145px;
+  padding-top: 229px;
+  padding-bottom: 219px;
   position: relative;
   z-index: 2;
   background-repeat: no-repeat;
@@ -8649,11 +8653,12 @@ body.single-post .page-heading .page-title {
 .page-heading .page-title {
   font-family: "Hepta Slab", sans-serif;
   font-size: 45px;
-  color: #1E2E3E;
+  color: #ffffff;
   margin-bottom: 0;
   text-transform: capitalize;
   line-height: initial;
   font-weight: 600;
+  text-align: center;
 }
 @media (max-width: 375px) {
   .page-heading h3,
@@ -10899,17 +10904,6 @@ ul.children {
   margin-bottom: 0;
 }
 
-@media (max-width: 991px) {
-  .team-member-card-wrapper:nth-child(even) {
-    margin-top: 0;
-  }
-}
-@media (max-width: 991px) {
-  .team-member-card-wrapper {
-    margin-bottom: 24px;
-  }
-}
-
 .team-member-card {
   position: relative;
 }
@@ -12073,7 +12067,10 @@ ul.children {
 }
 
 .brand-slider-area.style-2 {
-  padding: 120px 0;
+  margin-bottom: 100px;
+}
+.brand-slider-area.style-2 .client-logo-slider-wrapper {
+  padding: 50px 0;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .brand-slider-area.style-2 {
@@ -12306,7 +12303,10 @@ ul.children {
 }
 
 .brand-slider-area.style-2 {
-  padding: 120px 0;
+  margin-bottom: 100px;
+}
+.brand-slider-area.style-2 .client-logo-slider-wrapper {
+  padding: 50px 0;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .brand-slider-area.style-2 {
@@ -12679,12 +12679,6 @@ ul.children {
     padding-top: 100px;
     padding-bottom: 40px;
   }
-}
-.team-page-area .team-member-card-wrapper {
-  margin-bottom: 50px;
-}
-.team-page-area .team-member-card-wrapper:nth-child(even) {
-  margin-top: 0;
 }
 
 .footer {
@@ -13170,6 +13164,10 @@ ul.children {
   top: 0;
   left: 0;
   z-index: 1;
+}
+
+.team-page-area {
+  padding: 140px 0;
 }
 
 .team-member-wrapper {

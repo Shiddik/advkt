@@ -1,14 +1,14 @@
-.team-member-card-wrapper {
-  &:nth-child(even) {
+// .team-member-card-wrapper {
+//   &:nth-child(even) {
 
-    @include rmaxwd(991) {
-      margin-top: 0;
-    }
-  }
-  @include rmaxwd(991) {
-    margin-bottom: 24px;
-  }
-}
+//     @include rmaxwd(991) {
+//       margin-top: 0;
+//     }
+//   }
+//   @include rmaxwd(991) {
+//     margin-bottom: 24px;
+//   }
+// }
 .team-member-card {
   position: relative;
 

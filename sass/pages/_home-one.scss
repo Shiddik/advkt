@@ -98,6 +98,14 @@
     background-repeat: no-repeat;
     background-position: 0% 170%;
 
+    @include sm {
+      padding-top: 80px;
+      padding-bottom: 80px;
+    }
+    @include md {
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
   }
 }
 

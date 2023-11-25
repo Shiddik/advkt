@@ -1,6 +1,10 @@
 .about-info-card {
   &.style-1 {
     margin-top: 40px;
+
+    @include rmaxwd(1399) {
+      margin-top: 0;
+    }
   }
   //&.style-1 {
   //  .about-info-content {
@@ -16,6 +20,10 @@
     flex-direction: column;
     gap: 40px;
 
+    @include rmaxwd(1399) {
+      gap: 20px;
+    }
+
     .section-title {
       margin-bottom: 16px;
 
@@ -23,6 +31,8 @@
         position: relative;
         padding: 30px;
         color: $white;
+
+
 
         img {
           position: absolute;
@@ -43,6 +53,9 @@
       display: flex;
       padding: 12px 0 12px 41px;
 
+      @include lg {
+        font-size: 28px;
+      }
       &:before {
         position: absolute;
         left: 0;

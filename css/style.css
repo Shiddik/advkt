@@ -5529,6 +5529,17 @@ body.admin-bar .header-menu-area.sticky_menu {
   gap: 15px;
   margin-top: 25px;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .icon-card-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
 
 .icon-card {
   display: -webkit-box;
@@ -6012,6 +6023,16 @@ body.admin-bar .header-menu-area.sticky_menu {
   text-align: left;
   position: relative;
 }
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+  .counter-card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 40px;
+    text-align: center;
+  }
+}
 .counter-card .counter-shape {
   position: absolute;
   right: 0;
@@ -6064,21 +6085,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .counter-card .title {
-    font-size: 20px;
-    line-height: 30px;
-    text-align: center;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .counter-card .title {
-    font-size: 20px;
-    line-height: 30px;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .counter-card .title {
-    font-size: 24px;
-    line-height: 38px;
+    font-size: 28px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -8615,6 +8622,7 @@ body.admin-bar .header-menu-area.sticky_menu {
           flex-direction: column;
   z-index: 2;
   position: relative;
+  margin-top: -8px;
 }
 @media (max-width: 550px) {
   .section-title .sec-content {
@@ -11860,6 +11868,16 @@ ul.children {
   position: relative;
   z-index: 2;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .cta-area {
+    padding-top: 80px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .cta-area {
+    padding-top: 100px;
+  }
+}
 .cta-area .overlay {
   position: absolute;
   width: 100%;
@@ -11872,6 +11890,11 @@ ul.children {
 }
 .cta-area .counter-area {
   text-align: right;
+}
+@media (max-width: 1399px) {
+  .cta-area .counter-area {
+    margin-top: 50px;
+  }
 }
 .cta-area .counter-area .counter-card {
   margin-right: -240px;

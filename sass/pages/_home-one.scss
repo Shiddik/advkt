@@ -110,6 +110,12 @@
   position: relative;
   z-index: 2;
 
+  @include sm {
+    padding-top: 80px;
+  }
+  @include md {
+    padding-top: 100px;
+  }
   .overlay {
     position: absolute;
     width: 100%;
@@ -124,6 +130,9 @@
   .counter-area {
     text-align: right;
 
+    @include rmaxwd(1399) {
+      margin-top: 50px;
+    }
     .counter-card {
       margin-right: -240px;
 

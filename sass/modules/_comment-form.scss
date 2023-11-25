@@ -196,6 +196,13 @@
       position: relative;
       z-index: 2;
 
+      @include rmaxwd(767) {
+        padding: 40px;
+        margin-left: 0 !important;
+      }
+      @include rmaxwd(1549) {
+        margin-left: 50px;
+      }
       &:before {
         position: absolute;
         content: "";
@@ -213,16 +220,37 @@
         font-size: 45px;
         font-weight: 600;
         line-height: initial;
+
+        @include sm {
+          font-size: 34px;
+          line-height: initial;
+        }
+        @include md {
+          font-size: 38px;
+          line-height: initial;
+        }
+        @include lg {
+          font-size: 40px;
+          line-height: initial;
+        }
       }
     }
     .form-field-wrapper {
       display: flex;
-
       align-items: center;
       gap: 20px;
+      flex-wrap: wrap;
+
       .single-input-field {
         width: 256px;
         flex-shrink: 0;
+
+        @include rmaxwd(767) {
+          width: 100% !important;
+        }
+        @include rmaxwd(1700) {
+          width: auto;
+        }
       }
     }
     input,
@@ -231,110 +259,5 @@
       border-color: #2C353E !important;
       margin-bottom: 0;
     }
-
   }
-  //&.style-two {
-  //  margin: 0;
-  //  background-color: transparent;
-  //  padding: 82px 88px 82px 6px;
-  //
-  //  @include md {
-  //    padding: 50px;
-  //  }
-  //  @include sm {
-  //    padding: 30px;
-  //  }
-  //  .post-comments-title {
-  //    h2 {
-  //      color: $white;
-  //    }
-  //  }
-  //  label {
-  //    color: $white-100;
-  //  }
-  //
-  //  .nice-select:after {
-  //    border-color: transparent transparent #c7cdda transparent;
-  //  }
-  //  input[type="radio"]::before,
-  //  input[type="checkbox"]::before{
-  //    background-color: transparent;
-  //  }
-  //
-  //  .single-input-field {
-  //    p {
-  //      margin-bottom: 0;
-  //    }
-  //    input,
-  //    select,
-  //    textarea {
-  //      background-color: transparent;
-  //      color: $white-100;
-  //      border-color: #739bbf !important;
-  //      box-shadow: none;
-  //    }
-  //    .nice-select {
-  //      color: $white-100;
-  //      border-color: #739bbf !important;
-  //    }
-  //    input:focus,
-  //    textarea:focus,
-  //    .form-select:focus,
-  //    .nice-select:focus {
-  //      border-color: $primary-color !important;
-  //    }
-  //    *::-webkit-input-placeholder {
-  //      color: $white-100;
-  //    }
-  //    *:-moz-placeholder {
-  //      color: $white-100;
-  //      opacity: 1;
-  //    }
-  //    *::-moz-placeholder {
-  //      color: $white-100;
-  //      opacity: 1;
-  //    }
-  //    *:-ms-input-placeholder {
-  //      color: $white-100;
-  //    }
-  //    *::-ms-input-placeholder {
-  //      color: $white-100;
-  //    }
-  //    *::placeholder {
-  //      color: $white-100;
-  //    }
-  //  }
-  //  .checkbox-field-wrapper {
-  //    .single-checkbox-field,
-  //    .wpcf7-list-item {
-  //      .form-check-input {
-  //        background-color: transparent;
-  //        border-color: #739bbf !important;
-  //      }
-  //      input[type="checkbox"],
-  //      input[type="radio"] {
-  //        border-color: #739bbf !important;
-  //      }
-  //      input[type="checkbox"]:checked,
-  //      input[type="radio"]:checked {
-  //        border-color: $primary-color !important;
-  //      }
-  //    }
-  //  }
-  //}
-  //&.style-three {
-  //  margin: 0;
-  //  input,
-  //  select,
-  //  textarea {
-  //    border: 1px solid rgb(223, 226, 233) !important;
-  //    box-shadow: none;
-  //  }
-  //  input:focus,
-  //  textarea:focus,
-  //  .form-select:focus,
-  //  .nice-select:focus {
-  //    border-color: $primary-color !important;
-  //  }
-  //}
 }

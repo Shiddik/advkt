@@ -39,6 +39,7 @@
     position: relative;
     padding-top: 110px;
     padding-bottom: 120px;
+    overflow: hidden;
 
     .testimonial-slider {
       position: relative;
@@ -49,6 +50,10 @@
         top: -19px;
         opacity: 0.2;
         transform: translateX(353px);
+
+        @include rmaxwd(1850) {
+          transform: translateX(0);
+        }
       }
     }
     .section-title {
@@ -77,6 +82,11 @@
 // Request Form Area
 .request-form-area {
   margin-top: -90px;
+  overflow: hidden;
+
+  @include rmaxwd(767) {
+    margin-top: -10px;
+  }
 }
 
 // About Us Area
@@ -94,7 +104,6 @@
 // Call To Action
 .cta-area {
   padding-top: 180px;
-  padding-bottom: 180px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -114,12 +123,13 @@
 
   .counter-area {
     text-align: right;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
 
     .counter-card {
       margin-right: -240px;
+
+      @include rmaxwd(1850) {
+        margin-right: 0;
+      }
     }
   }
 }
@@ -131,6 +141,14 @@
     padding-bottom: 140px;
     position: relative;
 
+    @include sm {
+      padding-top: 80px;
+      padding-bottom: 80px;
+    }
+    @include md {
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
     .feature-image-bg-one {
       position: absolute;
       top: -150px;

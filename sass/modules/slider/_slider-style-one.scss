@@ -121,6 +121,11 @@
         margin-bottom: 0;
         color: $white;
         align-items: center;
+
+        @include rmaxwd(767) {
+          font-size: 10px;
+          gap: 15px;
+        }
       }
       .slider-title {
         font-family: $heading-font;
@@ -159,6 +164,13 @@
     // Slider Feature Image
     .slider-feature-image {
       margin-left: -220px;
+
+      @include rmaxwd(991) {
+        margin-bottom: 50px !important;
+      }
+      @include rmaxwd(1700) {
+        margin-left: 0;
+      }
     }
 
     // Slider Content
@@ -166,6 +178,25 @@
       margin-right: -120px;
       transform: translateX(90px);
       margin-top: 90px;
+
+      @media only screen and (min-width: 992px) and (max-width: 1199px) {
+        transform: translateX(10px);
+        margin-top: 0;
+      }
+      @media only screen and (min-width: 1200px) and (max-width: 1399px) {
+        transform: translateX(0);
+      }
+      @media only screen and (min-width: 1400px) and (max-width: 1549px) {
+        transform: translateX(20px);
+      }
+      @include rmaxwd(991) {
+        transform: translateX(0) !important;
+        margin-top: 30px !important;
+      }
+      @include rmaxwd(1700) {
+        margin-right: 0;
+        margin-top: 0;
+      }
 
       .slider-short-desc {
         font-size: 18px;
@@ -208,10 +239,18 @@
       position: relative;
       margin-left: -190px;
       margin-right: -225px;
+      margin-top: 125px;
 
+      @include rmaxwd(991) {
+        margin-top: 50px !important;
+      }
+
+      @include rmaxwd(1700) {
+        margin-right: 0;
+        margin-left: 0;
+      }
       // Image
       .slider-image {
-        margin-top: 125px;
         overflow: hidden;
         border-radius: 12px 12px 0 0;
 

@@ -15,6 +15,10 @@ $pricing-border-color: #3C3E43;
 }
 
 // team member area style
+
+.team-page-area {
+    padding: 140px 0;
+}
 .team-member-wrapper {
     padding: 40px 0 0 0;
 
@@ -388,6 +392,29 @@ $pricing-border-color: #3C3E43;
     }
 }
 
+
+//case project style
+.project-area {
+    padding: 120px 0;
+    background-color: #FAF8F7;
+
+    .section-title {
+        margin-bottom: 104px;
+
+        .title {
+            font-size: 60px;
+            line-height: initial;
+            font-weight: 600;
+            color: $black;
+        }
+    }
+
+    .project-case {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
 
 
 

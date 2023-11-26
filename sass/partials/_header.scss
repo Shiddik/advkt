@@ -149,14 +149,15 @@
 
 
   .search-btn-with-btn {
-    //.btn-wrapper {
-    //  .theme-btn {
-    //    &:hover {
-    //      background-color: $blue-color;
-    //      border-color: $blue-color;
-    //    }
-    //  }
-    //}
+    @include rmaxwd(991) {
+      display: none;
+    }
+    .btn-wrapper {
+      @include rmaxwd(1199) {
+        display: none;
+
+      }
+    }
     .search-btn-wrapper {
       display: flex;
       height: 100%;
@@ -224,6 +225,7 @@
     box-shadow: 0 7px 24px 0 rgba(0, 0, 0, 0.05);
 
     .logo {
+
       height: 84px;
 
       &:before {
@@ -309,6 +311,14 @@
     flex-shrink: 0;
     margin-left: -192px;
 
+    @include rmaxwd(1549) {
+      margin-left: 0;
+      min-width: 240px;
+    }
+
+    @media only screen and (min-width: 1550px) and (max-width: 1700px) {
+      margin-left: -100px;
+    }
     @include md {
       height: 100px;
     }
@@ -424,8 +434,8 @@
         font-size: 18px;
         font-weight: 500;
 
-        @include lg {
-          padding: 55px 15px;
+        @include rmaxwd(1399) {
+          padding: 48px 12px;
         }
         //&:before {
         //  position: absolute;
@@ -541,11 +551,13 @@
   margin-right: -174px;
   margin-left: auto;
 
-  @include rmaxwd(1199) {
-    display: none;
+
+  @include rmaxwd(1549) {
+    margin-right: 0;
+    gap: 10px;
   }
-  @include xl {
-    gap: 24px;
+  @media only screen and (min-width: 1550px) and (max-width: 1700px) {
+    margin-right: -100px;
   }
 }
 // Search With Button
@@ -554,6 +566,9 @@
   align-items: center;
   gap: 45px;
 
+  @include rmaxwd(1549) {
+    gap: 10px;
+  }
   .search-btn {
     font-size: 24px;
     font-weight: 500;

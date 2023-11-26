@@ -1,4 +1,7 @@
 .about-image-card {
+  @include rmaxwd(991) {
+    margin-bottom: 70px;
+  }
   .main-img-wrapper {
     .main-img-inner {
       position: relative;
@@ -21,23 +24,21 @@
         position: absolute;
         right: 50px;
         bottom: 20px;
+
+        @include rmaxwd(1399) {
+          width: 100px;
+          height: 100px;
+        }
       }
     }
     .company-label {
       position: absolute;
-      bottom: 0;
-      left: 100%;
-      transform: translate(-67%, 34%);
+      top: 0;
+      left: 0;
+      background-color: $white;
+      border-right: 15px solid $white;
+      border-bottom: 22px solid $white;
 
-      @include xl {
-        left: 50%;
-        transform: translate(-50%, 50%);
-      }
-      @include rmaxwd(1199) {
-        left: 50%;
-        transform: translate(-50%, -50%);
-        bottom: unset;
-      }
       .icon {
         width: 170px;
         height: 170px;

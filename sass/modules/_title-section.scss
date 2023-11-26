@@ -11,12 +11,24 @@
     align-items: flex-start;
     gap: 40px;
   }
+
+  .shape {
+    position: relative;
+    padding: 30px;
+
+    img {
+      position: absolute;
+      bottom: 20px;
+      left: 7px
+    }
+  }
   .sec-content {
     display: flex;
     gap: 20px;
     flex-direction: column;
     z-index: 2;
     position: relative;
+    margin-top: -8px;
 
     @include rmaxwd(550) {
       width: 100%;
@@ -72,9 +84,6 @@
       br {
         display: none;
       }
-    }
-    span {
-      color: $primary-color;
     }
   }
   .sec-desc {

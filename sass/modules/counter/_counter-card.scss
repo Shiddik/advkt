@@ -7,6 +7,11 @@
   text-align: left;
   position: relative;
 
+  @include xs {
+    flex-direction: column;
+    padding: 40px;
+    text-align: center;
+  }
   .counter-shape {
     position: absolute;
     right: 0;
@@ -49,19 +54,8 @@
     color: $black-100;
 
     @include sm {
-      font-size: 20px;
-      line-height: 30px;
-      text-align: center;
+      font-size: 28px;
     }
-    @include md {
-      font-size: 20px;
-      line-height: 30px;
-    }
-    @include lg {
-      font-size: 24px;
-      line-height: 38px;
-    }
-
     br {
       @include sm {
         display: none;

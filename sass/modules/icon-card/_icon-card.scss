@@ -3,6 +3,11 @@
     align-items: center;
     gap: 15px;
     margin-top: 25px;
+
+    @include sm {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }
 
 .icon-card {

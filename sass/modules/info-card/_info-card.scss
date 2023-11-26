@@ -9,9 +9,11 @@
 
     @include rmaxwd(991) {
         padding: 50px;
-        margin-bottom: 24px;
     }
 
+    @media only screen and (min-width: 1200px) and (max-width: 1399px) {
+        padding: 20px;
+    }
     &:hover {
         //.image-wrapper {
         //    .overlay {
@@ -50,8 +52,8 @@
         }
         .btn-wrapper {
             a {
-                margin-top: 35px;
-                margin-bottom: 5px;
+                margin-top: 30px;
+                margin-bottom: 0;
                 font-size: 14px;
                 @include transition;
             }

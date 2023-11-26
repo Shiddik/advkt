@@ -9310,14 +9310,14 @@ body.single-post .page-heading .page-title {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 20px 50px;
+  gap: 20px 70px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 70px;
+  margin-bottom: 60px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-top: -8px;
+  margin-top: 40px;
 }
 @media (max-width: 991px) {
   .portfolio-area.style-4 .portfolio-filter {
@@ -9328,7 +9328,7 @@ body.single-post .page-heading .page-title {
   list-style: none;
   font-size: 18px;
   font-weight: 500;
-  color: #1E2E3E;
+  color: #ffffff;
   text-transform: capitalize;
   cursor: pointer;
   -webkit-transition: all 0.5s ease-out;
@@ -11670,9 +11670,7 @@ ul.children {
 
 .portfolio-style-two {
   background-color: #ffffff;
-  border-radius: 12px;
   overflow: hidden;
-  margin-bottom: 24px;
 }
 .portfolio-style-two:hover .image .content-wrapper {
   visibility: visible;

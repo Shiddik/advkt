@@ -6162,6 +6162,40 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .about-info-card .about-info-content ul li {
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: #1E2E3E;
+  margin-bottom: 10px;
+}
+.about-info-card .about-info-content ul li:last-child {
+  margin-bottom: 0;
+}
+.about-info-card .about-info-content ul li:before {
+  content: "\f00c";
+  font-family: "Font Awesome 6 Pro";
+  color: #ffffff;
+  background-color: #CDB091;
+  width: 20px;
+  height: 20px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .about-info-card.style-2 {

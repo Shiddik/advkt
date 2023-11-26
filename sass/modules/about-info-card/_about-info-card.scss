@@ -59,7 +59,30 @@
 
       li {
         list-style: none;
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 500;
+        color: $black;
+        margin-bottom: 10px;
 
+        &:last-child {
+          margin-bottom: 0;
+        }
+        &:before {
+          content: "\f00c";
+          font-family: $font-awesome;
+          color: $white;
+          background-color: $primary-color;
+          width: 20px;
+          height: 20px;
+          flex-shrink: 0;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
       }
     }
   }

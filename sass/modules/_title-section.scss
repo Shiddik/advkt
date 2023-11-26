@@ -11,6 +11,17 @@
     align-items: flex-start;
     gap: 40px;
   }
+
+  .shape {
+    position: relative;
+    padding: 30px;
+
+    img {
+      position: absolute;
+      bottom: 20px;
+      left: 7px
+    }
+  }
   .sec-content {
     display: flex;
     gap: 20px;
@@ -73,9 +84,6 @@
       br {
         display: none;
       }
-    }
-    span {
-      color: $primary-color;
     }
   }
   .sec-desc {

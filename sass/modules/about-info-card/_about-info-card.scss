@@ -26,20 +26,6 @@
 
     .section-title {
       margin-bottom: 16px;
-
-      .shape {
-        position: relative;
-        padding: 30px;
-        color: $white;
-
-
-
-        img {
-          position: absolute;
-          bottom: 20px;
-          left: 7px
-        }
-      }
     }
 
     .quote {
@@ -65,6 +51,15 @@
         width: 3px;
         border-radius: 50px;
         background-color: $primary-color;
+      }
+    }
+
+    ul {
+      padding: 0;
+
+      li {
+        list-style: none;
+
       }
     }
   }

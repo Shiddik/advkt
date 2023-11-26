@@ -5818,25 +5818,11 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .about-image-card .main-img-wrapper .company-label {
   position: absolute;
-  bottom: 0;
-  left: 100%;
-  -webkit-transform: translate(-67%, 34%);
-          transform: translate(-67%, 34%);
-}
-@media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .about-image-card .main-img-wrapper .company-label {
-    left: 50%;
-    -webkit-transform: translate(-50%, 50%);
-            transform: translate(-50%, 50%);
-  }
-}
-@media (max-width: 1199px) {
-  .about-image-card .main-img-wrapper .company-label {
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-    bottom: unset;
-  }
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  border-right: 15px solid #ffffff;
+  border-bottom: 22px solid #ffffff;
 }
 .about-image-card .main-img-wrapper .company-label .icon {
   width: 170px;
@@ -6143,16 +6129,6 @@ body.admin-bar .header-menu-area.sticky_menu {
 .about-info-card .about-info-content .section-title {
   margin-bottom: 16px;
 }
-.about-info-card .about-info-content .section-title .shape {
-  position: relative;
-  padding: 30px;
-  color: #ffffff;
-}
-.about-info-card .about-info-content .section-title .shape img {
-  position: absolute;
-  bottom: 20px;
-  left: 7px;
-}
 .about-info-card .about-info-content .quote {
   font-family: "Hepta Slab", sans-serif;
   font-size: 35px;
@@ -6181,16 +6157,34 @@ body.admin-bar .header-menu-area.sticky_menu {
   border-radius: 50px;
   background-color: #CDB091;
 }
+.about-info-card .about-info-content ul {
+  padding: 0;
+}
+.about-info-card .about-info-content ul li {
+  list-style: none;
+}
 
-.about-info-card.style-2 .about-info-content {
+.about-info-card.style-2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  gap: 53px;
+  gap: 24px;
+}
+.about-info-card.style-2 .thumbnail {
+  width: 416px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  position: relative;
+}
+.about-info-card.style-2 .thumbnail img {
+  top: 0;
+  left: 0;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1/1;
 }
 
 .counter-card {
@@ -8794,6 +8788,15 @@ body.admin-bar .header-menu-area.sticky_menu {
     gap: 40px;
   }
 }
+.section-title .shape {
+  position: relative;
+  padding: 30px;
+}
+.section-title .shape img {
+  position: absolute;
+  bottom: 20px;
+  left: 7px;
+}
 .section-title .sec-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8868,9 +8871,6 @@ body.admin-bar .header-menu-area.sticky_menu {
   .section-title .title br {
     display: none;
   }
-}
-.section-title .title span {
-  color: #CDB091;
 }
 .section-title .sec-desc {
   -ms-flex-negative: 0;
@@ -12180,6 +12180,10 @@ ul.children {
 .contact-area .comment-respond.style-2 .contacts-message label {
   background-color: #1C1D20;
   color: #ffffff;
+}
+
+.about-us-area.style-2 {
+  padding: 120px 0;
 }
 
 .testimonial-slider-area.style-3 {

@@ -97,8 +97,8 @@ Footer
 
 
 // 11.Testimonial Card
-@import "modules/testimonial/testimonial-card-two";
 @import "modules/testimonial/testimonial-card";
+@import "modules/testimonial/testimonial-card-two";
 @import "modules/testimonial/testimonial-slider-controls";
 
 // 12.Accordion Card
@@ -158,6 +158,8 @@ Footer
 @import "modules/portfolio/portfolio-two";
 @import "modules/portfolio/portfolio-slider-controls";
 
+// Video Popup Module Card
+@import "modules/video-popup-module-card";
 // Pages
 @import "pages/pages";
 

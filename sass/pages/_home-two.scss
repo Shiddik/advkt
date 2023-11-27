@@ -4,3 +4,32 @@
     padding: 120px 0;
   }
 }
+
+// Modal Area
+.video-popup-area {
+  position: relative;
+
+  .video-popup-wrapper {
+    position: relative;
+
+    .get-quot-form {
+      padding: 0 40px;
+      margin-top: -180px;
+    }
+    .comment-respond.style-2 .comment-respond-wrapper {
+      margin-left: 0;
+      padding: 60px 70px;
+
+      &:before {
+        width: 100%;
+        border-radius: 10px;
+        margin-right: 0;
+      }
+    }
+  }
+  .shape {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+}

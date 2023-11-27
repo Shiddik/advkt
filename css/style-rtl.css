@@ -11913,19 +11913,30 @@ ul.children {
           flex-direction: column;
   gap: 30px;
 }
+.portfolio-card-wrapper .portfolio-card .image {
+  border-radius: 20px;
+  top: 34px;
+  left: -480px;
+  -webkit-transition: all 0.6s ease-out;
+  transition: all 0.6s ease-out;
+}
 .portfolio-card-wrapper .portfolio-card.style-2 {
   gap: 50px;
   border-top: 1px solid rgba(0, 0, 0, 0.15);
   border-bottom: 1px solid rgba(0, 0, 0, 0.15);
   padding: 26px 0;
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.6s ease-out;
+  transition: all 0.6s ease-out;
 }
 .portfolio-card-wrapper .portfolio-card.style-2:hover .short-desc {
   color: #CDB091;
 }
 .portfolio-card-wrapper .portfolio-card.style-2:hover .number-text {
   color: #CDB091;
+}
+.portfolio-card-wrapper .portfolio-card.style-2:hover .image {
+  -webkit-transform: rotate(-2.983deg);
+          transform: rotate(-2.983deg);
 }
 .portfolio-card-wrapper .portfolio-card.style-2 .brand-logo {
   width: 207px;

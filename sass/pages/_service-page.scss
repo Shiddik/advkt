@@ -1,37 +1,37 @@
 // Process Area
-.process-step-area {
-    &.style-1 {
-        padding-top: 120px;
-        padding-bottom: 115px;
-
-        @include sm {
-            padding-top: 80px;
-            padding-bottom: 15px;
-        }
-        @include md {
-            padding-top: 100px;
-            padding-bottom: 15px;
-        }
-        @include lg {
-            padding-top: 120px;
-            padding-bottom: 35px;
-        }
-        .process-step {
-            &.style-1 {
-                @include sm {
-                    margin-bottom: 60px;
-                }
-                @include md {
-                    margin-bottom: 80px;
-                }
-                @include lg {
-                    margin-bottom: 80px;
-                    padding: 0 20px;
-                }
-            }
-        }
-    }
-}
+//.process-step-area {
+//    &.style-1 {
+//        padding-top: 120px;
+//        padding-bottom: 115px;
+//
+//        @include sm {
+//            padding-top: 80px;
+//            padding-bottom: 15px;
+//        }
+//        @include md {
+//            padding-top: 100px;
+//            padding-bottom: 15px;
+//        }
+//        @include lg {
+//            padding-top: 120px;
+//            padding-bottom: 35px;
+//        }
+//        .process-step {
+//            &.style-1 {
+//                @include sm {
+//                    margin-bottom: 60px;
+//                }
+//                @include md {
+//                    margin-bottom: 80px;
+//                }
+//                @include lg {
+//                    margin-bottom: 80px;
+//                    padding: 0 20px;
+//                }
+//            }
+//        }
+//    }
+//}
 
 // Service Details Page
 .service-details-page {

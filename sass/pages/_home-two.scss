@@ -8,6 +8,7 @@
 // Modal Area
 .video-popup-area {
   position: relative;
+  margin-top: -240px;
 
   .video-popup-wrapper {
     position: relative;
@@ -31,5 +32,13 @@
     position: absolute;
     right: 0;
     bottom: 0;
+  }
+}
+
+// Process Step Area
+.process-step-area {
+  &.style-1 {
+    padding-top: 120px;
+    padding-bottom: 370px;
   }
 }

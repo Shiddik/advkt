@@ -22,6 +22,7 @@
       left: 7px
     }
   }
+ 
   .sec-content {
     display: flex;
     gap: 20px;
@@ -63,6 +64,7 @@
     font-family: $heading-font;
     color: $black;
     margin-bottom: 0;
+    text-transform: capitalize;
 
 
     @include lg {

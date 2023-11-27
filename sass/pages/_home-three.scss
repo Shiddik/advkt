@@ -1,6 +1,15 @@
 
 // Testimonial Slider Area
 .testimonial-slider-area {
+  &.style-2 {
+    padding-top: 100px;
+    padding-bottom: 174px;
+    
+    .section-title {
+        margin-bottom: 59px;
+    }
+  }
+
   &.style-3 {
     padding-top: 120px;
 

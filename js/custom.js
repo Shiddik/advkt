@@ -221,17 +221,21 @@
        Testimonial Slider
        ============================*/
         $("#testimonial_two").slick({
-            slidesToShow: 3,
+            slidesToShow: 2,
             infinite: true,
             autoplay: true,
             draggable: true,
             arrows: true,
             slidesToScroll: 1,
             loop: true,
-            dots: true,
+            dots: false,
             speed: 1500,
-            variableWidth: true,
             rtl: false,
+            
+            prevArrow:
+            "<button type='button' class='testimonial-arrow-btn prev-btn'><i class='fa-solid fa-chevron-left'></i></button>",
+            nextArrow:
+            "<button type='button' class='testimonial-arrow-btn next-btn active'><i class='fa-solid fa-chevron-right'></i></button>",
             responsive: [
                 {
                     breakpoint: 1200,

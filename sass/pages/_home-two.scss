@@ -143,3 +143,23 @@
     }
   }
 }
+
+// Company History Area
+.company-history-area {
+  padding-bottom: 247px;
+}
+
+// FAQ Area
+.faq-area {
+  &.style-1 {
+    padding-bottom: 140px;
+  }
+}
+
+// Brand Slider
+.brand-marquee-area {
+  &.style-2 {
+    padding-top: 130px;
+    padding-bottom: 130px;
+  }
+}

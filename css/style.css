@@ -6430,6 +6430,13 @@ body.admin-bar .header-menu-area.sticky_menu {
   white-space: nowrap;
 }
 
+.testimonial-slider-wrapper .slick-list {
+  margin: 0 -12px;
+}
+.testimonial-slider-wrapper .slick-slide {
+  margin: 0 12px;
+}
+
 .testimonial-card.style-2 {
   padding: 45px 50px 40px 50px;
   background-color: #ffffff;
@@ -6507,14 +6514,22 @@ body.admin-bar .header-menu-area.sticky_menu {
 
 .prev-btn {
   position: absolute;
-  margin-left: -80px;
-  margin-top: 170px;
+  left: -99px;
+  margin-top: 149px;
 }
 
 .next-btn {
   position: absolute;
-  right: -80px;
-  margin-top: -210px;
+  right: -99px;
+  bottom: 149px;
+}
+
+.prev-btn, .next-btn {
+  color: #31373f;
+  background-color: #ffffff;
+  width: 50px;
+  height: 50px;
+  padding: 0;
 }
 
 .testimonial-card {

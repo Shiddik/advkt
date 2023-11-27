@@ -168,13 +168,19 @@
   gap: 30px;
 
   .portfolio-card {
-  
+    .image {
+      border-radius: 20px;
+      top: 34px;
+      right: -480px;
+      transition: all 0.6s ease-out;
+    }
+
     &.style-2 {
         gap: 50px;
         border-top: 1px solid rgba(0, 0, 0, 0.15);
         border-bottom: 1px solid rgba(0, 0, 0, 0.15);
         padding: 26px 0;
-        @include transition;
+        transition: all 0.6s ease-out;
 
         &:hover {
           .short-desc {
@@ -182,6 +188,10 @@
           }
           .number-text {
             color: $primary-color;
+          }
+          .image {
+            
+            transform: rotate(2.983deg);
           }
         }
 
@@ -192,6 +202,8 @@
       }
 
       .content {
+
+       
         margin-right: 250px;
 
         .short-desc {

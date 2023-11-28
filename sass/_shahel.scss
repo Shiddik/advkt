@@ -29,10 +29,27 @@ $pricing-border-color: #3C3E43;
         gap: 74px;
         padding: 100px 0;
 
+        @include lg {
+            gap: 50px;
+        }
+        @include md {
+            gap: 40px;
+            padding: 60px 0;
+        }
+        @include sm {
+            flex-direction: column;
+            gap: 24px;
+            padding: 40px 0;
+        }
+
         &:nth-child(even) {
             flex-direction: row-reverse;
             border-top: 1px solid rgba(0, 0, 0, 0.15);
             border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+
+            @include sm {
+                flex-direction: column;
+            }
         }
 
         .team-member-thumb {
@@ -40,6 +57,13 @@ $pricing-border-color: #3C3E43;
             flex-direction: column;
             align-items: center;
             flex-shrink: 0;
+
+            @include md {
+                width: 330px;
+            }
+            @include sm {
+                width: 280px;
+            }
 
             .image {
                 flex-shrink: 0;
@@ -56,6 +80,8 @@ $pricing-border-color: #3C3E43;
                     font-weight: 600;
                     line-height: initial;
                     color: $black;
+
+                    
                 }
                 .desc {
                     font-size: 20px;
@@ -88,6 +114,17 @@ $pricing-border-color: #3C3E43;
                     color: $black;
                     line-height: initial;
                     text-transform: capitalize;
+
+                    @include lg {
+                        font-size: 38px;
+                    }
+                    @include md {
+                        font-size: 28px;
+                    }
+                    @include sm {
+                        font-size: 28px;
+                        text-align: center;
+                    }
                 }
 
                 p {
@@ -95,6 +132,16 @@ $pricing-border-color: #3C3E43;
                     line-height: 29px;
                     margin-top: 20px;
                     text-transform: capitalize;
+
+                    @include md {
+                        font-size: 13px;
+                        line-height: 22px;
+                    }
+                    @include sm {
+                        font-size: 12px;
+                        line-height: 22px;
+                        text-align: justify;
+                    }
                 }
             }
 
@@ -176,12 +223,35 @@ $pricing-border-color: #3C3E43;
                 border-left: 3px solid $primary-color;
                 margin-bottom: 14px;
 
+                @include lg {
+                    padding: 16px 0 16px 32px;
+                }
+                @include md {
+                    padding: 14px 0 14px 24px;
+                    margin-bottom: 0;
+                }
+                @include sm {
+                    padding: 10px 0 10px 20px;
+                    margin-bottom: 0;
+                }
+
                 .desc {
                     font-family: $heading-font;
                     font-weight: 600;
                     font-size: 20px;
                     line-height: 30px;
                     color: $black;
+
+                    @include lg {
+                        font-size: 18px;
+                    }
+                    @include md {
+                        font-size: 16px;
+                    }
+                    @include sm {
+                        font-size: 13px;
+                        line-height: initial;
+                    }
                 }
             }
             .member-social-site {

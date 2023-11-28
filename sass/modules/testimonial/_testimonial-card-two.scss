@@ -8,6 +8,23 @@
     .slick-slide {
       margin: 0 12px;
     }
+    .prev-btn {
+        position: absolute;
+        left: -99px;
+        margin-top: 149px;
+    }
+    .next-btn {
+        position: absolute;
+        right: -99px;
+        bottom: 149px;
+    }
+    .prev-btn, .next-btn {
+        color: $gray;
+        background-color: $white;
+        width: 50px;
+        height: 50px;
+        padding: 0;
+    }
   }
 
 
@@ -76,21 +93,4 @@
     }
 
     
-}
-.prev-btn {
-    position: absolute;
-    left: -99px;
-    margin-top: 149px;
-}
-.next-btn {
-    position: absolute;
-    right: -99px;
-    bottom: 149px;
-}
-.prev-btn, .next-btn {
-    color: $gray;
-    background-color: $white;
-    width: 50px;
-    height: 50px;
-    padding: 0;
 }

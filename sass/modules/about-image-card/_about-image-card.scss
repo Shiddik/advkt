@@ -65,5 +65,33 @@
         }
       }
     }
+    .company-info {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 30px;
+
+      .single-info {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .title {
+          margin-bottom: 0;
+          font-size: 20px;
+          font-weight: 600;
+          line-height: 30px;
+          color: $black;
+        }
+        .sub-title {
+          margin-bottom: 0;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: initial;
+          color: $text-color;
+        }
+      }
+    }
   }
 }

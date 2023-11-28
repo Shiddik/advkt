@@ -171,9 +171,9 @@ input:focus {
 //.background-skye {
 //  background-color: $primary-color;
 //}
-//.background-gray {
-//  background-color: rgb(241, 241, 249);
-//}
+.background-gray {
+  background-color: #FAF8F7;
+}
 //.background-light-gray {
 //  background-color: rgb(241, 241, 249);
 //}
@@ -239,9 +239,6 @@ input.theme-btn {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    border-radius: 6px;
-    color: #fff;
-    font-size: 16px;
   }
   &:before {
     position: absolute;

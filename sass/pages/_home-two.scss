@@ -76,6 +76,7 @@
   margin-top: -400px;
   position: relative;
   z-index: 2;
+  padding-bottom: 24px;
 }
 
 // Faq Gallery Area
@@ -161,5 +162,14 @@
   &.style-2 {
     padding-top: 130px;
     padding-bottom: 130px;
+  }
+}
+
+// Testimonial Slider Area
+.testimonial-slider-area {
+  &.style-2 {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }

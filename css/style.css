@@ -5028,8 +5028,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   }
 }
 .slider-area.style-2 .slider-wrapper .single-slider-wrapper .single-slider {
-  border-bottom: 0;
-  padding-top: 20px;
+  padding-top: 75px;
   padding-bottom: 0;
   background-size: cover;
   background-repeat: no-repeat;
@@ -5162,6 +5161,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .slider-area.style-2 .slider-wrapper .single-slider-wrapper .single-slider .slider-image {
   text-align: right;
   position: relative;
+  margin-right: -170px;
 }
 .slider-area.style-2 .slider-wrapper .single-slider-wrapper .single-slider .slider-image img {
   display: inline-block;

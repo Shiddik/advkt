@@ -28,8 +28,7 @@
         }
         .single-slider-wrapper {
           .single-slider {
-            border-bottom: 0;
-            padding-top: 20px;
+            padding-top: 75px;
             padding-bottom: 0;
             background-size: cover;
             background-repeat: no-repeat;
@@ -137,6 +136,7 @@
             .slider-image {
               text-align: right;
               position: relative;
+              margin-right: -170px;
 
               img {
                 display: inline-block;

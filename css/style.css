@@ -494,12 +494,14 @@ input.theme-btn {
 }
 .circle-rotate-wrapper .circle-rotate-inner {
   position: absolute;
-  width: 182px;
-  height: 182px;
+  width: 160px;
+  height: 160px;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  border: 1px dashed #1E2E3E;
+  border-radius: 50%;
 }
 
 .circle-rotate-text {
@@ -5826,8 +5828,8 @@ body.admin-bar .header-menu-area.sticky_menu {
   border-bottom: 22px solid #ffffff;
 }
 .about-image-card .main-img-wrapper .company-label .icon {
-  width: 170px;
-  height: 170px;
+  width: 182px;
+  height: 182px;
   -webkit-box-shadow: 0px 5px 90px 0px rgba(2, 24, 93, 0.12);
           box-shadow: 0px 5px 90px 0px rgba(2, 24, 93, 0.12);
   background-color: #CDB091;
@@ -5841,6 +5843,21 @@ body.admin-bar .header-menu-area.sticky_menu {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+.about-image-card .main-img-wrapper .company-label .counter-wrapper .number {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 29px;
+  color: #1E2E3E;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.about-image-card .main-img-wrapper .company-label .counter-wrapper .number .prefix {
+  font-weight: 400;
 }
 
 .timeline-card {

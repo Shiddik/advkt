@@ -40,14 +40,29 @@
       border-bottom: 22px solid $white;
 
       .icon {
-        width: 170px;
-        height: 170px;
+        width: 182px;
+        height: 182px;
         box-shadow: 0px 5px 90px 0px rgba(2, 24, 93, 0.12);
         background-color: $primary-color;
         border-radius: 50%;
         display: flex;
         align-items: center;
         justify-content: center;
+      }
+
+      .counter-wrapper {
+        .number {
+          font-size: 40px;
+          font-weight: 600;
+          line-height: 29px;
+          color: $black;
+          display: flex;
+          align-items: center;
+
+          .prefix {
+            font-weight: 400;
+          }
+        }
       }
     }
   }

@@ -64,8 +64,6 @@
     font-family: $heading-font;
     color: $black;
     margin-bottom: 0;
-    text-transform: capitalize;
-
 
     @include lg {
       font-size: 48px;

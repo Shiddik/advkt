@@ -6380,7 +6380,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 20px;
+  gap: 10px;
   padding: 0 30px;
 }
 .process-step .content .title {
@@ -6904,7 +6904,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 
 .brand-slider-area.style-2 {
-  padding: 90px 0;
+  padding: 140px 0;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .brand-slider-area.style-2 {
@@ -9044,7 +9044,6 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-family: "Hepta Slab", sans-serif;
   color: #1E2E3E;
   margin-bottom: 0;
-  text-transform: capitalize;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .section-title .title {
@@ -11801,10 +11800,10 @@ ul.children {
 }
 .portfolio-filter li {
   list-style: none;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   color: #ffffff;
-  text-transform: capitalize;
+  text-transform: uppercase;
   cursor: pointer;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
@@ -12140,6 +12139,7 @@ ul.children {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  margin-top: -84px;
 }
 .video-popup-card .video-popup-btn a {
   width: 200px;
@@ -12408,7 +12408,7 @@ ul.children {
 }
 .video-popup-area .video-popup-wrapper .get-quot-form {
   padding: 0 40px;
-  margin-top: -180px;
+  margin-top: -150px;
 }
 .video-popup-area .video-popup-wrapper .comment-respond.style-2 .comment-respond-wrapper {
   margin-left: 0;
@@ -12432,7 +12432,7 @@ ul.children {
 
 .portfolio-bg-area {
   padding-top: 120px;
-  padding-bottom: 390px;
+  padding-bottom: 324px;
   position: relative;
   z-index: 1;
   background-color: #1E2E3E;

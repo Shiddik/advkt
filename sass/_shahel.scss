@@ -40,6 +40,7 @@ $pricing-border-color: #3C3E43;
             flex-direction: column;
             gap: 24px;
             padding: 40px 0;
+            align-items: flex-start;
         }
 
         &:nth-child(even) {
@@ -97,6 +98,10 @@ $pricing-border-color: #3C3E43;
                     i {
                         font-size: 20px;
                         color: $black;
+                        @include transition;
+                        &:hover {
+                            color: $primary-color;
+                        }
                     }
                 }
             }
@@ -106,6 +111,10 @@ $pricing-border-color: #3C3E43;
             flex-direction: column;
             gap: 30px;
             align-items: flex-start;
+
+            @include sm {
+                align-items: center;
+            }
 
             .content {
                 .title {
@@ -123,7 +132,6 @@ $pricing-border-color: #3C3E43;
                     }
                     @include sm {
                         font-size: 28px;
-                        text-align: center;
                     }
                 }
 
@@ -233,6 +241,7 @@ $pricing-border-color: #3C3E43;
                 @include sm {
                     padding: 10px 0 10px 20px;
                     margin-bottom: 0;
+                    text-align: center;
                 }
 
                 .desc {

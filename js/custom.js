@@ -144,9 +144,9 @@
             speed: 1500,
             rtl: false,
             prevArrow:
-                "<button type='button' class='hero-slider prev-btn'><i class='fa-solid fa-angle-left'></i></button>",
+                "<button type='button' class='hero-slider-btn prev-btn'><i class='fa-solid fa-angle-left'></i></button>",
             nextArrow:
-                "<button type='button' class='hero-slider next-btn'><i class='fa-solid fa-angle-right'></i></button>",
+                "<button type='button' class='hero-slider-btn next-btn'><i class='fa-solid fa-angle-right'></i></button>",
             responsive: [
                 {
                     breakpoint: 767,

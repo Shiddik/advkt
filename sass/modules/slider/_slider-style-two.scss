@@ -3,15 +3,15 @@
     position: relative;
     z-index: 2;
 
-      .slider-overlay {
-        background-image: linear-gradient( 90deg, rgb(28, 29, 32, 0.41) 0%, #1C1D20 71.51%);
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        z-index: -1;
-        top: 0;
-        left: 0;
-      }
+    .slider-overlay {
+      background-image: linear-gradient( 90deg, rgb(28, 29, 32, 0.41) 0%, #1C1D20 71.51%);
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      left: 0;
+    }
     .slider-user-main-wrapper {
       position: absolute;
       width: 100%;
@@ -19,20 +19,7 @@
       top: 0;
       left: 0;
     }
-    .slider-nav-btn-wrapper {
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      right: 70px;
-      flex-direction: column;
 
-      @include rmaxwd(991) {
-        display: none;
-      }
-      @include rmaxwd(1500) {
-        right: 20px;
-      }
-    }
       .slider-wrapper {
         .slick-dots {
           @include rmaxwd(991) {

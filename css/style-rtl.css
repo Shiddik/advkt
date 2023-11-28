@@ -494,8 +494,8 @@ input.theme-btn {
 }
 .circle-rotate-wrapper .circle-rotate-inner {
   position: absolute;
-  width: 160px;
-  height: 160px;
+  width: 182px;
+  height: 182px;
   top: 50%;
   right: 50%;
   -webkit-transform: translate(50%, -50%);
@@ -514,12 +514,12 @@ input.theme-btn {
   right: 0;
 }
 .circle-rotate-text span {
-  font-family: "Hepta Slab", sans-serif;
+  font-family: "Jost", sans-serif;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   text-transform: uppercase;
-  letter-spacing: 2px;
-  color: #fff;
+  letter-spacing: 3.2px;
+  color: #1E2E3E;
 }
 
 /* Deafult Margin & Padding */

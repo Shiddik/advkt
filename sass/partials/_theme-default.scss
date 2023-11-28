@@ -445,8 +445,8 @@ input.theme-btn {
 
   .circle-rotate-inner {
     position: absolute;
-    width: 160px;
-    height: 160px;
+    width: 182px;
+    height: 182px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -462,12 +462,12 @@ input.theme-btn {
   left: 0;
 
   span {
-    font-family: $heading-font;
+    font-family: $body-font;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #fff;
+    letter-spacing: 3.2px;
+    color: $black;
   }
   //width: 164px;
 

@@ -5037,11 +5037,22 @@ body.admin-bar .header-menu-area.sticky_menu {
   position: relative;
   z-index: 2;
 }
+.slider-area.style-2 .slider-wrapper .single-slider-wrapper .single-slider .slider-content-wrapper {
+  position: relative;
+}
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .slider-area.style-2 .slider-wrapper .single-slider-wrapper .single-slider .slider-content-wrapper {
     padding-top: 60px;
     padding-bottom: 0;
   }
+}
+.slider-area.style-2 .slider-wrapper .single-slider-wrapper .single-slider .slider-content-wrapper .shape {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.slider-area.style-2 .slider-wrapper .single-slider-wrapper .single-slider .slider-content-wrapper .signature-shape img {
+  margin-left: auto;
 }
 .slider-area.style-2 .slider-wrapper .single-slider-wrapper .single-slider .slider-content-wrapper .slider-content {
   gap: 0;

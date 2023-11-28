@@ -38,9 +38,21 @@
             z-index: 2;
 
             .slider-content-wrapper {
+              position: relative;
+
               @include sm {
                 padding-top: 60px;
                 padding-bottom: 0;
+              }
+              .shape {
+                position: absolute;
+                right: 0;
+                top: 0;
+              }
+              .signature-shape {
+                img {
+                  margin-left: auto;
+                }
               }
               .slider-content {
                 gap: 0;

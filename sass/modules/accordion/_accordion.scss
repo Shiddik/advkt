@@ -20,7 +20,7 @@
         flex-shrink: 0;
         content: "\f068";
         font-family: $font-awesome;
-        font-weight: 500;
+        font-weight: 600;
       }
       &.collapsed {
         &:before {
@@ -35,7 +35,7 @@
           position: relative;
           content: "\2b";
           font-family: $font-awesome;
-          font-weight: 500;
+          font-weight: 600;
         }
       }
 

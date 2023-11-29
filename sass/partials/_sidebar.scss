@@ -49,7 +49,7 @@
     display: flex;
     align-items: center;
     line-height: 28px;
-    font-weight: 500;
+    font-weight: 600;
     margin-bottom: 30px;
     color: $black;
     position: relative;
@@ -91,12 +91,12 @@
     li {
       &.wp-block-latest-comments__comment {
         .wp-block-latest-comments__comment-meta {
-          font-weight: 500;
+          font-weight: 600;
           color: $black;
 
           .wp-block-latest-comments__comment-author,
           .wp-block-latest-comments__comment-link {
-            font-weight: 500;
+            font-weight: 600;
           }
         }
       }
@@ -235,7 +235,7 @@
         color: #fff;
         padding: 12px 32px;
         text-align: center;
-        font-weight: 500;
+        font-weight: 600;
         font-family: $body-font;
         text-transform: capitalize;
         position: relative;
@@ -335,7 +335,7 @@
         /* RSS Widget */
         &.rsswidget {
           padding-left: 0;
-          font-weight: 500;
+          font-weight: 600;
           display: block;
 
           &:before {
@@ -441,7 +441,7 @@
   .wp-block-latest-posts__post-title {
     display: inline-block;
     width: 100%;
-    font-weight: 500;
+    font-weight: 600;
   }
 }
 .widget_rss {
@@ -471,11 +471,11 @@
   .wp-block-rss__item-title {
     display: inline-block;
     width: 100%;
-    font-weight: 500;
+    font-weight: 600;
 
     > a {
       color: $black;
-      font-weight: 500;
+      font-weight: 600;
     }
   }
   .wp-block-latest-posts__post-author,
@@ -489,7 +489,7 @@
   .rss-date {
     display: inline-block;
     font-size: 14px !important;
-    font-weight: 500;
+    font-weight: 600;
     text-transform: capitalize;
     position: relative;
   }
@@ -565,7 +565,7 @@
           line-height: 30px;
           color: $secondary-color;
           font-family: $heading-font;
-          font-weight: 500;
+          font-weight: 600;
           @include lg {
             font-size: 19px;
             height: 60px;
@@ -576,7 +576,7 @@
             font-size: 21px;
             line-height: 30px;
             color: $secondary-color;
-            font-weight: 500;
+            font-weight: 600;
             position: relative;
             text-transform: capitalize;
             @include transition;
@@ -609,8 +609,8 @@
   display: grid;
   flex-wrap: wrap;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 12px;
-  width: 240px;
+  grid-gap: 5px;
+  width: 305px;
 
   @media only screen and (min-width: 992px) and (max-width: 1280px){
     grid-template-columns: repeat(2, 1fr);
@@ -619,9 +619,8 @@
     grid-template-columns: repeat(2, 1fr);
   }
   .single-instagram-feed {
-    border-radius: 6px;
-    width: 72px;
-    height: 72px;
+    width: 98px;
+    height: 100px;
     overflow: hidden;
     position: relative;
     flex-shrink: 0;
@@ -639,7 +638,7 @@
       position: absolute;
       left: 0;
       top: 0;
-      transform: scale(1);
+      transform: scale(1.01);
       @include transition;
     }
   }
@@ -664,7 +663,7 @@
     background: $primary-color;
     color: $secondary-color;
     padding: 12px 104px;
-    font-weight: 500;
+    font-weight: 600;
     font-family: $body-font;
     text-transform: capitalize;
     position: relative;

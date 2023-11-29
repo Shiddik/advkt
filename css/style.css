@@ -12322,6 +12322,23 @@ ul.children {
     margin-right: 0;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .cta-area .counter-area .counter-card {
+    padding: 44px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .cta-area .counter-area .counter-card .number {
+    padding: 20px 5px;
+    width: 140px;
+    font-size: 38px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .cta-area .counter-area .counter-card .title {
+    font-size: 28px;
+  }
+}
 
 .feature-area.style-1 {
   padding-top: 153px;

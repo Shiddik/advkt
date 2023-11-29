@@ -8,6 +8,8 @@
       margin-bottom: 190px;
     }
     .post-card {
+      border-color: #3F3F3F;
+
       .content {
         .title {
           color: $white;
@@ -15,13 +17,18 @@
       }
       .post-meta {
         .single-post-meta {
-          .icon {
-            background-color: #3F3F3F;
+          color: $white;
+          a {
             color: $white;
 
-            &:before {
-              background-color: $black-100;
+            &:hover {
+              color: $primary-color;
             }
+          }
+
+          .icon {
+            color: $white;
+            border-color: #3F3F3F;
           }
         }
       }

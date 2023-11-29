@@ -184,12 +184,13 @@
         &:hover {
           .short-desc {
             color: $primary-color;
+            @include transition;
           }
           .number-text {
             color: $primary-color;
+            @include transition;
           }
           .image {
-            
             transform: rotate(2.983deg);
           }
         }
@@ -201,8 +202,6 @@
       }
 
       .content {
-
-       
         margin-right: 250px;
 
         .short-desc {
@@ -210,6 +209,7 @@
           font-size: 16px;
           font-weight: 600;
           line-height: 29px;
+          @include transition;
         }
       }
 
@@ -218,6 +218,7 @@
         font-weight: 600;
         font-family: $heading-font;
         color: #666;
+        @include transition;
       }
     }
   }

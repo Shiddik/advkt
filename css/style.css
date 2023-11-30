@@ -498,12 +498,12 @@ input.theme-btn {
 }
 .circle-rotate-wrapper .circle-rotate-inner {
   position: absolute;
-  width: 160px;
-  height: 160px;
+  width: 100%;
+  height: 100%;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%) scale(0.9);
+          transform: translate(-50%, -50%) scale(0.9);
   border: 1px dashed #1E2E3E;
   border-radius: 50%;
 }
@@ -5771,21 +5771,22 @@ body.admin-bar .header-menu-area.sticky_menu {
     height: 100px;
   }
 }
-.about-image-card .main-img-wrapper .company-label {
+.about-image-card .main-img-wrapper .company-label-wrapper {
   position: absolute;
   top: 0;
   left: 0;
   background-color: #ffffff;
-  border-right: 15px solid #ffffff;
-  border-bottom: 22px solid #ffffff;
+  padding-right: 15px;
+  padding-bottom: 22px;
 }
-.about-image-card .main-img-wrapper .company-label .icon {
+.about-image-card .main-img-wrapper .company-label {
   width: 182px;
   height: 182px;
-  -webkit-box-shadow: 0px 5px 90px 0px rgba(2, 24, 93, 0.12);
-          box-shadow: 0px 5px 90px 0px rgba(2, 24, 93, 0.12);
   background-color: #CDB091;
   border-radius: 50%;
+  position: relative;
+}
+.about-image-card .main-img-wrapper .company-label .icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5795,6 +5796,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 .about-image-card .main-img-wrapper .company-label .counter-wrapper .number {
   font-size: 40px;

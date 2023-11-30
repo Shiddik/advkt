@@ -145,38 +145,38 @@
     }
 
     // Header CTA Area
-    .header-cta-btn {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      text-align: right;
-      margin-right: -232px;
-      padding-left: 33px;
-
-      .phone-number-wrapper {
-        display: flex;
-        flex-direction: column;
-
-        .telephone-number {
-          color: $black;
-          font-size: 18px;
-          font-weight: 600;
-          font-family: $body-font;
-          line-height: initial;
-        }
-        .text {
-          font-size: 12px;
-          color: $black;
-          font-weight: 400;
-          font-family: $body-font;
-          line-height: initial;
-        }
-      }
-      .cta-btn-wrapper {
-        .cta-btn {
-          padding: 6px 28px;
-        }
-      }
-    }
+    //.header-cta-btn {
+    //  display: flex;
+    //  flex-direction: column;
+    //  gap: 10px;
+    //  text-align: right;
+    //  margin-right: -232px;
+    //  padding-left: 33px;
+    //
+    //  .phone-number-wrapper {
+    //    display: flex;
+    //    flex-direction: column;
+    //
+    //    .telephone-number {
+    //      color: $black;
+    //      font-size: 18px;
+    //      font-weight: 600;
+    //      font-family: $body-font;
+    //      line-height: initial;
+    //    }
+    //    .text {
+    //      font-size: 12px;
+    //      color: $black;
+    //      font-weight: 400;
+    //      font-family: $body-font;
+    //      line-height: initial;
+    //    }
+    //  }
+    //  .cta-btn-wrapper {
+    //    .cta-btn {
+    //      padding: 6px 28px;
+    //    }
+    //  }
+    //}
   }
 }

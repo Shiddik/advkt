@@ -502,9 +502,9 @@ input.theme-btn {
   height: 100%;
   top: 50%;
   right: 50%;
-  -webkit-transform: translate(50%, -50%) scale(0.9);
-          transform: translate(50%, -50%) scale(0.9);
-  border: 1px dashed #1E2E3E;
+  -webkit-transform: translate(50%, -50%) scale(0.85);
+          transform: translate(50%, -50%) scale(0.85);
+  border: 2px dashed #1E2E3E;
   border-radius: 50%;
 }
 
@@ -5790,6 +5790,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-top: 30px;
+  padding-left: 25px;
 }
 .about-image-card .main-img-wrapper .company-info .single-info {
   display: -webkit-box;
@@ -6133,6 +6134,8 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .about-info-card .about-info-content ul {
   padding: 0;
+  margin-top: 25px;
+  margin-bottom: 2px;
 }
 .about-info-card .about-info-content ul li {
   list-style: none;
@@ -6146,7 +6149,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-size: 16px;
   font-weight: 600;
   color: #1E2E3E;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 .about-info-card .about-info-content ul li:last-child {
   margin-bottom: 0;
@@ -8954,12 +8957,11 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .section-title .shape {
   position: relative;
-  padding: 30px;
 }
 .section-title .shape img {
   position: absolute;
-  bottom: 20px;
-  right: 7px;
+  bottom: 0;
+  right: 0;
 }
 .section-title .sec-content {
   display: -webkit-box;
@@ -8991,14 +8993,9 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .section-title .short-title {
   font-size: 18px;
-  font-weight: 600;
-  font-family: "Hepta Slab", sans-serif;
-  color: #CDB091;
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .section-title .short-title {
-    font-size: 20px;
-  }
+  font-weight: 400;
+  font-family: "Jost", sans-serif;
+  color: #808080;
 }
 .section-title .title {
   font-size: 60px;
@@ -12463,6 +12460,14 @@ ul.children {
   height: 250px;
   position: relative;
 }
+.faq-gallery .faq-gallery-wrapper .shape {
+  position: absolute;
+  left: 2px;
+  z-index: 2;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  top: 100%;
+}
 .faq-gallery .faq-gallery-wrapper .faq-gallery-thumb {
   position: absolute;
   width: 100%;
@@ -12493,7 +12498,7 @@ ul.children {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 15px;
+  gap: 20px;
 }
 .faq-gallery .faq-gallery-wrapper .content-card .title {
   font-size: 20px;
@@ -12512,7 +12517,10 @@ ul.children {
 }
 
 .faq-area.style-1 {
-  padding-bottom: 140px;
+  padding-bottom: 246px;
+}
+.faq-area.style-1 .section-title {
+  margin-bottom: 30px;
 }
 
 .brand-marquee-area.style-2 {

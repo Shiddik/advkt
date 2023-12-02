@@ -24,6 +24,14 @@
                 @include transition;
             }
         }
+        .content {
+            .read-more-btn {
+                visibility: visible;
+                opacity: 1;
+                transform: rotate(-45deg) scale(1);
+                @include transition;
+            }
+        }
     }
 
     .icon {
@@ -109,6 +117,7 @@
         flex-direction: column;
         gap: 10px;
         padding: 0 30px;
+        align-items: center;
 
         .title {
             margin: 0;
@@ -124,6 +133,21 @@
             font-weight: 400;
             color: $white;
             font-family: $roboto-font;
+        }
+        .read-more-btn {
+            width: 25px;
+            height: 25px;
+            background-color: $primary-color;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            color: $black;
+            font-size: 14px;
+            transform: rotate(-0deg) scale(0.35);
+            visibility: hidden;
+            opacity: 0;
+            @include transition;
         }
     }
 }

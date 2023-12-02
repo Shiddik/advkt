@@ -164,7 +164,7 @@
 .portfolio-card-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  //gap: 30px;
 
   .portfolio-card {
     .image {
@@ -177,9 +177,13 @@
     &.style-2 {
         gap: 50px;
         border-top: 1px solid rgba(0, 0, 0, 0.15);
-        border-bottom: 1px solid rgba(0, 0, 0, 0.15);
         padding: 26px 0;
         transition: all 0.6s ease-out;
+        padding-right: 145px;
+
+        &:last-child {
+          border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+        }
 
         &:hover {
           .short-desc {
@@ -196,7 +200,7 @@
         }
 
       .brand-logo {
-        width: 207px;
+        width: 225px;
         height: auto;
         flex-shrink: 0;
       }
@@ -214,7 +218,7 @@
       }
 
       .number-text {
-        font-size: 45px;
+        font-size: 35px;
         font-weight: 600;
         font-family: $heading-font;
         color: #666;

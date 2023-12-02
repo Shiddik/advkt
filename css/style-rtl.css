@@ -6313,6 +6313,14 @@ body.admin-bar .header-menu-area.sticky_menu {
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
+.process-step:hover .content .read-more-btn {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: rotate(45deg) scale(1);
+          transform: rotate(45deg) scale(1);
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
 .process-step .icon {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6357,6 +6365,9 @@ body.admin-bar .header-menu-area.sticky_menu {
           flex-direction: column;
   gap: 10px;
   padding: 0 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .process-step .content .title {
   margin: 0;
@@ -6372,6 +6383,29 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-weight: 400;
   color: #ffffff;
   font-family: "Jost", sans-serif;
+}
+.process-step .content .read-more-btn {
+  width: 25px;
+  height: 25px;
+  background-color: #CDB091;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+  color: #1E2E3E;
+  font-size: 14px;
+  -webkit-transform: rotate(0deg) scale(0.35);
+          transform: rotate(0deg) scale(0.35);
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
 }
 
 .brand-marquee-area {
@@ -9036,6 +9070,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .section-title .sec-desc {
   -ms-flex-negative: 0;
       flex-shrink: 0;
+  font-size: 18px;
 }
 .section-title .sec-desc p {
   margin-bottom: 0;
@@ -11936,7 +11971,6 @@ ul.children {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 30px;
 }
 .portfolio-card-wrapper .portfolio-card .image {
   border-radius: 20px;
@@ -11948,10 +11982,13 @@ ul.children {
 .portfolio-card-wrapper .portfolio-card.style-2 {
   gap: 50px;
   border-top: 1px solid rgba(0, 0, 0, 0.15);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
   padding: 26px 0;
   -webkit-transition: all 0.6s ease-out;
   transition: all 0.6s ease-out;
+  padding-left: 145px;
+}
+.portfolio-card-wrapper .portfolio-card.style-2:last-child {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 }
 .portfolio-card-wrapper .portfolio-card.style-2:hover .short-desc {
   color: #CDB091;
@@ -11968,7 +12005,7 @@ ul.children {
           transform: rotate(-2.983deg);
 }
 .portfolio-card-wrapper .portfolio-card.style-2 .brand-logo {
-  width: 207px;
+  width: 225px;
   height: auto;
   -ms-flex-negative: 0;
       flex-shrink: 0;
@@ -11985,7 +12022,7 @@ ul.children {
   transition: all 0.5s ease-out;
 }
 .portfolio-card-wrapper .portfolio-card.style-2 .number-text {
-  font-size: 45px;
+  font-size: 35px;
   font-weight: 600;
   font-family: "Hepta Slab", sans-serif;
   color: #666;
@@ -13813,6 +13850,10 @@ ul.children {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+}
+.footer.style-2 .footer-sec {
+  padding-top: 90px;
+  padding-bottom: 40px;
 }
 .footer.style-2 .overlay {
   position: absolute;

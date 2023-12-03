@@ -39,6 +39,12 @@
       display: flex;
       padding: 12px 0 12px 41px;
 
+      @include sm {
+        font-size: 22px;
+      }
+      @include md {
+        font-size: 24px;
+      }
       @include lg {
         font-size: 28px;
       }
@@ -56,6 +62,8 @@
 
     ul {
       padding: 0;
+      margin-top: 25px;
+      margin-bottom: 2px;
 
       li {
         list-style: none;
@@ -65,7 +73,7 @@
         font-size: 16px;
         font-weight: 600;
         color: $black;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
 
         &:last-child {
           margin-bottom: 0;

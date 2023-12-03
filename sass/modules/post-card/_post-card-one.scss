@@ -1,10 +1,17 @@
+.latest-post-card-wrapper {
+  @include rmaxwd(991) {
+    margin-bottom: 130px;
+  }
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
 .post-card {
   display: flex;
   flex-direction: column;
   border: 1px solid rgba(63, 63, 63, 0.15);
   padding: 41px 27px;
   border-radius: 10px;
-
   &:hover {
     .image {
       img {
@@ -34,6 +41,9 @@
     margin-bottom: 30px;
     margin-top: -174px;
 
+    @include  lg {
+      height: 200px;
+    }
     img {
       transform: scale(1);
       width: 100%;

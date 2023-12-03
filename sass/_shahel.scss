@@ -1,18 +1,3 @@
-$pricing-bg: #1C1D20;
-$pricing-border-color: #3C3E43;
-
-
-.price-area {
-    background-color: $pricing-bg;
-    position: relative;
-}
-
-.pricing-bg {
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 1;
-}
 
 // team member area style
 
@@ -408,20 +393,20 @@ $pricing-border-color: #3C3E43;
 
 
 //latest post area
-
-.latest-posts-area {
-    &.style-2 {
-        background-color: #FAF8F7;
-        padding-top: 120px;
-        padding-bottom: 130px;
-
-        .section-title {
-            margin-bottom: 192px;
-
-        }
-    }
-}
-
+//
+//.latest-posts-area {
+//    &.style-2 {
+//        background-color: #FAF8F7;
+//        padding-top: 120px;
+//        padding-bottom: 130px;
+//
+//        .section-title {
+//            margin-bottom: 192px;
+//
+//        }
+//    }
+//}
+//
 
 // service name style
 .service-list {

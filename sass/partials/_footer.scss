@@ -7,14 +7,18 @@
     background-color: $black-50;
   }
   .footer-sec {
-    padding-top: 116px;
+    padding-top: 60px;
+    padding-bottom: 20px;
 
-    @include rmaxwd(991) {
+    @include sm {
+      padding-top: 80px;
+    }
+    @include md {
       padding-top: 100px;
     }
   }
   .widget-menu-wrapper {
-    padding: 0 100px;
+    padding: 0 60px;
 
 
     @include rmaxwd(991) {
@@ -43,7 +47,7 @@
   line-height: 26px;
   color: $white;
   position: relative;
-  margin-bottom: 43px;
+  margin-bottom: 35px;
   font-weight: 600;
 
   @include sm {
@@ -190,11 +194,11 @@
       list-style: none;
 
       li {
-        margin-bottom: 16px;
+        margin-bottom: 5px;
         display: flex;
         align-items: center;
         line-height: 30px;
-        gap: 20px;
+        gap: 6px;
 
         &:first-child {
           align-items: flex-start;
@@ -301,6 +305,12 @@
   align-items: center;
   justify-content: space-between;
 
+  @include rmaxwd(991) {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 80px 0;
+  }
   .title-wrapper {
     .title {
       margin-bottom: 0;
@@ -321,7 +331,17 @@
     display: flex;
     align-items: center;
     gap: 10px;
+    font-family: $heading-font;
 
+    @include sm {
+      flex-direction: column;
+    }
+    @include md {
+      flex-direction: column;
+    }
+    @include lg {
+      flex-direction: column;
+    }
     .title,
     a {
       font-size: 20px;
@@ -333,6 +353,7 @@
     a {
       color: $primary-color;
       font-weight: 300;
+      border-bottom: 1px solid $primary-color;
     }
   }
 }

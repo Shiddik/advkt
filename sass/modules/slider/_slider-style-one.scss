@@ -22,10 +22,10 @@
       width: 72px;
       height: 72px;
       border-radius: 50px;
-      background-color: $white;
+      background-color: rgba(255, 255, 255, 0.09);
       box-shadow: 0px 12px 24px 0px rgba(2, 24, 93, 0.06);
       font-size: 24px;
-      color: $black;
+      color: $white;
       @include transition;
       display: flex;
       align-items: center;
@@ -305,20 +305,10 @@
         backdrop-filter: blur(4.199999809265137px);
         gap: 15px;
         position: absolute;
-        bottom: 40px;
-        left: 0;
+        bottom: 52px;
+        left: 90px;
         text-align: left;
 
-        @include sm {
-          padding: 10px 20px;
-        }
-        @include xs {
-          padding: 10px 20px;
-          position: relative;
-          left: 50%;
-          transform: translateX(-50%);
-          margin-bottom: 30px;
-        }
         .user-list-wrapper {
           display: flex;
 

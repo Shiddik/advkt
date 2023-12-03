@@ -39,6 +39,12 @@
       display: flex;
       padding: 12px 0 12px 41px;
 
+      @include sm {
+        font-size: 22px;
+      }
+      @include md {
+        font-size: 24px;
+      }
       @include lg {
         font-size: 28px;
       }

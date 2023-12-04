@@ -5,12 +5,13 @@
   margin-bottom: 74px;
   gap: 20px;
 
-  @include rmaxwd(550) {
+  @include sm {
     flex-direction: column;
     margin-bottom: 60px;
     align-items: flex-start;
-    gap: 40px;
+    gap: 30px;
   }
+
 
   .shape {
     position: relative;

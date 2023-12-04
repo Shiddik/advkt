@@ -3396,6 +3396,21 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin-right: -232px;
   padding-left: 33px;
 }
+@media (max-width: 1199px) {
+  .header-area .header-cta-btn {
+    display: none !important;
+  }
+}
+@media (max-width: 1549px) {
+  .header-area .header-cta-btn {
+    margin-right: 0;
+  }
+}
+@media only screen and (min-width: 1550px) and (max-width: 1850px) {
+  .header-area .header-cta-btn {
+    margin-right: -100px;
+  }
+}
 .header-area .header-cta-btn .phone-number-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3456,12 +3471,22 @@ body.admin-bar .header-menu-area.sticky_menu {
   display: flex;
   gap: 84px;
 }
+@media (max-width: 1549px) {
+  .header-top .header-social-wrapper {
+    gap: 20px;
+  }
+}
 .header-top .header-social-wrapper .btn-wrapper {
   margin-right: -13px;
   border-right: 1px solid #d9d9d9;
   padding-right: 5px;
   background: #fff;
   padding-left: 5px;
+}
+@media (max-width: 1399px) {
+  .header-top .header-social-wrapper .btn-wrapper {
+    display: none;
+  }
 }
 .header-top .header-social-wrapper .btn-wrapper .theme-btn {
   padding: 9px 22px;
@@ -4073,6 +4098,21 @@ body.admin-bar .header-menu-area.sticky_menu {
   height: 120px;
   margin-left: -292px;
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .header-area.style-2 .logo {
+    width: 230px;
+  }
+}
+@media (max-width: 1549px) {
+  .header-area.style-2 .logo {
+    margin-left: 0;
+  }
+}
+@media only screen and (min-width: 1550px) and (max-width: 1850px) {
+  .header-area.style-2 .logo {
+    margin-left: -150px;
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header-area.style-2 .logo {
     height: 100px;
@@ -4108,7 +4148,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   border-bottom: 0;
 }
 .header-area.style-2 .header-wrapper .header-top .header-contact-info {
-  gap: 0;
+  gap: 20px;
 }
 .header-area.style-2 .header-wrapper .header-top .header-contact-info span:last-child .contact-info-item .icon {
   background-color: #1E2E3E;
@@ -4139,6 +4179,11 @@ body.admin-bar .header-menu-area.sticky_menu {
 .header-area.style-2 .header-wrapper .social-profile {
   gap: 28px;
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .header-area.style-2 .header-wrapper .social-profile {
+    gap: 15px;
+  }
+}
 .header-area.style-2 .header-wrapper .social-profile a {
   color: #ffffff;
 }
@@ -4164,6 +4209,16 @@ body.admin-bar .header-menu-area.sticky_menu {
 .header-area.style-2 .header-wrapper .main-menu-wrapper .main-menu ul li a {
   color: #393d48;
   padding: 25px 24px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .header-area.style-2 .header-wrapper .main-menu-wrapper .main-menu ul li a {
+    padding: 20px 6px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .header-area.style-2 .header-wrapper .main-menu-wrapper .main-menu ul li a {
+    padding: 25px 6px;
+  }
 }
 .header-area.style-2 .header-wrapper .main-menu-wrapper .main-menu ul li.active {
   position: relative;

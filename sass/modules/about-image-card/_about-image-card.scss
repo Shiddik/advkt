@@ -1,8 +1,10 @@
 .about-image-card {
-  @include rmaxwd(991) {
-    margin-bottom: 70px;
-  }
+  //@include rmaxwd(991) {
+  //  margin-bottom: 70px;
+  //}
   .main-img-wrapper {
+    display: inline-block;
+
     .main-img-inner {
       position: relative;
       display: inline-block;

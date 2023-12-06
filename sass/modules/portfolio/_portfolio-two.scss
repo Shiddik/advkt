@@ -181,6 +181,14 @@
         transition: all 0.6s ease-out;
         padding-right: 145px;
 
+        @include sm {
+          padding: 20px;
+        }
+        @include md {
+          padding-right: 100px;
+          padding-left: 100px;
+        }
+
         &:last-child {
           border-bottom: 1px solid rgba(0, 0, 0, 0.15);
         }
@@ -189,6 +197,12 @@
           .short-desc {
             color: $primary-color;
             @include transition;
+            @include sm {
+              color: $text-color;
+            }
+            @include md {
+              color: $text-color;
+            }
           }
           .number-text {
             color: $primary-color;
@@ -196,6 +210,12 @@
           }
           .image {
             transform: rotate(2.983deg);
+            @include sm {
+              transform: none;
+            }
+            @include md {
+              transform: none;
+            }
           }
         }
 
@@ -207,6 +227,13 @@
 
       .content {
         margin-right: 250px;
+
+        @include sm {
+          margin-right: 0;
+        }
+        @include md {
+          margin-right: 0;
+        }
 
         .short-desc {
           font-family: $body-font;

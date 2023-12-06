@@ -26,6 +26,13 @@
         .brand-marquee-title {
           text-transform: uppercase;
           font-size: 90px;
+
+          @include sm {
+            font-size: 40px;
+          }
+          @include md {
+            font-size: 60px;
+          }
         }
          &:nth-child(even) {
            .brand-marquee-title {

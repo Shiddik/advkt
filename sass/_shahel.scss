@@ -263,68 +263,6 @@
     }
 }
 
-
-//Carrier Page Style
-.carrier-page {
-    padding-top: 150px;
-    padding-bottom: 100px;
-}
-.carrier-page-area {
-    position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-
-    .carrier-info {
-        position: relative;
-        z-index: 2;
-        padding-right: 100px;
-
-        &:before {
-            content: "";
-            position: absolute;
-            top: 0;
-            right: 0;
-            height: 100%;
-            width: 9999px;
-            z-index: -1;
-            background-color: $white;
-        }
-
-        span {
-            font-size: 18px;
-            line-height: initial;
-            color: #808080;
-            text-transform: capitalize;
-        }
-        .title {
-            font-size: 45px;
-            font-weight: 400;
-            line-height: initial;
-            color: $black;
-            text-transform: capitalize;
-        }
-        .desc {
-            margin-top: 20px;
-            color: $black;
-            font-size: 18px;
-            line-height: initial;
-        }
-        .submit-btn {
-            color: $white;
-            font-size: 18px;
-            font-weight: 600;
-            line-height: initial;
-            padding: 10px 25px;
-            background-color: $primary-color;
-            margin-top: 30px;
-            margin-bottom: 10px;
-            display: inline-flex;
-        }
-
-    }
-}
-
 //contact us page style
 .contact-page {
     padding: 100px 0;

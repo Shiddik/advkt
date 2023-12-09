@@ -25,6 +25,10 @@
           @include rmaxwd(991) {
             display: block !important;
           }
+
+          @include sm {
+            display: none !important;
+          }
         }
         .single-slider-wrapper {
           .single-slider {
@@ -36,6 +40,9 @@
             position: relative;
             z-index: 2;
 
+            @include sm {
+              padding-top: 80px;
+            }
             .slider-content-wrapper {
               position: relative;
               margin-top: -40px;
@@ -136,6 +143,13 @@
               position: relative;
               margin-right: -170px;
 
+              @include xs {
+                width: 100% !important;
+              }
+              @include sm {
+                margin-right: 0;
+                width: 400px;
+              }
               img {
                 display: inline-block;
               }

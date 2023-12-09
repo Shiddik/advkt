@@ -182,11 +182,13 @@
         padding-right: 145px;
 
         @include sm {
-          padding: 20px;
+          padding: 40px 0;
+          gap: 20px;
         }
         @include md {
           padding-right: 100px;
           padding-left: 100px;
+          gap: 30px;
         }
 
         &:last-child {

@@ -8725,6 +8725,12 @@ body.admin-bar .header-menu-area.sticky_menu {
   color: #1E2E3E;
   margin-bottom: 0;
 }
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .section-title .title {
+    font-size: 50px;
+    line-height: 62px;
+  }
+}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .section-title .title {
     font-size: 48px;
@@ -11927,7 +11933,7 @@ ul.children {
   left: 0;
   -o-object-fit: cover;
      object-fit: cover;
-  padding: 30px;
+  padding: 50px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .video-popup-card .video-popup-btn a img {

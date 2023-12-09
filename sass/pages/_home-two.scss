@@ -39,11 +39,31 @@
     .get-quot-form {
       padding: 0 40px;
       margin-top: -150px;
+
+      @include sm {
+        margin-top: -60px;
+        padding: 0 20px;
+      }
+      @include md {
+        padding: 0 20px;
+      }
+      @include lg {
+        padding: 0 20px;
+      }
     }
     .comment-respond.style-2 .comment-respond-wrapper {
       margin-left: 0;
       padding: 60px 70px;
 
+      @include sm{
+        padding: 35px 25px;
+      }
+      @include md {
+        padding: 40px 30px;
+      }
+      @include lg {
+        padding: 50px 45px;
+      }
       &:before {
         width: 100%;
         border-radius: 10px;

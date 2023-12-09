@@ -29,6 +29,10 @@
       align-items: center;
       justify-content: center;
 
+      @include lg {
+        width: 150px;
+        height: 150px;
+      }
       @include md {
         width: 100px;
         height: 100px;

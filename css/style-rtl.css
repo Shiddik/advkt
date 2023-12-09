@@ -10972,13 +10972,13 @@ ul.children {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .comment-respond.style-2 .comment-respond-wrapper .form-title {
-    font-size: 34px;
+    font-size: 28px;
     line-height: initial;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .comment-respond.style-2 .comment-respond-wrapper .form-title {
-    font-size: 38px;
+    font-size: 34px;
     line-height: initial;
   }
 }
@@ -11775,6 +11775,12 @@ ul.children {
       -ms-flex-pack: center;
           justify-content: center;
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .video-popup-card .video-popup-btn a {
+    width: 150px;
+    height: 150px;
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .video-popup-card .video-popup-btn a {
     width: 100px;
@@ -12150,9 +12156,40 @@ ul.children {
   padding: 0 40px;
   margin-top: -150px;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .video-popup-area .video-popup-wrapper .get-quot-form {
+    margin-top: -60px;
+    padding: 0 20px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .video-popup-area .video-popup-wrapper .get-quot-form {
+    padding: 0 20px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .video-popup-area .video-popup-wrapper .get-quot-form {
+    padding: 0 20px;
+  }
+}
 .video-popup-area .video-popup-wrapper .comment-respond.style-2 .comment-respond-wrapper {
   margin-right: 0;
   padding: 60px 70px;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .video-popup-area .video-popup-wrapper .comment-respond.style-2 .comment-respond-wrapper {
+    padding: 35px 25px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .video-popup-area .video-popup-wrapper .comment-respond.style-2 .comment-respond-wrapper {
+    padding: 40px 30px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .video-popup-area .video-popup-wrapper .comment-respond.style-2 .comment-respond-wrapper {
+    padding: 50px 45px;
+  }
 }
 .video-popup-area .video-popup-wrapper .comment-respond.style-2 .comment-respond-wrapper:before {
   width: 100%;

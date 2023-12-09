@@ -163,6 +163,13 @@
       z-index: 2;
       transform: translateY(-50%);
       top: 100%;
+
+      @include sm {
+        width: 130px;
+      }
+      @include md {
+        width: 150px;
+      }
     }
     .faq-gallery-thumb {
       position: absolute;
@@ -211,6 +218,13 @@
 // Company History Area
 .company-history-area {
   padding-bottom: 247px;
+
+  @include sm {
+    padding-bottom: 100px;
+  }
+  @include md {
+    padding-bottom: 100px;
+  }
 }
 
 // FAQ Area
@@ -218,8 +232,16 @@
   &.style-1 {
     padding-bottom: 246px;
 
+    @include sm {
+      padding-bottom: 100px;
+    }
+    @include md {
+      padding-bottom: 100px;
+    }
+
     .section-title {
       margin-bottom: 30px;
+      margin-top: 60px;
     }
   }
 }

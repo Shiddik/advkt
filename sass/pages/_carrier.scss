@@ -1,0 +1,70 @@
+
+
+//Carrier Page Style
+.carrier-page {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.carrier-page-area {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.carrier-info {
+    position: relative;
+    .title {
+        font-size: 45px;
+        font-weight: 400;
+        line-height: initial;
+        color: $black;
+        text-transform: initial;
+        margin-bottom: 0;
+    }
+    .desc {
+        margin-top: 30px;
+        color: $black;
+        font-size: 18px;
+        line-height: initial;
+        margin-bottom: 0;
+    }
+    .submit-btn {
+        color: $white;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: initial;
+        padding: 10px 25px;
+        background-color: $primary-color;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        display: inline-flex;
+    }
+
+}
+
+.portfolio-slider-area {
+    padding-top: 40px;
+    padding-bottom: 140px;
+}
+.portfolio-slider {
+    
+    .slick-list {
+        margin: 0 10px;
+
+        .slick-slide {
+            margin: 0 -10px;
+        }
+    }
+}
+
+.faq-area-style {
+    padding-top: 123px;
+    position: relative;
+    .faq-bg {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .faq-area {
+        padding-bottom: 110px;
+    }
+}

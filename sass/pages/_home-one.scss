@@ -186,6 +186,22 @@
       @include rmaxwd(1850) {
         margin-right: 0;
       }
+      @include md {
+        padding: 44px;
+      }
+
+      .number {
+        @include md {
+          padding: 20px 5px;
+          width: 140px;
+          font-size: 38px;
+        }
+      }
+      .title {
+        @include md {
+          font-size: 28px;
+        }
+      }
     }
   }
 }

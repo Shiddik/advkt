@@ -13184,8 +13184,8 @@ ul.children {
 }
 .faq-area-style .faq-bg {
   position: absolute;
-  left: 0;
-  top: 0;
+  left: -9px;
+  top: 10px;
 }
 .faq-area-style .faq-area {
   padding-bottom: 110px;

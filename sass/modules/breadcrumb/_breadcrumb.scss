@@ -8,8 +8,16 @@
   background-position: center center;
   background-color: #FAF8F7 !important;
 
-  @include rmaxwd(767) {
+  @include lg {
     padding-top: 200px;
+    padding-bottom: 180px;
+  }
+  @include md {
+    padding-top: 150px;
+    padding-bottom: 130px;
+  }
+  @include rmaxwd(767) {
+    padding-top: 150px;
     padding-bottom: 100px;
   }
 }

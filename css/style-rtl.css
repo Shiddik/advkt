@@ -1,6 +1,6 @@
 /**
  * Stylesheet:  style.css
- * Theme:       Technova - IT Startup & Agency HTML5 Template
+ * Theme:       Advkt - Lawyer Attorney & Law Firm HTML5 Template
  * Version:     1.0
  * Author:     	BoomDevs
  * 
@@ -4245,8 +4245,16 @@ body.admin-bar .header-menu-area.sticky_menu {
 .header-area.style-3 {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1490196078);
 }
+.header-area.style-3 .mobile-menu-bar a i {
+  color: #1E2E3E;
+}
 .header-area.style-3 .header-menu-area .search-btn-with-btn {
   margin-right: auto;
+}
+@media (max-width: 1199px) {
+  .header-area.style-3 .header-menu-area .search-btn-with-btn {
+    display: none;
+  }
 }
 .header-area.style-3 .header-menu-area .search-btn-with-btn .search-btn-wrapper .search-btn .search-bar:before, .header-area.style-3 .header-menu-area .search-btn-with-btn .search-btn-wrapper .search-btn .search-bar:after {
   background-color: #1E2E3E;
@@ -4265,6 +4273,21 @@ body.admin-bar .header-menu-area.sticky_menu {
           align-items: center;
   height: 120px;
   margin-right: -292px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .header-area.style-3 .logo {
+    width: 230px;
+  }
+}
+@media (max-width: 1549px) {
+  .header-area.style-3 .logo {
+    margin-right: 0;
+  }
+}
+@media only screen and (min-width: 1550px) and (max-width: 1850px) {
+  .header-area.style-3 .logo {
+    margin-right: -150px;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header-area.style-3 .logo {
@@ -4357,7 +4380,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .header-area.style-3 .header-wrapper .main-menu-wrapper .main-menu ul li a {
   color: #393d48;
-  padding: 25px 24px;
+  padding: 25px 16px;
 }
 .header-area.style-3 .header-wrapper .main-menu-wrapper .main-menu ul li.active {
   position: relative;
@@ -4369,6 +4392,11 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .header-area.style-3 .header-wrapper .main-menu-wrapper .main-menu ul ul li a {
   padding: 10px 20px;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .header-area.style-3 .header-cta-btn {
+    display: none;
+  }
 }
 
 .mean-container a.meanmenu-reveal {
@@ -8766,9 +8794,21 @@ body.admin-bar .header-menu-area.sticky_menu {
   background-position: center center;
   background-color: #FAF8F7 !important;
 }
-@media (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
   .page-breadcrumb-area {
     padding-top: 200px;
+    padding-bottom: 180px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .page-breadcrumb-area {
+    padding-top: 150px;
+    padding-bottom: 130px;
+  }
+}
+@media (max-width: 767px) {
+  .page-breadcrumb-area {
+    padding-top: 150px;
     padding-bottom: 100px;
   }
 }

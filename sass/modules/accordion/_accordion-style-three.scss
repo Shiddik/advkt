@@ -5,6 +5,10 @@
       flex-direction: column;
       gap: 22px;
 
+      @include sm {
+        height: initial;
+      }
+
 
       .accordion-list-item {
         .accordion-head{

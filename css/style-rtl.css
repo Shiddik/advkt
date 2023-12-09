@@ -13235,12 +13235,13 @@ ul.children {
 }
 
 .faq-area.style-5 {
-  padding: 144px 0;
+  padding: 138px 0;
 }
 .faq-area.style-5 .faq-img {
   position: relative;
   width: 100%;
   height: auto;
+  margin-top: 5px;
 }
 .faq-area.style-5 .faq-img .shape-img {
   position: absolute;

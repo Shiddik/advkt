@@ -72,5 +72,9 @@
     }
     .faq-area {
         padding-bottom: 110px;
+
+        .faq-gallery-thumb {
+            background-color: $primary-color;
+        }
     }
 }

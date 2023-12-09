@@ -13190,6 +13190,9 @@ ul.children {
 .faq-area-style .faq-area {
   padding-bottom: 110px;
 }
+.faq-area-style .faq-area .faq-gallery-thumb {
+  background-color: #CDB091;
+}
 
 .faq-area.style-5 {
   padding: 144px 0;

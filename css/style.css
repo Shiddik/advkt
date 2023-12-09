@@ -13158,14 +13158,15 @@ ul.children {
 }
 
 .carrier-page {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 165px;
+  padding-bottom: 140px;
 }
 
 .carrier-page-area {
   position: relative;
   height: 100%;
   width: 100%;
+  margin-top: 6px;
 }
 
 .carrier-info {
@@ -13194,22 +13195,27 @@ ul.children {
   padding: 10px 25px;
   background-color: #CDB091;
   margin-top: 30px;
-  margin-bottom: 10px;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
 }
 
 .portfolio-slider-area {
-  padding-top: 40px;
+  padding-top: 10px;
   padding-bottom: 140px;
+}
+.portfolio-slider-area .section-title {
+  margin-bottom: 60px;
+}
+.portfolio-slider-area .sec-content {
+  gap: 24px;
 }
 
 .portfolio-slider .slick-list {
   margin: 0 10px;
 }
 .portfolio-slider .slick-list .slick-slide {
-  margin: 0 -10px;
+  margin: 0 10px;
 }
 
 .faq-area-style {
@@ -13218,8 +13224,8 @@ ul.children {
 }
 .faq-area-style .faq-bg {
   position: absolute;
-  right: 0;
-  top: 0;
+  right: -9px;
+  top: 10px;
 }
 .faq-area-style .faq-area {
   padding-bottom: 110px;

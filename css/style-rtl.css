@@ -13568,6 +13568,16 @@ ul.children {
   padding-top: 40px;
   padding-bottom: 140px;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .contact-form-area.style-1 {
+    padding: 80px 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .contact-form-area.style-1 {
+    padding: 100px 0;
+  }
+}
 .contact-form-area.style-1 .map-location {
   height: 510px;
 }
@@ -13923,6 +13933,16 @@ ul.children {
 .team-member-details {
   padding-top: 40px;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .team-member-details {
+    padding-top: 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .team-member-details {
+    padding-top: 20px;
+  }
+}
 .team-member-details .single-team-member {
   padding-bottom: 0;
 }
@@ -13969,7 +13989,8 @@ ul.children {
           align-items: center;
   padding: 50px 76px 44px 76px;
   gap: 18px;
-  margin-left: 51px;
+  max-width: 476px;
+  width: 100%;
 }
 .single-team-member .team-member-thumb .user-meta .title {
   font-size: 35px;

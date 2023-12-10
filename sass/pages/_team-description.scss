@@ -10,6 +10,12 @@
 }
 .team-member-details {
     padding-top: 40px;
+    @include sm {
+        padding-top: 0;
+    }
+    @include md {
+        padding-top: 20px;
+    }
     .single-team-member {
         padding-bottom: 0;
     }
@@ -46,7 +52,8 @@
             align-items: center;
             padding: 50px 76px 44px 76px;
             gap: 18px;
-            margin-right: 51px;
+            max-width: 476px;
+            width: 100%;
 
             .title {
                 font-size: 35px;
@@ -54,6 +61,7 @@
                 line-height: initial;
                 color: $black;
 
+        
                 
             }
             .desc {

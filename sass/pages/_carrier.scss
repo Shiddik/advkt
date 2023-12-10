@@ -4,6 +4,13 @@
 .carrier-page {
     padding-top: 165px;
     padding-bottom: 140px;
+
+    @include md {
+        padding: 100px 0;  
+    }
+    @include sm {
+        padding: 80px 0;
+    }
 }
 .carrier-page-area {
     position: relative;
@@ -20,6 +27,15 @@
         color: $black;
         text-transform: initial;
         margin-bottom: 0;
+        @include sm {
+            font-size: 26px;
+        }
+        @include md {
+            font-size: 38px;
+        }
+        @include lg {
+            font-size: 40px;
+        }
     }
     .desc {
         margin-top: 30px;
@@ -44,6 +60,13 @@
 .portfolio-slider-area {
     padding-top: 10px;
     padding-bottom: 140px;
+
+    @include md {
+        padding-bottom: 0;
+    }
+    @include sm {
+        padding-bottom: 0;
+    }
     .section-title {
         margin-bottom: 60px;
     }
@@ -64,15 +87,37 @@
 
 .faq-area-style {
     padding-top: 123px;
+    padding-bottom: 110px;
     position: relative;
+
+    @include md {
+        padding-top: 100px;
+        padding-bottom: initial;
+    }
+    @include sm {
+        padding-top: 80px ;
+        padding-bottom: initial;
+    }
+
     .faq-bg {
         position: absolute;
         right: -9px;
         top: 10px;
+        z-index: 1;
+
+        @include xs {
+            display: none;
+        }
+
+        @include sm {
+            width: 200px;
+        }
+        @include md {
+            width: 250px;
+        }
     }
     .faq-area {
-        padding-bottom: 110px;
-
+        padding-bottom: initial;
         .faq-gallery-thumb {
             background-color: $primary-color;
         }

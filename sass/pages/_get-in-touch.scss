@@ -8,72 +8,84 @@
   @include md {
     padding-top: 100px 0;
   }
-  .contact-info-area {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-  }
-  .comment-respond {
-    &.style-3 {
-      margin: 0;
+  &.style-1 {
+    padding-top: 40px;
+    padding-bottom: 140px;
+
+    .map-location {
+      height: 510px;
+      iframe {
+        width: 100%;
+        height: 100%;
+      }
     }
-    padding: 0;
-    border: 0;
+  }
+}
+.contact-info-area {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.comment-respond {
+  &.style-3 {
     margin: 0;
-
-    .post-comments-title {
-      margin-bottom: 86px;
-
-      h2 {
-        font-size: 60px;
-        font-weight: 600;
-        line-height: initial;
-        margin-bottom: 20px;
-
-        @include sm {
-          font-size: 28px;
-        }
-        @include md {
-          font-size: 32px;
-        }
-      }
-    }
-    .comment-form {
-      padding-top: 10px;
-
-      input {
-        font-size: 12px;
-      }
-      textarea {
-        margin-bottom: 0;
-        font-size: 12px;
-      }
-      .contacts-message {
-        margin-bottom: 30px;
-      }
-      .theme-btn {
-        padding: 23px 71px 21px 69px;
-
-        @include sm {
-          padding: 18px 45px;
-        }
-      }
-
-    }
-   
   }
-  .contact-image {
-    position: relative;
-    left: 108px;
-    @include sm {
-      left: initial;
+  padding: 0;
+  border: 0;
+  margin: 0;
+
+  .post-comments-title {
+    margin-bottom: 86px;
+
+    h2 {
+      font-size: 60px;
+      font-weight: 600;
+      line-height: initial;
+      margin-bottom: 20px;
+
+      @include sm {
+        font-size: 28px;
+      }
+      @include md {
+        font-size: 32px;
+      }
     }
-    @include md {
-      left: initial;
+  }
+  .comment-form {
+    padding-top: 10px;
+
+    input {
+      font-size: 12px;
     }
-    @include lg {
-      left: initial;
+    textarea {
+      margin-bottom: 0;
+      font-size: 12px;
     }
+    .contacts-message {
+      margin-bottom: 30px;
+    }
+    .theme-btn {
+      padding: 23px 71px 21px 69px;
+
+      @include sm {
+        padding: 18px 45px;
+      }
+    }
+
+  }
+ 
+}
+.contact-image {
+  position: relative;
+  left: 108px;
+  @include sm {
+    left: initial;
+  }
+  @include md {
+    left: initial;
+  }
+  @include lg {
+    left: initial;
   }
 }
 // Contact Form Map

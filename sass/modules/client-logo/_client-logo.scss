@@ -18,7 +18,10 @@
     }
 }
 .brand-slider-area {
-
+      padding: 100px 0;
+      @include sm {
+        padding: 80px 0;
+      }
     &.style-2 {
       padding: 140px 0;
 
@@ -26,7 +29,7 @@
         padding: 100px 0;
       }
       @include sm {
-        padding: 40px 0;
+        padding: 80px 0;
       }
 
       .slick-track {

@@ -10375,7 +10375,7 @@ body.single-post .page-heading .page-title {
 
 @media (max-width: 767px) {
   .service-sidebar {
-    margin-top: 56px !important;
+    margin-top: 56px;
     padding-bottom: 80px;
   }
 }
@@ -13728,6 +13728,21 @@ ul.children {
   margin-bottom: 24px;
   color: #1E2E3E;
 }
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+  .service-details-page .details-content .text .title {
+    font-size: 22px !important;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .service-details-page .details-content .text .title {
+    font-size: 32px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .service-details-page .details-content .text .title {
+    font-size: 38px;
+  }
+}
 .service-details-page .details-content .text p {
   font-size: 16px;
   line-height: 29px;
@@ -13737,12 +13752,25 @@ ul.children {
   border-right: 3px solid #CDB091;
   margin-bottom: 50px;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .service-details-page .details-content .member-court {
+    padding: 20px 32px;
+    border-top: 3px solid #CDB091;
+    border-bottom: 3px solid #CDB091;
+    border-right: 0;
+  }
+}
 .service-details-page .details-content .member-court .desc {
   font-family: "Hepta Slab", sans-serif;
   font-size: 20px;
   font-weight: 600;
   color: #1E2E3E;
   margin-bottom: 0;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .service-details-page .details-content .member-court .desc {
+    font-size: 16px;
+  }
 }
 .service-details-page .details-content p {
   font-size: 16px;
@@ -13820,14 +13848,23 @@ ul.children {
   color: #222;
   font-family: "Syne", sans-serif;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .service-details-page .accordion-wrapper .accordion-list-item .accordion-head .accordion-title {
+    font-size: 18px;
+  }
+}
 .service-details-page .service-sidebar {
   position: relative;
   overflow: hidden;
   padding: 0;
   margin: 0;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .service-details-page .service-sidebar {
+    margin-top: 20px;
+  }
+}
 .service-details-page .service-sidebar .service-categories {
-  margin-bottom: 50px;
   padding: 50px 0px;
   border: 1px solid rgba(0, 0, 0, 0.15);
   background: #FAF8F7;
@@ -13837,8 +13874,14 @@ ul.children {
   font-weight: 600;
   line-height: initial;
   color: #1E2E3E;
-  margin-bottom: 32px;
-  margin-right: 40px;
+  padding-right: 40px;
+  padding-bottom: 32px;
+  margin-bottom: 0;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .service-details-page .service-sidebar .service-categories .title {
+    font-size: 28px;
+  }
 }
 .service-details-page .service-sidebar .service-categories ul {
   list-style: none;
@@ -13871,17 +13914,17 @@ ul.children {
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .service-details-page .service-sidebar .service-categories ul li a {
+    font-size: 18px;
+  }
+}
 .service-details-page .service-sidebar .service-categories ul li a i {
   color: #CDB091;
   font-size: 24px;
   font-weight: 600;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .service-details-page .service-sidebar .service-categories ul li a {
-    padding: 20px;
-  }
 }
 .service-details-page .service-sidebar .service-categories ul li a:hover {
   color: #CDB091;
@@ -13912,6 +13955,11 @@ ul.children {
   line-height: initial;
   font-family: "Hepta Slab", sans-serif;
   color: #ffffff;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .service-details-page .service-sidebar .service-promotion .contact-text .number {
+    font-size: 28px;
+  }
 }
 .service-details-page .service-sidebar .service-promotion .contact-text .text {
   font-size: 16px;

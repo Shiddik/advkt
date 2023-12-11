@@ -25,7 +25,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@400;500;600;700&family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@400;500;600;700&family=Jost:wght@400;500;600;700&family=Syne:wght@400;500;600&display=swap" rel="stylesheet">
 
 
     <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -45,9 +45,9 @@
 
 <body>
 <!-- Preloader Start !-->
-<div id="preloader">
+<!-- <div id="preloader">
     <div id="preloader-status" style="background-image: url('images/icon/preeloader.gif')"></div>
-</div>
+</div> -->
 <!-- Preloader End !-->
 <!-- Header Start !-->
 <header class="header-area style-3">
@@ -228,22 +228,24 @@
 <div class="body-overlay"></div>
 
 <!-- Page Header Start !-->
-<div class="page-breadcrumb-area">
+<div class="page-breadcrumb-area page-bg" style="background-image: url('images/section-bg/page-header.jpg')">
+    <div class="page-overlay"></div>
     <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="breadcrumb-wrapper">
-                    <div class="page-heading">
-                        <h3 class="page-title">Our Expertise</h3>
-                    </div>
-                    <div class="breadcrumb-list">
-                        <ul>
-                            <li><a href="index.html">Home / Our Expertise</a></li>
-                        </ul>
-                    </div>
-                </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="breadcrumb-wrapper">
+            <div class="page-heading">
+              <h3 class="page-title">Our Expertise</h3>
             </div>
+            <div class="breadcrumb-list">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="#">Our Expertise</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 </div>
 <!-- Page Header End !-->
@@ -251,12 +253,12 @@
 <!-- Service Details Area Start -->
 <div class="service-details-page">
     <div class="container">
-        <div class="row">
+        <div class="row gy-5">
             <div class="col-xl-4 order-2 order-xl-1">
                 <!-- sidebar start -->
                 <div class="service-sidebar">
                     <!-- service-categories start -->
-                    <div class="widget widget_service_categories">
+                    <div class="service-categories">
                         <h3 class="title">Expertise</h3>
                         <ul>
                             <li class="active">
@@ -275,13 +277,13 @@
                                 <a href="#">Antimonopoly compliance</a>
                             </li>
                             <li>
-                                <a href="#">Legal Professional Lawce</a>
+                                <a href="#">Legal Professional Law</a>
                             </li>
                         </ul>
                     </div>
                     <!-- service-categories end -->
                     
-                    <div class="widget widget_service_promotion">
+                    <div class="service-promotion">
                         <img src="images/service-detail/benefite-delivery.jpg" alt="">
                         <div class="contact-text">
                             <span class="number">(012) 3456 789</span>
@@ -292,7 +294,7 @@
                 </div>
                 <!-- sidebar end -->
             </div>
-            <div class="col-xl-8 order-1 service-details-wrapper">
+            <div class="col-xl-8 order-1">
                 <div class="details-content">
                     <div class="feature-image">
                         <img src="images/service-detail/service-details-main.jpg" alt="service-details"/>
@@ -308,66 +310,65 @@
                 </div>
                
                 <div class="overview-item">
-                    <div class="content">
-                        <div class="list-item">
-                            <ul>
-                                <li>
-                                    <div class="icon-img">
-                                        <img src="images/service-detail/icon_box-checked.png" alt="">
-                                    </div>
-                                    How can we help you?
-                                </li>
-                                <li>
-                                    <div class="icon-img">
-                                        <img src="images/service-detail/icon_box-checked.png" alt="">
-                                    </div>                                    
-                                    Lending and Corporate Finance                                
-                                </li>
-                                <li>
-                                    <div class="icon-img">
-                                        <img src="images/service-detail/icon_box-checked.png" alt="">
-                                    </div>
-                                    Commercial Property                                
-                                </li>
-                                <li>
-                                    <div class="icon-img">
-                                        <img src="images/service-detail/icon_box-checked.png" alt="">
-                                    </div>
-                                    Alliance of Legal Experts                                
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <div class="icon-img">
-                                        <img src="images/service-detail/icon_box-checked.png" alt="">
-                                    </div>
-                                    How can we help you?
-                                </li>
-                                <li>
-                                    <div class="icon-img">
-                                        <img src="images/service-detail/icon_box-checked.png" alt="">
-                                    </div>
-                                    Lending and Corporate Finance                                
-                                </li>
-                                <li>
-                                    <div class="icon-img">
-                                        <img src="images/service-detail/icon_box-checked.png" alt="">
-                                    </div>
-                                    Commercial Property                                
-                                </li>
-                                <li>
-                                    <div class="icon-img">
-                                        <img src="images/service-detail/icon_box-checked.png" alt="">
-                                    </div>
-                                    Alliance of Legal Experts                                
-                                </li>
-                            </ul>
-                        </div>
+                    <div class="list-item">
+                        <ul>
+                            <li>
+                                <div class="icon-img">
+                                    <img src="images/service-detail/icon_box-checked.png" alt="">
+                                </div>
+                                <span>How can we help you?</span>
+                            </li>
+                            <li>
+                                <div class="icon-img">
+                                    <img src="images/service-detail/icon_box-checked.png" alt="">
+                                </div>                                    
+                                <span>Lending and Corporate Finance </span>                               
+                            </li>
+                            <li>
+                                <div class="icon-img">
+                                    <img src="images/service-detail/icon_box-checked.png" alt="">
+                                </div>
+                                <span>Commercial Property</span>                                
+                            </li>
+                            <li>
+                                <div class="icon-img">
+                                    <img src="images/service-detail/icon_box-checked.png" alt="">
+                                </div>
+                                <span>Alliance of Legal Experts</span>                                
+                            </li>
+                        </ul>    
+                        <ul>
+                            <li>
+                                <div class="icon-img">
+                                    <img src="images/service-detail/icon_box-checked.png" alt="">
+                                </div>
+                                <span>How can we help you?</span>
+                            </li>
+                            <li>
+                                <div class="icon-img">
+                                    <img src="images/service-detail/icon_box-checked.png" alt="">
+                                </div>
+                                <span>Lending and Corporate Finance</span>                                
+                            </li>
+                            <li>
+                                <div class="icon-img">
+                                    <img src="images/service-detail/icon_box-checked.png" alt="">
+                                </div>
+                                <span>Commercial Property</span>                                
+                            </li>
+                            <li>
+                                <div class="icon-img">
+                                    <img src="images/service-detail/icon_box-checked.png" alt="">
+                                </div>
+                                <span>Alliance of Legal Experts</span>                                
+                            </li>
+                        </ul>
                     </div>
                     <div class="image">
                         <img src="images/service-detail/outcome.jpg" alt="image"/>
                     </div>
                 </div>
+
                 <div class="faq-area style-3">
 
                     <!-- Accordion Start -->
@@ -377,12 +378,12 @@
                             <div class="accordion-list-item">
                                 <div id="headingOne">
                                     <div class="accordion-head" role="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        <h3 class="accordion-title">How does thethe security and privacy of AI solutions can be ensured?</h3>
+                                        <h3 class="accordion-title">How can we help you?</h3>
                                     </div>
                                 </div>
                                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#serviceDetailsFAQ">
                                     <div class="accordion-item-body">
-                                        <p>Roro quisquam est, qui dolorem ipsum qui derit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Exce pteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut persp iciatis unde omnis iste natus sit voluptatem accusantium doloremque.</p>
+                                        <p>Proin efficitur, mauris vel condimentum pulvinar, velit orci consectetur ligula, eget egestas magna mi ut arcu. Phasellus nec odio orci. Nunc id massa ante. Suspendisse sit amet neque euismod, convallis quam eget, dignissim massa.</p>
                                     </div>
                                 </div>
                             </div>
@@ -391,12 +392,12 @@
                             <div class="accordion-list-item">
                                 <div id="headingTwo">
                                     <div class="accordion-head collapsed" role="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        <h3 class="accordion-title">What steps are involved in the AI development process?</h3>
+                                        <h3 class="accordion-title">Lending and Corporate Finance</h3>
                                     </div>
                                 </div>
                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#serviceDetailsFAQ">
                                     <div class="accordion-item-body">
-                                        <p>Roro quisquam est, qui dolorem ipsum qui derit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Exce pteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut persp iciatis unde omnis iste natus sit voluptatem accusantium doloremque.</p>
+                                        <p>Proin efficitur, mauris vel condimentum pulvinar, velit orci consectetur ligula, eget egestas magna mi ut arcu. Phasellus nec odio orci. Nunc id massa ante. Suspendisse sit amet neque euismod, convallis quam eget, dignissim massa.</p>
                                     </div>
                                 </div>
                             </div>
@@ -405,13 +406,13 @@
                             <div class="accordion-list-item">
                                 <div id="headingThree">
                                     <div class="accordion-head collapsed" role="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        <h3 class="accordion-title">What industries can benefit from your AI development services?</h3>
+                                        <h3 class="accordion-title">Commercial Property</h3>
                                         <div class="icon"></div>
                                     </div>
                                 </div>
                                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#serviceDetailsFAQ">
                                     <div class="accordion-item-body">
-                                        <p>Roro quisquam est, qui dolorem ipsum qui derit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Exce pteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut persp iciatis unde omnis iste natus sit voluptatem accusantium doloremque.</p>
+                                        <p>Proin efficitur, mauris vel condimentum pulvinar, velit orci consectetur ligula, eget egestas magna mi ut arcu. Phasellus nec odio orci. Nunc id massa ante. Suspendisse sit amet neque euismod, convallis quam eget, dignissim massa.</p>
                                     </div>
                                 </div>
                             </div>
@@ -420,13 +421,13 @@
                             <div class="accordion-list-item">
                                 <div id="headingFour">
                                     <div class="accordion-head collapsed" role="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                        <h3 class="accordion-title">When the musics over turn off the light?</h3>
+                                        <h3 class="accordion-title">Alliance of Legal Experts</h3>
                                         <div class="icon"></div>
                                     </div>
                                 </div>
                                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#serviceDetailsFAQ">
                                     <div class="accordion-item-body">
-                                        <p>Roro quisquam est, qui dolorem ipsum qui derit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Exce pteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut persp iciatis unde omnis iste natus sit voluptatem accusantium doloremque.</p>
+                                        <p>Proin efficitur, mauris vel condimentum pulvinar, velit orci consectetur ligula, eget egestas magna mi ut arcu. Phasellus nec odio orci. Nunc id massa ante. Suspendisse sit amet neque euismod, convallis quam eget, dignissim massa.</p>
                                     </div>
                                 </div>
                             </div>

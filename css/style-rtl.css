@@ -13752,6 +13752,11 @@ ul.children {
   border-right: 3px solid #CDB091;
   margin-bottom: 50px;
 }
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+  .service-details-page .details-content .member-court {
+    margin-bottom: 30px;
+  }
+}
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .service-details-page .details-content .member-court {
     padding: 20px 32px;
@@ -13766,6 +13771,11 @@ ul.children {
   font-weight: 600;
   color: #1E2E3E;
   margin-bottom: 0;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .service-details-page .details-content .member-court .desc {
+    font-size: 16px;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .service-details-page .details-content .member-court .desc {
@@ -13849,8 +13859,13 @@ ul.children {
   font-family: "Syne", sans-serif;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
+  .service-details-page .accordion-wrapper .accordion-list-item .accordion-item-body p {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
   .service-details-page .accordion-wrapper .accordion-list-item .accordion-head .accordion-title {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 .service-details-page .service-sidebar {
@@ -13858,10 +13873,23 @@ ul.children {
   overflow: hidden;
   padding: 0;
   margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 50px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .service-details-page .service-sidebar {
-    margin-top: 20px;
+    margin-top: 40px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .service-details-page .service-sidebar {
+    margin-top: 40px;
   }
 }
 .service-details-page .service-sidebar .service-categories {

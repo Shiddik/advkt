@@ -17,14 +17,25 @@
 
             .shape-img {
                 position: absolute;
-                left: 315px;
+                right: 2px;
                 bottom: -25px;
 
+                @include xs {
+                   display: none;
+                }
                 @include sm {
                     left: unset;
                     right: 0;
                 }
+                @include  md{
+                    left: 321px;
+                    right: unset;
+                }
                 @include  lg{
+                    left: unset;
+                    right: 0;
+                }
+                @include  xl{
                     left: unset;
                     right: 0;
                 }

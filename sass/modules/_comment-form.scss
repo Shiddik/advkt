@@ -251,6 +251,15 @@
         @include rmaxwd(1700) {
           width: auto;
         }
+
+        .btn {
+          border-radius: initial;
+          font-size: 18px;
+          font-weight: 500;
+          padding: 22px 58px;
+          color: $white;
+          background: $primary-color;
+        }
       }
     }
     input,

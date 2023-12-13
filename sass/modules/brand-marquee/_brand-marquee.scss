@@ -33,6 +33,9 @@
           @include md {
             font-size: 60px;
           }
+          @include lg {
+            font-size: 60px;
+          }
         }
          &:nth-child(even) {
            .brand-marquee-title {

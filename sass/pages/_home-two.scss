@@ -70,6 +70,17 @@
         border-radius: 10px;
         margin-right: 0;
       }
+
+      .single-input-field {
+        .btn {
+          border-radius: initial;
+          font-size: 18px;
+          font-weight: 500;
+          padding: 22px 86px;
+          color: $white;
+          background: $primary-color;
+        }
+      }
     }
   }
   .shape {

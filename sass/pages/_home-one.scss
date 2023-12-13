@@ -273,6 +273,28 @@
     @include md {
       padding: 100px 0;
     }
+
+    .title {
+      color: $white;
+    }
+    .portfolio-card .content .short-title  {
+      color: $white;
+    }
+    .section-title {
+      @include sm {
+        margin-bottom: 60px;
+      }
+      @include md {
+        margin-bottom: 60px;
+      }
+    }
+    .portfolio-card {
+      padding-bottom: 59px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+      &:first-child {
+        border-top: 1px solid rgba(255, 255, 255, 0.15) ;
+      }
+    }
   }
 }
 

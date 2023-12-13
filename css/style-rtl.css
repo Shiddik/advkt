@@ -12271,6 +12271,29 @@ ul.children {
     padding: 100px 0;
   }
 }
+.portfolio-area.style-1 .title {
+  color: #ffffff;
+}
+.portfolio-area.style-1 .portfolio-card .content .short-title {
+  color: #ffffff;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .portfolio-area.style-1 .section-title {
+    margin-bottom: 60px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .portfolio-area.style-1 .section-title {
+    margin-bottom: 60px;
+  }
+}
+.portfolio-area.style-1 .portfolio-card {
+  padding-bottom: 59px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+.portfolio-area.style-1 .portfolio-card:first-child {
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
 
 .contact-area {
   padding-bottom: 140px;
@@ -12754,6 +12777,117 @@ ul.children {
   }
 }
 
+.about-us-area.style-3 {
+  padding-top: 138px;
+  padding-bottom: 30px;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .about-us-area.style-3 {
+    padding-top: 80px;
+    padding-bottom: 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about-us-area.style-3 {
+    padding-top: 100px;
+    padding-bottom: 0;
+  }
+}
+.about-us-area.style-3 .tilt-animate {
+  border-radius: 10px;
+}
+.about-us-area.style-3 .about-image-card .main-img-wrapper .company-label-wrapper {
+  position: absolute;
+  left: 0;
+  bottom: -60px;
+  top: unset;
+  right: unset;
+  padding: 19px 15px;
+}
+.about-us-area.style-3 .keyword {
+  font-size: 18px;
+  font-weight: 500;
+  color: #CDB091;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.about-us-area.style-3 .section-title {
+  margin-bottom: 30px;
+}
+.about-us-area.style-3 .company-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 48px;
+}
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+  .about-us-area.style-3 .company-info {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 40px;
+  }
+}
+.about-us-area.style-3 .company-info ul {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 25px;
+}
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+  .about-us-area.style-3 .company-info ul {
+    width: 100% !important;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .about-us-area.style-3 .company-info ul {
+    width: 50%;
+  }
+}
+.about-us-area.style-3 .company-info ul li {
+  margin: 0;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+}
+.about-us-area.style-3 .company-info .review-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: self-start;
+      -ms-flex-align: self-start;
+          align-items: self-start;
+  gap: 43px;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .about-us-area.style-3 .company-info .review-info {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 40px;
+  }
+}
+.about-us-area.style-3 .company-info .review-info .single-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+.about-us-area.style-3 .company-info .review-info .single-info .title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #1E2E3E;
+  margin-bottom: 0;
+}
+
 .cta-area.style-3 {
   position: relative;
   z-index: 2;
@@ -12855,6 +12989,40 @@ ul.children {
   display: block;
 }
 
+.portfolio-area {
+  padding-top: 0;
+  padding-bottom: 140px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .portfolio-area {
+    padding-bottom: 100px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .portfolio-area {
+    padding-bottom: 80px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .portfolio-area .section-title {
+    margin-bottom: 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .portfolio-area .section-title {
+    margin-bottom: 0;
+  }
+}
+.portfolio-area .portfolio-card {
+  border-bottom: 1px solid rgba(34, 34, 34, 0.15);
+  border-top: none;
+}
+.portfolio-area .title {
+  color: #1E2E3E;
+}
+.portfolio-area .portfolio-card .content .short-title {
+  color: #1E2E3E;
+}
 .portfolio-area.style-3 {
   padding: 120px 0;
 }
@@ -12973,6 +13141,117 @@ ul.children {
   margin-top: 70px;
 }
 
+.about-us-area.style-3 {
+  padding-top: 138px;
+  padding-bottom: 30px;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .about-us-area.style-3 {
+    padding-top: 80px;
+    padding-bottom: 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about-us-area.style-3 {
+    padding-top: 100px;
+    padding-bottom: 0;
+  }
+}
+.about-us-area.style-3 .tilt-animate {
+  border-radius: 10px;
+}
+.about-us-area.style-3 .about-image-card .main-img-wrapper .company-label-wrapper {
+  position: absolute;
+  left: 0;
+  bottom: -60px;
+  top: unset;
+  right: unset;
+  padding: 19px 15px;
+}
+.about-us-area.style-3 .keyword {
+  font-size: 18px;
+  font-weight: 500;
+  color: #CDB091;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.about-us-area.style-3 .section-title {
+  margin-bottom: 30px;
+}
+.about-us-area.style-3 .company-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 48px;
+}
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+  .about-us-area.style-3 .company-info {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 40px;
+  }
+}
+.about-us-area.style-3 .company-info ul {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 25px;
+}
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+  .about-us-area.style-3 .company-info ul {
+    width: 100% !important;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .about-us-area.style-3 .company-info ul {
+    width: 50%;
+  }
+}
+.about-us-area.style-3 .company-info ul li {
+  margin: 0;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+}
+.about-us-area.style-3 .company-info .review-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: self-start;
+      -ms-flex-align: self-start;
+          align-items: self-start;
+  gap: 43px;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .about-us-area.style-3 .company-info .review-info {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 40px;
+  }
+}
+.about-us-area.style-3 .company-info .review-info .single-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+.about-us-area.style-3 .company-info .review-info .single-info .title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #1E2E3E;
+  margin-bottom: 0;
+}
+
 .cta-area.style-3 {
   position: relative;
   z-index: 2;
@@ -13074,6 +13353,40 @@ ul.children {
   display: block;
 }
 
+.portfolio-area {
+  padding-top: 0;
+  padding-bottom: 140px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .portfolio-area {
+    padding-bottom: 100px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .portfolio-area {
+    padding-bottom: 80px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .portfolio-area .section-title {
+    margin-bottom: 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .portfolio-area .section-title {
+    margin-bottom: 0;
+  }
+}
+.portfolio-area .portfolio-card {
+  border-bottom: 1px solid rgba(34, 34, 34, 0.15);
+  border-top: none;
+}
+.portfolio-area .title {
+  color: #1E2E3E;
+}
+.portfolio-area .portfolio-card .content .short-title {
+  color: #1E2E3E;
+}
 .portfolio-area.style-3 {
   padding: 120px 0;
 }

@@ -3436,6 +3436,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .header-area .header-cta-btn .cta-btn-wrapper .cta-btn {
   padding: 6px 28px;
+  color: #ffffff;
 }
 
 .header-top {
@@ -8843,7 +8844,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media (max-width: 767px) {
   .page-breadcrumb-area {
-    padding-top: 150px;
+    padding-top: 100px;
     padding-bottom: 100px;
   }
 }
@@ -8878,20 +8879,6 @@ body.single-post .page-heading .page-title {
     line-height: 52px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  body.single-post .page-heading h3,
-  body.single-post .page-heading .page-title {
-    font-size: 60px;
-    line-height: 72px;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  body.single-post .page-heading h3,
-  body.single-post .page-heading .page-title {
-    font-size: 72px;
-    line-height: 86px;
-  }
-}
 
 .page-heading h3,
 .page-heading .page-title {
@@ -8918,16 +8905,9 @@ body.single-post .page-heading .page-title {
     line-height: 52px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .page-heading h3,
-  .page-heading .page-title {
-    font-size: 60px;
-    line-height: 72px;
-  }
-}
 
 .breadcrumb-wrapper {
-  padding: 0px;
+  padding: 0;
 }
 @media (max-width: 1199px) {
   .breadcrumb-wrapper {
@@ -13646,6 +13626,7 @@ ul.children {
   padding-top: 123px;
   padding-bottom: 110px;
   position: relative;
+  overflow: hidden;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .faq-area-style {
@@ -14022,7 +14003,6 @@ ul.children {
 }
 .comment-respond .comment-form textarea {
   margin-bottom: 0;
-  font-size: 12px;
 }
 .comment-respond .comment-form .contacts-message {
   margin-bottom: 30px;

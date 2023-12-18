@@ -369,7 +369,7 @@
                 {
                     breakpoint: 460,
                     settings: {
-                        slidesToShow: 2,
+                        slidesToShow: 1,
                     },
                 },
             ],

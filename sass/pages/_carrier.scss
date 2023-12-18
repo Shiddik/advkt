@@ -89,6 +89,7 @@
     padding-top: 123px;
     padding-bottom: 110px;
     position: relative;
+    overflow: hidden;
 
     @include md {
         padding-top: 100px;

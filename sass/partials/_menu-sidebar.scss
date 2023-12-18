@@ -76,6 +76,11 @@
       display: inline-block;
       margin-top: 20px;
       width: 100%;
+      border-bottom: 1px solid #dfe2e9;
+
+      &:last-child {
+        border-bottom: 0;
+      }
       .menu-sidebar-title {
         margin-bottom: 5px;
       }

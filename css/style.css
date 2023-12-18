@@ -3720,6 +3720,11 @@ body.admin-bar .header-menu-area.sticky_menu {
     min-width: 240px;
   }
 }
+@media only screen and (min-width: 1280px) and (max-width: 1399px) {
+  .header-menu-area .logo {
+    margin-left: -40px !important;
+  }
+}
 @media only screen and (min-width: 1550px) and (max-width: 1700px) {
   .header-menu-area .logo {
     margin-left: -100px;
@@ -4558,6 +4563,10 @@ body.admin-bar .header-menu-area.sticky_menu {
   display: inline-block;
   margin-top: 20px;
   width: 100%;
+  border-bottom: 1px solid #dfe2e9;
+}
+.menu-sidebar-area .menu-sidebar-content .menu-sidebar-single-widget:last-child {
+  border-bottom: 0;
 }
 .menu-sidebar-area .menu-sidebar-content .menu-sidebar-single-widget .menu-sidebar-title {
   margin-bottom: 5px;
@@ -14750,6 +14759,7 @@ ul.children {
 .footer .footer-sec {
   padding-top: 60px;
   padding-bottom: 20px;
+  position: relative;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .footer .footer-sec {
@@ -14760,6 +14770,11 @@ ul.children {
   .footer .footer-sec {
     padding-top: 100px;
   }
+}
+.footer .footer-sec .footer-sec-bg {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 .footer .widget-menu-wrapper {
   padding: 0 60px;

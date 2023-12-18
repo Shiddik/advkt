@@ -9,12 +9,19 @@
   .footer-sec {
     padding-top: 60px;
     padding-bottom: 20px;
+    position: relative;
 
     @include sm {
       padding-top: 80px;
     }
     @include md {
       padding-top: 100px;
+    }
+
+    .footer-sec-bg {
+      position: absolute;
+      right: 0;
+      bottom: 0;
     }
   }
   .widget-menu-wrapper {

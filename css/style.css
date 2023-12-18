@@ -11220,6 +11220,11 @@ ul.children {
   left: 0;
   width: 100%;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .team-member-card .content-wrapper {
+    padding: 20px;
+  }
+}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .team-member-card .content-wrapper {
     padding: 0 20px;
@@ -11819,6 +11824,11 @@ ul.children {
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .portfolio-card-wrapper .portfolio-card.style-2 .content {
+    margin-right: 0;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
   .portfolio-card-wrapper .portfolio-card.style-2 .content {
     margin-right: 0;
   }
@@ -12456,7 +12466,8 @@ ul.children {
   border-radius: initial;
   font-size: 18px;
   font-weight: 500;
-  padding: 22px 86px;
+  padding: 22px 50px;
+  width: 100%;
   color: #ffffff;
   background: #CDB091;
 }
@@ -14008,9 +14019,6 @@ ul.children {
 }
 .comment-respond .comment-form {
   padding-top: 10px;
-}
-.comment-respond .comment-form input {
-  font-size: 12px;
 }
 .comment-respond .comment-form textarea {
   margin-bottom: 0;

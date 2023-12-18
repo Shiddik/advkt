@@ -55,7 +55,10 @@
     bottom: 0;
     left: 0;
     width: 100%;
-  
+
+    @include sm {
+      padding: 20px;
+    }
     @include lg {
       padding: 0 20px;
     }

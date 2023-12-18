@@ -236,6 +236,9 @@
         @include md {
           margin-right: 0;
         }
+        @include lg {
+          margin-right: 0;
+        }
 
         .short-desc {
           font-family: $body-font;
